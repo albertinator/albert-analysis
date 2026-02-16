@@ -4,7 +4,7 @@
 import json
 from datetime import datetime
 
-with open("/Users/albert/albert_git_repos/water_data_110tudor.json") as f:
+with open("/Users/albert/albert_git_repos/albert-analysis/water_data_110tudor.json") as f:
     data = json.load(f)
 
 data.sort(key=lambda d: d["statement_date"])
@@ -25,6 +25,18 @@ for d in data:
     cf_values.append(d["cf"] or 0)
     water_values.append(d["water"] or 0)
     sewer_values.append(d["sewer"] or 0)
+
+# Build per-CF water and sewer rates
+water_per_cf = []
+sewer_per_cf = []
+for i in range(len(cf_values)):
+    cf = cf_values[i]
+    if cf and cf > 0:
+        water_per_cf.append(round(water_values[i] / cf, 4))
+        sewer_per_cf.append(round(sewer_values[i] / cf, 4))
+    else:
+        water_per_cf.append(0)
+        sewer_per_cf.append(0)
 
 html = f"""<!DOCTYPE html>
 <html>
@@ -77,6 +89,7 @@ html = f"""<!DOCTYPE html>
 </style>
 </head>
 <body>
+<a href="index.html" style="position:absolute;top:20px;left:20px;font-size:14px;color:#666;text-decoration:none;">&larr; Dashboard</a>
 <h1>110 Tudor St - Water Usage History</h1>
 <p style="text-align:center;color:#666;">Boston Water & Sewer Commission | Jul 2009 - Feb 2026 | {len(data)} billing periods</p>
 
@@ -107,11 +120,17 @@ html = f"""<!DOCTYPE html>
   <canvas id="costChart" height="100"></canvas>
 </div>
 
+<div class="chart-container">
+  <canvas id="rateChart" height="100"></canvas>
+</div>
+
 <script>
 const labels = {json.dumps(labels)};
 const cfData = {json.dumps(cf_values)};
 const waterData = {json.dumps(water_values)};
 const sewerData = {json.dumps(sewer_values)};
+const waterPerCf = {json.dumps(water_per_cf)};
+const sewerPerCf = {json.dumps(sewer_per_cf)};
 
 new Chart(document.getElementById('cfChart'), {{
   type: 'bar',
@@ -219,12 +238,76 @@ new Chart(document.getElementById('costChart'), {{
     }}
   }}
 }});
+
+// Price per CF Chart - Stacked Water vs Sewer Rate
+new Chart(document.getElementById('rateChart'), {{
+  type: 'bar',
+  data: {{
+    labels: labels,
+    datasets: [
+      {{
+        label: 'Water Rate ($/CF)',
+        data: waterPerCf,
+        backgroundColor: 'rgba(33, 150, 243, 0.7)',
+        borderColor: 'rgba(33, 150, 243, 1)',
+        borderWidth: 1
+      }},
+      {{
+        label: 'Sewer Rate ($/CF)',
+        data: sewerPerCf,
+        backgroundColor: 'rgba(100, 181, 246, 0.7)',
+        borderColor: 'rgba(100, 181, 246, 1)',
+        borderWidth: 1
+      }}
+    ]
+  }},
+  options: {{
+    responsive: true,
+    plugins: {{
+      title: {{
+        display: true,
+        text: 'Water Price ($/CF) - Water vs Sewer Rate per Billing Period',
+        font: {{ size: 18 }}
+      }},
+      tooltip: {{
+        callbacks: {{
+          label: function(ctx) {{
+            return ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(4);
+          }},
+          afterBody: function(tooltipItems) {{
+            const idx = tooltipItems[0].dataIndex;
+            const total = waterPerCf[idx] + sewerPerCf[idx];
+            return 'Total: $' + total.toFixed(4) + '/CF';
+          }}
+        }}
+      }}
+    }},
+    scales: {{
+      x: {{
+        stacked: true,
+        ticks: {{
+          maxRotation: 90,
+          autoSkip: true,
+          maxTicksLimit: 40
+        }}
+      }},
+      y: {{
+        stacked: true,
+        beginAtZero: true,
+        title: {{
+          display: true,
+          text: 'Price ($/CF)'
+        }}
+      }}
+    }}
+  }}
+}});
 </script>
 </body>
 </html>
 """
 
-output_path = "/Users/albert/albert_git_repos/110_tudor_water_usage.html"
+output_path = "/Users/albert/albert_git_repos/albert-analysis/110_tudor_water_usage.html"
 with open(output_path, "w") as f:
     f.write(html)
 

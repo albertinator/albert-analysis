@@ -4,7 +4,7 @@
 import json
 from datetime import datetime
 
-with open("/Users/albert/albert_git_repos/electric_data.json") as f:
+with open("/Users/albert/albert_git_repos/albert-analysis/electric_data.json") as f:
     data = json.load(f)
 
 # Sort by statement date and prepare chart data
@@ -92,6 +92,7 @@ html = f"""<!DOCTYPE html>
 </style>
 </head>
 <body>
+<a href="index.html" style="position:absolute;top:20px;left:20px;font-size:14px;color:#666;text-decoration:none;">&larr; Dashboard</a>
 <h1>110 Tudor St - Electricity Usage History</h1>
 <p style="text-align:center;color:#666;">NStar / Eversource | June 2009 - January 2026 | {len(data)} billing periods</p>
 
@@ -122,11 +123,17 @@ html = f"""<!DOCTYPE html>
   <canvas id="costChart" height="100"></canvas>
 </div>
 
+<div class="chart-container">
+  <canvas id="rateChart" height="100"></canvas>
+</div>
+
 <script>
 const labels = {json.dumps(labels)};
 const kwhData = {json.dumps(kwh_values)};
 const supplyData = {json.dumps(supply_values)};
 const deliveryData = {json.dumps(delivery_values)};
+const supplyPerKwh = {json.dumps(supply_per_kwh)};
+const deliveryPerKwh = {json.dumps(delivery_per_kwh)};
 
 // kWh Usage Chart
 new Chart(document.getElementById('kwhChart'), {{
@@ -234,12 +241,76 @@ new Chart(document.getElementById('costChart'), {{
     }}
   }}
 }});
+
+// Price per kWh Chart - Stacked Supply vs Delivery Rate
+new Chart(document.getElementById('rateChart'), {{
+  type: 'bar',
+  data: {{
+    labels: labels,
+    datasets: [
+      {{
+        label: 'Supply Rate ($/kWh)',
+        data: supplyPerKwh,
+        backgroundColor: 'rgba(76, 175, 80, 0.7)',
+        borderColor: 'rgba(76, 175, 80, 1)',
+        borderWidth: 1
+      }},
+      {{
+        label: 'Delivery Rate ($/kWh)',
+        data: deliveryPerKwh,
+        backgroundColor: 'rgba(255, 152, 0, 0.7)',
+        borderColor: 'rgba(255, 152, 0, 1)',
+        borderWidth: 1
+      }}
+    ]
+  }},
+  options: {{
+    responsive: true,
+    plugins: {{
+      title: {{
+        display: true,
+        text: 'Electricity Price ($/kWh) - Supply vs Delivery Rate per Billing Period',
+        font: {{ size: 18 }}
+      }},
+      tooltip: {{
+        callbacks: {{
+          label: function(ctx) {{
+            return ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(4);
+          }},
+          afterBody: function(tooltipItems) {{
+            const idx = tooltipItems[0].dataIndex;
+            const total = supplyPerKwh[idx] + deliveryPerKwh[idx];
+            return 'Total: $' + total.toFixed(4) + '/kWh';
+          }}
+        }}
+      }}
+    }},
+    scales: {{
+      x: {{
+        stacked: true,
+        ticks: {{
+          maxRotation: 90,
+          autoSkip: true,
+          maxTicksLimit: 40
+        }}
+      }},
+      y: {{
+        stacked: true,
+        beginAtZero: true,
+        title: {{
+          display: true,
+          text: 'Price ($/kWh)'
+        }}
+      }}
+    }}
+  }}
+}});
 </script>
 </body>
 </html>
 """
 
-output_path = "/Users/albert/albert_git_repos/110_tudor_electric_usage.html"
+output_path = "/Users/albert/albert_git_repos/albert-analysis/110_tudor_electric_usage.html"
 with open(output_path, "w") as f:
     f.write(html)
 

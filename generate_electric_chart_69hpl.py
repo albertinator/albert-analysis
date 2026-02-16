@@ -4,7 +4,7 @@
 import json
 from datetime import datetime
 
-with open("/Users/albert/albert_git_repos/electric_data_69hpl.json") as f:
+with open("/Users/albert/albert_git_repos/albert-analysis/electric_data_69hpl.json") as f:
     data = json.load(f)
 
 data.sort(key=lambda d: d["statement_date"])
@@ -25,6 +25,18 @@ for d in data:
     kwh_values.append(d["kwh"] or 0)
     supply_values.append(d["supply"] or 0)
     delivery_values.append(d["delivery"] or 0)
+
+# Build per-kWh supply and delivery rates
+supply_per_kwh = []
+delivery_per_kwh = []
+for i in range(len(kwh_values)):
+    kwh = kwh_values[i]
+    if kwh and kwh > 0:
+        supply_per_kwh.append(round(supply_values[i] / kwh, 4))
+        delivery_per_kwh.append(round(delivery_values[i] / kwh, 4))
+    else:
+        supply_per_kwh.append(0)
+        delivery_per_kwh.append(0)
 
 html = f"""<!DOCTYPE html>
 <html>
@@ -77,6 +89,7 @@ html = f"""<!DOCTYPE html>
 </style>
 </head>
 <body>
+<a href="index.html" style="position:absolute;top:20px;left:20px;font-size:14px;color:#666;text-decoration:none;">&larr; Dashboard</a>
 <h1>69 Hitching Post Ln - Electricity Usage History</h1>
 <p style="text-align:center;color:#666;">Eversource (NH) | Nov 2022 - Jan 2026 | {len(data)} billing periods</p>
 
@@ -107,11 +120,17 @@ html = f"""<!DOCTYPE html>
   <canvas id="costChart" height="100"></canvas>
 </div>
 
+<div class="chart-container">
+  <canvas id="rateChart" height="100"></canvas>
+</div>
+
 <script>
 const labels = {json.dumps(labels)};
 const kwhData = {json.dumps(kwh_values)};
 const supplyData = {json.dumps(supply_values)};
 const deliveryData = {json.dumps(delivery_values)};
+const supplyPerKwh = {json.dumps(supply_per_kwh)};
+const deliveryPerKwh = {json.dumps(delivery_per_kwh)};
 
 new Chart(document.getElementById('kwhChart'), {{
   type: 'bar',
@@ -203,12 +222,69 @@ new Chart(document.getElementById('costChart'), {{
     }}
   }}
 }});
+
+// Price per kWh Chart - Stacked Supply vs Delivery Rate
+new Chart(document.getElementById('rateChart'), {{
+  type: 'bar',
+  data: {{
+    labels: labels,
+    datasets: [
+      {{
+        label: 'Supply Rate ($/kWh)',
+        data: supplyPerKwh,
+        backgroundColor: 'rgba(76, 175, 80, 0.7)',
+        borderColor: 'rgba(76, 175, 80, 1)',
+        borderWidth: 1
+      }},
+      {{
+        label: 'Delivery Rate ($/kWh)',
+        data: deliveryPerKwh,
+        backgroundColor: 'rgba(255, 152, 0, 0.7)',
+        borderColor: 'rgba(255, 152, 0, 1)',
+        borderWidth: 1
+      }}
+    ]
+  }},
+  options: {{
+    responsive: true,
+    plugins: {{
+      title: {{
+        display: true,
+        text: 'Electricity Price ($/kWh) - Supply vs Delivery Rate per Billing Period',
+        font: {{ size: 18 }}
+      }},
+      tooltip: {{
+        callbacks: {{
+          label: function(ctx) {{
+            return ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(4);
+          }},
+          afterBody: function(tooltipItems) {{
+            const idx = tooltipItems[0].dataIndex;
+            const total = supplyPerKwh[idx] + deliveryPerKwh[idx];
+            return 'Total: $' + total.toFixed(4) + '/kWh';
+          }}
+        }}
+      }}
+    }},
+    scales: {{
+      x: {{
+        stacked: true,
+        ticks: {{ maxRotation: 90, autoSkip: false }}
+      }},
+      y: {{
+        stacked: true,
+        beginAtZero: true,
+        title: {{ display: true, text: 'Price ($/kWh)' }}
+      }}
+    }}
+  }}
+}});
 </script>
 </body>
 </html>
 """
 
-output_path = "/Users/albert/albert_git_repos/69_hpl_electric_usage.html"
+output_path = "/Users/albert/albert_git_repos/albert-analysis/69_hpl_electric_usage.html"
 with open(output_path, "w") as f:
     f.write(html)
 

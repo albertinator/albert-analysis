@@ -4,7 +4,7 @@
 import json
 from datetime import datetime
 
-with open("/Users/albert/albert_git_repos/gas_data_110tudor.json") as f:
+with open("/Users/albert/albert_git_repos/albert-analysis/gas_data_110tudor.json") as f:
     data = json.load(f)
 
 data.sort(key=lambda d: d["statement_date"])
@@ -25,6 +25,18 @@ for d in data:
     therms_values.append(d["therms"] or 0)
     supply_values.append(d["supply"] or 0)
     delivery_values.append(d["delivery"] or 0)
+
+# Build per-therm supply and delivery rates
+supply_per_therm = []
+delivery_per_therm = []
+for i in range(len(therms_values)):
+    therms = therms_values[i]
+    if therms and therms > 0:
+        supply_per_therm.append(round(supply_values[i] / therms, 4))
+        delivery_per_therm.append(round(delivery_values[i] / therms, 4))
+    else:
+        supply_per_therm.append(0)
+        delivery_per_therm.append(0)
 
 html = f"""<!DOCTYPE html>
 <html>
@@ -77,6 +89,7 @@ html = f"""<!DOCTYPE html>
 </style>
 </head>
 <body>
+<a href="index.html" style="position:absolute;top:20px;left:20px;font-size:14px;color:#666;text-decoration:none;">&larr; Dashboard</a>
 <h1>110 Tudor St - Natural Gas Usage History</h1>
 <p style="text-align:center;color:#666;">National Grid | Jul 2009 - Dec 2025 | {len(data)} billing periods</p>
 
@@ -107,11 +120,17 @@ html = f"""<!DOCTYPE html>
   <canvas id="costChart" height="100"></canvas>
 </div>
 
+<div class="chart-container">
+  <canvas id="rateChart" height="100"></canvas>
+</div>
+
 <script>
 const labels = {json.dumps(labels)};
 const thermsData = {json.dumps(therms_values)};
 const supplyData = {json.dumps(supply_values)};
 const deliveryData = {json.dumps(delivery_values)};
+const supplyPerTherm = {json.dumps(supply_per_therm)};
+const deliveryPerTherm = {json.dumps(delivery_per_therm)};
 
 new Chart(document.getElementById('thermsChart'), {{
   type: 'bar',
@@ -217,12 +236,76 @@ new Chart(document.getElementById('costChart'), {{
     }}
   }}
 }});
+
+// Price per Therm Chart - Stacked Supply vs Delivery Rate
+new Chart(document.getElementById('rateChart'), {{
+  type: 'bar',
+  data: {{
+    labels: labels,
+    datasets: [
+      {{
+        label: 'Supply Rate ($/Therm)',
+        data: supplyPerTherm,
+        backgroundColor: 'rgba(239, 108, 0, 0.7)',
+        borderColor: 'rgba(239, 108, 0, 1)',
+        borderWidth: 1
+      }},
+      {{
+        label: 'Delivery Rate ($/Therm)',
+        data: deliveryPerTherm,
+        backgroundColor: 'rgba(255, 183, 77, 0.7)',
+        borderColor: 'rgba(255, 183, 77, 1)',
+        borderWidth: 1
+      }}
+    ]
+  }},
+  options: {{
+    responsive: true,
+    plugins: {{
+      title: {{
+        display: true,
+        text: 'Natural Gas Price ($/Therm) - Supply vs Delivery Rate per Billing Period',
+        font: {{ size: 18 }}
+      }},
+      tooltip: {{
+        callbacks: {{
+          label: function(ctx) {{
+            return ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(4);
+          }},
+          afterBody: function(tooltipItems) {{
+            const idx = tooltipItems[0].dataIndex;
+            const total = supplyPerTherm[idx] + deliveryPerTherm[idx];
+            return 'Total: $' + total.toFixed(4) + '/Therm';
+          }}
+        }}
+      }}
+    }},
+    scales: {{
+      x: {{
+        stacked: true,
+        ticks: {{
+          maxRotation: 90,
+          autoSkip: true,
+          maxTicksLimit: 40
+        }}
+      }},
+      y: {{
+        stacked: true,
+        beginAtZero: true,
+        title: {{
+          display: true,
+          text: 'Price ($/Therm)'
+        }}
+      }}
+    }}
+  }}
+}});
 </script>
 </body>
 </html>
 """
 
-output_path = "/Users/albert/albert_git_repos/110_tudor_gas_usage.html"
+output_path = "/Users/albert/albert_git_repos/albert-analysis/110_tudor_gas_usage.html"
 with open(output_path, "w") as f:
     f.write(html)
 
