@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Asset Analyses - Dashboard</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f5;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 32px;
+  }
+  h2 {
+    color: #444;
+    margin: 0 0 16px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  .section {
+    margin-bottom: 36px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px 24px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.15s, transform 0.15s;
+    display: block;
+  }
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+  }
+  .card .card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .card .icon {
+    font-size: 22px;
+    line-height: 1;
+  }
+  .card .title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  .card .detail {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.5;
+  }
+  .card .stats {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+  .card .stat {
+    font-size: 13px;
+  }
+  .card .stat .val {
+    font-weight: 700;
+    color: #2196F3;
+    font-size: 16px;
+  }
+  .card .stat .lbl {
+    color: #999;
+    font-size: 11px;
+  }
+  .property-label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .label-tudor {
+    background: #E3F2FD;
+    color: #1565C0;
+  }
+  .label-hpl {
+    background: #E8F5E9;
+    color: #2E7D32;
+  }
+  .label-nissan {
+    background: #FFF3E0;
+    color: #E65100;
+  }
+  .label-tesla {
+    background: #EDE7F6;
+    color: #4527A0;
+  }
+</style>
+</head>
+<body>
+
+<h1>Asset Analyses</h1>
+<p class="subtitle">Central dashboard for property energy usage and vehicle tracking</p>
+
+<!-- Energy Usage Section -->
+<div class="section">
+  <h2>Energy Usage - Properties</h2>
+  <div class="cards">
+
+    <a class="card" href="110_tudor_electric_usage.html">
+      <div class="card-header"><div class="icon">&#9889;</div><span class="property-label label-tudor">110 Tudor St, Boston</span></div>
+      <div class="title">Electricity Usage</div>
+      <div class="detail">NStar / Eversource<br>June 2009 &ndash; Jan 2026</div>
+      <div class="stats">
+        <div class="stat"><div class="val">102,045</div><div class="lbl">Total kWh</div></div>
+        <div class="stat"><div class="val">$22,334</div><div class="lbl">Total Cost</div></div>
+        <div class="stat"><div class="val">200</div><div class="lbl">Billing Periods</div></div>
+      </div>
+    </a>
+
+    <a class="card" href="110_tudor_gas_usage.html">
+      <div class="card-header"><div class="icon">&#128293;</div><span class="property-label label-tudor">110 Tudor St, Boston</span></div>
+      <div class="title">Natural Gas Usage</div>
+      <div class="detail">National Grid<br>July 2009 &ndash; Dec 2025</div>
+      <div class="stats">
+        <div class="stat"><div class="val">12,531</div><div class="lbl">Total Therms</div></div>
+        <div class="stat"><div class="val">$20,473</div><div class="lbl">Total Cost</div></div>
+        <div class="stat"><div class="val">198</div><div class="lbl">Billing Periods</div></div>
+      </div>
+    </a>
+
+    <a class="card" href="110_tudor_water_usage.html">
+      <div class="card-header"><div class="icon">&#128167;</div><span class="property-label label-tudor">110 Tudor St, Boston</span></div>
+      <div class="title">Water &amp; Sewer Usage</div>
+      <div class="detail">Boston Water &amp; Sewer Commission<br>July 2009 &ndash; Feb 2026</div>
+      <div class="stats">
+        <div class="stat"><div class="val">75,758</div><div class="lbl">Total CF</div></div>
+        <div class="stat"><div class="val">$8,802</div><div class="lbl">Total Cost</div></div>
+        <div class="stat"><div class="val">199</div><div class="lbl">Billing Periods</div></div>
+      </div>
+    </a>
+
+    <a class="card" href="69_hpl_electric_usage.html">
+      <div class="card-header"><div class="icon">&#9889;</div><span class="property-label label-hpl">69 Hitching Post Ln, Bedford</span></div>
+      <div class="title">Electricity Usage</div>
+      <div class="detail">Eversource (NH)<br>Nov 2022 &ndash; Jan 2026</div>
+      <div class="stats">
+        <div class="stat"><div class="val">37,916</div><div class="lbl">Total kWh</div></div>
+        <div class="stat"><div class="val">$9,679</div><div class="lbl">Total Cost</div></div>
+        <div class="stat"><div class="val">39</div><div class="lbl">Billing Periods</div></div>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+<!-- Vehicle Tracking Section -->
+<div class="section">
+  <h2>Mileage &amp; Service Tracking - Vehicles</h2>
+  <div class="cards">
+
+    <a class="card" href="nissan_rogue_mileage.html">
+      <div class="card-header"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="#E65100"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg><span class="property-label label-nissan">2018 Nissan Rogue AWD</span></div>
+      <div class="title">Mileage &amp; Service Tracking</div>
+      <div class="detail">March 2023 &ndash; Jan 2026</div>
+      <div class="stats">
+        <div class="stat"><div class="val">39,076</div><div class="lbl">Miles Driven</div></div>
+        <div class="stat"><div class="val">$5,095</div><div class="lbl">Service Cost</div></div>
+        <div class="stat"><div class="val">99,748</div><div class="lbl">Current Miles</div></div>
+      </div>
+    </a>
+
+    <a class="card" href="tesla_model3_mileage.html">
+      <div class="card-header"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="#4527A0"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg><span class="property-label label-tesla">2023 Tesla Model 3 LR AWD</span></div>
+      <div class="title">Mileage &amp; Service Tracking</div>
+      <div class="detail">March 2024 &ndash; Jan 2026</div>
+      <div class="stats">
+        <div class="stat"><div class="val">35,115</div><div class="lbl">Miles Driven</div></div>
+        <div class="stat"><div class="val">$2,155</div><div class="lbl">Service Cost</div></div>
+        <div class="stat"><div class="val">74,774</div><div class="lbl">Current Miles</div></div>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+</body>
+</html>
