@@ -94,7 +94,7 @@
 <body>
 <a href="index.html" style="position:absolute;top:20px;left:20px;font-size:14px;color:#666;text-decoration:none;">&larr; Dashboard</a>
 <h1>2018 Nissan Rogue AWD - Mileage Over Time</h1>
-<p style="text-align:center;color:#666;">VIN: KNMAT2MV5JP588127 | Acquired Mar 2023 at 60,672 mi | 26 service events</p>
+<p style="text-align:center;color:#666;">VIN: KNMAT2MV5JP588127 | Acquired Mar 2023 at 60,672 mi | 29 service events</p>
 
 <div class="summary">
   <div class="stat-card">
@@ -102,19 +102,19 @@
     <div class="label">Starting Mileage (Purchase)</div>
   </div>
   <div class="stat-card">
-    <div class="value">99,748</div>
-    <div class="label">Latest Mileage (Jan 2026)</div>
+    <div class="value">101,783</div>
+    <div class="label">Latest Mileage (Feb 2026)</div>
   </div>
   <div class="stat-card">
-    <div class="value">39,076</div>
+    <div class="value">41,111</div>
     <div class="label">Miles Driven Since Purchase</div>
   </div>
   <div class="stat-card">
-    <div class="value">~1,146</div>
+    <div class="value">~1,175</div>
     <div class="label">Avg Miles / Month</div>
   </div>
   <div class="stat-card">
-    <div class="value">$5,095</div>
+    <div class="value">$5,357</div>
     <div class="label">Total Service Cost</div>
   </div>
 </div>
@@ -246,6 +246,18 @@ const events = [
     detail: 'Team Nissan, Manchester NH \u2014 Fall check up & tire rotation \u2014 $24.95'
   },
   {
+    date: '2025-03-26',
+    miles: 91035,
+    label: 'Oil Change & Inspection',
+    detail: 'Precision Imports, Manchester NH \u2014 Synthetic oil change & inspection \u2014 $49.95'
+  },
+  {
+    date: '2025-04-02',
+    miles: 91279,
+    label: 'Tire Rotation',
+    detail: 'Sullivan Tire, Bedford NH \u2014 Tire rotation & visual vehicle check'
+  },
+  {
     date: '2025-06-27',
     miles: 93640,
     label: 'Spring Check Up & Tire Rotation',
@@ -280,6 +292,12 @@ const events = [
     miles: 99748,
     label: 'Tire Rotation',
     detail: 'Sullivan Tire, Bedford NH \u2014 Tire rotation'
+  },
+  {
+    date: '2026-02-16',
+    miles: 101783,
+    label: 'Drive Belt Replacement',
+    detail: 'HM Motor Works, Bedford NH \u2014 Serpentine/accessory drive belt replacement (due at 100K) \u2014 $212.10'
   }
 ];
 
@@ -528,6 +546,20 @@ new Chart(document.getElementById('mileageChart'), {
         <td>$24.95</td>
       </tr>
       <tr>
+        <td>2025-03-26</td>
+        <td>91,035</td>
+        <td>Precision Imports, Manchester NH</td>
+        <td>Synthetic oil change &amp; inspection</td>
+        <td>$49.95</td>
+      </tr>
+      <tr>
+        <td>2025-04-02</td>
+        <td>91,279</td>
+        <td>Sullivan Tire, Bedford NH</td>
+        <td>Tire rotation &amp; visual vehicle check</td>
+        <td>&mdash;</td>
+      </tr>
+      <tr>
         <td>2025-06-27</td>
         <td>93,640</td>
         <td>Team Nissan, Manchester NH</td>
@@ -569,11 +601,18 @@ new Chart(document.getElementById('mileageChart'), {
         <td>Tire rotation</td>
         <td>&mdash;</td>
       </tr>
+      <tr>
+        <td>2026-02-16</td>
+        <td>101,783</td>
+        <td>HM Motor Works, Bedford NH</td>
+        <td>Serpentine/accessory drive belt replacement (due at 100K)</td>
+        <td>$212.10</td>
+      </tr>
     </tbody>
     <tfoot>
       <tr>
         <td colspan="4">Total Service Cost</td>
-        <td>$5,094.66</td>
+        <td>$5,356.71</td>
       </tr>
     </tfoot>
   </table>
