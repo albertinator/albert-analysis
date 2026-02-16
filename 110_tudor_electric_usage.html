@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>110 Tudor St - Electricity Usage (2009-2026)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f5;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .chart-container {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  .stat-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px 25px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 5px;
+  }
+  .stat-card .value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2196F3;
+  }
+  .stat-card .label {
+    color: #666;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+<h1>110 Tudor St - Electricity Usage History</h1>
+<p style="text-align:center;color:#666;">NStar / Eversource | June 2009 - January 2026 | 200 billing periods</p>
+
+<div class="summary">
+  <div class="stat-card">
+    <div class="value">102,045</div>
+    <div class="label">Total kWh Used</div>
+  </div>
+  <div class="stat-card">
+    <div class="value">510</div>
+    <div class="label">Avg kWh / Period</div>
+  </div>
+  <div class="stat-card">
+    <div class="value">1,609</div>
+    <div class="label">Peak kWh (Single Period)</div>
+  </div>
+  <div class="stat-card">
+    <div class="value">$22,334</div>
+    <div class="label">Total Electricity Cost</div>
+  </div>
+</div>
+
+<div class="chart-container">
+  <canvas id="kwhChart" height="100"></canvas>
+</div>
+
+<div class="chart-container">
+  <canvas id="costChart" height="100"></canvas>
+</div>
+
+<script>
+const labels = ["Jul 2009", "Jul 2009", "Aug 2009", "Sep 2009", "Oct 2009", "Nov 2009", "Dec 2009", "Jan 2010", "Feb 2010", "Mar 2010", "Apr 2010", "May 2010", "Jun 2010", "Jul 2010", "Aug 2010", "Sep 2010", "Oct 2010", "Nov 2010", "Dec 2010", "Jan 2011", "Feb 2011", "Mar 2011", "Apr 2011", "May 2011", "Jun 2011", "Jul 2011", "Aug 2011", "Sep 2011", "Oct 2011", "Nov 2011", "Dec 2011", "Jan 2012", "Feb 2012", "Mar 2012", "Apr 2012", "May 2012", "Jun 2012", "Jul 2012", "Aug 2012", "Sep 2012", "Oct 2012", "Nov 2012", "Dec 2012", "Jan 2013", "Feb 2013", "Mar 2013", "Apr 2013", "May 2013", "Jun 2013", "Jul 2013", "Aug 2013", "Sep 2013", "Oct 2013", "Nov 2013", "Dec 2013", "Jan 2014", "Feb 2014", "Mar 2014", "Apr 2014", "May 2014", "Jun 2014", "Jul 2014", "Aug 2014", "Sep 2014", "Oct 2014", "Nov 2014", "Dec 2014", "Jan 2015", "Feb 2015", "Mar 2015", "Apr 2015", "May 2015", "Jun 2015", "Jul 2015", "Aug 2015", "Sep 2015", "Oct 2015", "Nov 2015", "Dec 2015", "Jan 2016", "Feb 2016", "Mar 2016", "Apr 2016", "May 2016", "Jun 2016", "Jul 2016", "Aug 2016", "Sep 2016", "Oct 2016", "Nov 2016", "Dec 2016", "Jan 2017", "Feb 2017", "Mar 2017", "Apr 2017", "May 2017", "Jun 2017", "Jul 2017", "Aug 2017", "Sep 2017", "Oct 2017", "Nov 2017", "Dec 2017", "Jan 2018", "Feb 2018", "Mar 2018", "Apr 2018", "May 2018", "Jun 2018", "Jul 2018", "Aug 2018", "Sep 2018", "Oct 2018", "Nov 2018", "Dec 2018", "Jan 2019", "Feb 2019", "Mar 2019", "Apr 2019", "May 2019", "Jun 2019", "Jul 2019", "Aug 2019", "Sep 2019", "Oct 2019", "Nov 2019", "Dec 2019", "Jan 2020", "Feb 2020", "Mar 2020", "Apr 2020", "May 2020", "Jun 2020", "Jul 2020", "Aug 2020", "Sep 2020", "Oct 2020", "Nov 2020", "Dec 2020", "Jan 2021", "Feb 2021", "Mar 2021", "Apr 2021", "May 2021", "Jun 2021", "Jul 2021", "Aug 2021", "Sep 2021", "Oct 2021", "Nov 2021", "Dec 2021", "Jan 2022", "Feb 2022", "Mar 2022", "Apr 2022", "May 2022", "Jun 2022", "Jul 2022", "Aug 2022", "Sep 2022", "Oct 2022", "Nov 2022", "Dec 2022", "Jan 2023", "Feb 2023", "Mar 2023", "Apr 2023", "May 2023", "Jun 2023", "Jul 2023", "Aug 2023", "Sep 2023", "Oct 2023", "Nov 2023", "Dec 2023", "Jan 2024", "Feb 2024", "Mar 2024", "Apr 2024", "May 2024", "Jun 2024", "Jul 2024", "Aug 2024", "Sep 2024", "Oct 2024", "Nov 2024", "Dec 2024", "Jan 2025", "Feb 2025", "Mar 2025", "Apr 2025", "May 2025", "Jun 2025", "Jul 2025", "Aug 2025", "Sep 2025", "Oct 2025", "Nov 2025", "Dec 2025", "Jan 2026"];
+const kwhData = [49, 435, 993, 770, 603, 661, 853, 772, 656, 637, 609, 488, 610, 1056, 738, 648, 465, 657, 495, 592, 518, 514, 407, 341, 525, 949, 886, 752, 503, 512, 350, 371, 347, 332, 286, 243, 330, 1221, 1064, 963, 403, 515, 362, 373, 366, 431, 504, 414, 726, 1279, 1084, 944, 536, 532, 433, 372, 440, 386, 408, 378, 410, 1002, 979, 899, 561, 610, 634, 712, 475, 454, 452, 514, 561, 832, 1000, 1094, 689, 501, 536, 504, 473, 444, 646, 484, 710, 1252, 1356, 935, 509, 410, 455, 485, 341, 357, 425, 415, 555, 834, 861, 776, 515, 426, 366, 505, 300, 353, 299, 322, 487, 720, 843, 893, 589, 430, 526, 510, 486, 492, 439, 389, 584, 836, 832, 639, 550, 408, 407, 497, 465, 355, 556, 492, 515, 821, 1045, 742, 444, 401, 404, 443, 419, 392, 424, 425, 778, 847, 736, 787, 532, 326, 246, 62, 264, 998, 629, 471, 325, 488, 653, 473, 349, 274, 238, 58, 25, 26, 57, 58, 118, 197, 341, 325, 182, 175, 60, 33, 16, 75, 60, 115, 154, 747, 638, 129, 100, 91, 54, 15, 23, 26, 1609, 227, 130, 637, 459, 77, 150, 192, 69, 906];
+const supplyData = [6.23, 45.79, 91.54, 70.99, 55.59, 60.94, 78.64, 69.67, 58.25, 56.57, 54.08, 43.33, 54.17, 87.94, 58.89, 51.71, 37.11, 52.43, 39.5, 46.39, 39.98, 39.67, 31.41, 26.32, 40.52, 71.04, 64.73, 54.94, 36.75, 37.41, 25.57, 28.4, 27.51, 26.32, 22.67, 19.27, 26.16, 87.63, 71.29, 64.51, 27.0, 34.5, 24.25, 25.71, 25.73, 30.3, 35.44, 29.11, 51.05, 93.78, 81.37, 70.86, 40.23, 39.93, 32.5, 31.65, 41.07, 36.03, 38.08, 35.28, 38.27, 93.8, 91.82, 84.32, 52.62, 57.21, 59.46, 90.52, 71.47, 68.31, 68.01, 77.34, 84.41, 99.99, 100.5, 109.95, 69.24, 50.35, 53.87, 52.96, 51.29, 48.15, 70.05, 52.48, 76.99, 117.2, 111.3, 76.74, 41.78, 33.65, 37.35, 45.95, 35.18, 36.84, 43.85, 42.82, 57.26, 88.06, 92.63, 83.49, 55.41, 45.83, 39.38, 60.0, 38.66, 45.49, 38.54, 41.5, 62.76, 86.35, 96.08, 101.78, 67.13, 49.01, 59.95, 64.25, 66.04, 66.85, 59.65, 52.86, 79.35, 99.79, 90.16, 69.24, 59.6, 44.21, 44.1, 58.44, 58.2, 44.44, 69.59, 61.58, 64.46, 90.48, 103.21, 73.29, 43.85, 39.61, 39.9, 48.5, 49.42, 44.72, 48.37, 48.49, 88.76, 96.63, 83.97, 89.79, 60.7, 37.19, 27.46, 6.92, 29.47, 111.39, 70.2, 52.57, 36.27, 54.47, 72.88, 52.79, 38.95, 30.58, 26.56, 6.47, 2.79, 2.9, 6.44, 6.55, 13.32, 22.24, 38.5, 36.69, 20.55, 19.76, 6.77, 4.89, 2.37, 11.1, 8.88, 17.03, 22.8, 110.59, 94.46, 19.1, 14.81, 13.47, 7.99, 2.22, 3.41, 3.85, 238.21, 33.61, 19.25, 94.31, 67.95, 11.4, 22.21, 28.43, 10.22, 128.78];
+const deliveryData = [5.24, 37.78, 77.99, 61.93, 49.89, 54.06, 67.9, 61.92, 53.45, 52.09, 50.08, 41.41, 50.17, 85.75, 63.47, 56.51, 42.36, 57.2, 44.69, 53.59, 48.73, 48.4, 39.66, 34.27, 49.29, 83.57, 78.22, 67.36, 47.19, 47.92, 34.8, 36.31, 34.24, 33.04, 29.35, 25.88, 32.83, 106.27, 94.68, 86.32, 39.86, 49.16, 36.46, 37.92, 37.33, 43.06, 49.55, 41.88, 68.61, 117.77, 101.04, 88.48, 53.02, 52.68, 44.07, 38.45, 44.01, 39.4, 41.27, 38.72, 41.45, 91.29, 88.9, 82.16, 53.69, 57.82, 59.83, 65.84, 45.8, 44.06, 43.48, 48.19, 52.0, 75.0, 89.6, 97.43, 63.73, 48.09, 51.01, 52.46, 52.47, 49.65, 69.32, 53.55, 75.55, 135.64, 152.53, 107.17, 61.27, 50.62, 55.45, 57.26, 41.51, 43.16, 50.15, 49.12, 63.53, 87.91, 86.83, 78.89, 54.52, 46.2, 40.6, 55.78, 38.3, 45.23, 39.38, 41.88, 59.74, 85.35, 99.03, 104.49, 71.29, 53.95, 64.42, 62.18, 59.16, 59.82, 54.13, 48.76, 69.69, 97.27, 97.19, 76.29, 66.66, 51.26, 51.14, 61.04, 57.65, 45.68, 67.58, 60.61, 63.12, 99.23, 125.89, 90.7, 57.08, 52.25, 52.57, 58.3, 56.54, 53.34, 59.4, 61.51, 106.81, 114.64, 99.96, 106.38, 74.19, 48.16, 38.07, 15.18, 43.12, 143.6, 93.09, 71.48, 51.48, 75.53, 100.5, 74.73, 56.97, 46.24, 41.08, 17.04, 13.66, 13.8, 18.33, 18.48, 27.26, 38.89, 60.15, 57.79, 36.76, 35.73, 18.82, 15.16, 12.66, 22.48, 19.98, 29.14, 35.62, 138.3, 122.04, 32.65, 27.56, 26.01, 19.48, 12.78, 14.4, 14.98, 317.67, 53.4, 34.87, 129.57, 94.98, 24.41, 38.31, 46.24, 23.01, 176.15];
+
+// kWh Usage Chart
+new Chart(document.getElementById('kwhChart'), {
+  type: 'bar',
+  data: {
+    labels: labels,
+    datasets: [{
+      label: 'kWh Usage',
+      data: kwhData,
+      backgroundColor: 'rgba(33, 150, 243, 0.7)',
+      borderColor: 'rgba(33, 150, 243, 1)',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Electricity Usage (kWh) per Billing Period',
+        font: { size: 18 }
+      },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) {
+            return ctx.parsed.y.toLocaleString() + ' kWh';
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        ticks: {
+          maxRotation: 90,
+          autoSkip: true,
+          maxTicksLimit: 40
+        }
+      },
+      y: {
+        beginAtZero: true,
+        title: {
+          display: true,
+          text: 'kWh'
+        }
+      }
+    }
+  }
+});
+
+// Cost Chart - Stacked Supply vs Delivery
+new Chart(document.getElementById('costChart'), {
+  type: 'bar',
+  data: {
+    labels: labels,
+    datasets: [
+      {
+        label: 'Supply (Generation)',
+        data: supplyData,
+        backgroundColor: 'rgba(76, 175, 80, 0.7)',
+        borderColor: 'rgba(76, 175, 80, 1)',
+        borderWidth: 1
+      },
+      {
+        label: 'Delivery',
+        data: deliveryData,
+        backgroundColor: 'rgba(255, 152, 0, 0.7)',
+        borderColor: 'rgba(255, 152, 0, 1)',
+        borderWidth: 1
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Electricity Cost ($) - Supply vs Delivery per Billing Period',
+        font: { size: 18 }
+      },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) {
+            return ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(2);
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        stacked: true,
+        ticks: {
+          maxRotation: 90,
+          autoSkip: true,
+          maxTicksLimit: 40
+        }
+      },
+      y: {
+        stacked: true,
+        beginAtZero: true,
+        title: {
+          display: true,
+          text: 'Cost ($)'
+        }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>

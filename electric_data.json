@@ -1,0 +1,1802 @@
+[
+  {
+    "filename": "2009-07-07 NStar - Statement.pdf",
+    "kwh": 49,
+    "supply": 6.23,
+    "delivery": 5.24,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2009-07-07"
+  },
+  {
+    "filename": "2009-08-08 NStar - Statement.pdf",
+    "kwh": 435,
+    "supply": 45.79,
+    "delivery": 37.78,
+    "period_start": "2009-06-18",
+    "period_end": "2009-07-20",
+    "statement_date": "2009-08-08"
+  },
+  {
+    "filename": "2009-09-06 NStar - Statement.pdf",
+    "kwh": 993,
+    "supply": 91.54,
+    "delivery": 77.99,
+    "period_start": "2009-07-20",
+    "period_end": "2009-08-18",
+    "statement_date": "2009-09-06"
+  },
+  {
+    "filename": "2009-10-06 NStar - Statement.pdf",
+    "kwh": 770,
+    "supply": 70.99,
+    "delivery": 61.93,
+    "period_start": "2009-08-18",
+    "period_end": "2009-09-17",
+    "statement_date": "2009-10-06"
+  },
+  {
+    "filename": "2009-11-07 NStar - Statement.pdf",
+    "kwh": 603,
+    "supply": 55.59,
+    "delivery": 49.89,
+    "period_start": "2009-09-17",
+    "period_end": "2009-10-19",
+    "statement_date": "2009-11-07"
+  },
+  {
+    "filename": "2009-12-07 NStar - Statement.pdf",
+    "kwh": 661,
+    "supply": 60.94,
+    "delivery": 54.06,
+    "period_start": "2009-10-19",
+    "period_end": "2009-11-18",
+    "statement_date": "2009-12-07"
+  },
+  {
+    "filename": "2010-01-05 NStar - Statement.pdf",
+    "kwh": 853,
+    "supply": 78.64,
+    "delivery": 67.9,
+    "period_start": "2009-11-18",
+    "period_end": "2009-12-17",
+    "statement_date": "2010-01-05"
+  },
+  {
+    "filename": "2010-02-07 NStar - Statement.pdf",
+    "kwh": 772,
+    "supply": 69.67,
+    "delivery": 61.92,
+    "period_start": "2009-12-17",
+    "period_end": "2010-01-19",
+    "statement_date": "2010-02-07"
+  },
+  {
+    "filename": "2010-03-09 NStar - Statement.pdf",
+    "kwh": 656,
+    "supply": 58.25,
+    "delivery": 53.45,
+    "period_start": "2010-01-19",
+    "period_end": "2010-02-18",
+    "statement_date": "2010-03-09"
+  },
+  {
+    "filename": "2010-04-09 NStar - Statement.pdf",
+    "kwh": 637,
+    "supply": 56.57,
+    "delivery": 52.09,
+    "period_start": "2010-02-18",
+    "period_end": "2010-03-19",
+    "statement_date": "2010-04-09"
+  },
+  {
+    "filename": "2010-05-09 NStar - Statement.pdf",
+    "kwh": 609,
+    "supply": 54.08,
+    "delivery": 50.08,
+    "period_start": "2010-03-19",
+    "period_end": "2010-04-20",
+    "statement_date": "2010-05-09"
+  },
+  {
+    "filename": "2010-06-07 NStar - Statement.pdf",
+    "kwh": 488,
+    "supply": 43.33,
+    "delivery": 41.41,
+    "period_start": "2010-04-20",
+    "period_end": "2010-05-19",
+    "statement_date": "2010-06-07"
+  },
+  {
+    "filename": "2010-07-09 NStar - Statement.pdf",
+    "kwh": 610,
+    "supply": 54.17,
+    "delivery": 50.17,
+    "period_start": "2010-05-19",
+    "period_end": "2010-06-18",
+    "statement_date": "2010-07-09"
+  },
+  {
+    "filename": "2010-08-08 NStar - Statement.pdf",
+    "kwh": 1056,
+    "supply": 87.94,
+    "delivery": 85.75,
+    "period_start": "2010-06-18",
+    "period_end": "2010-07-19",
+    "statement_date": "2010-08-08"
+  },
+  {
+    "filename": "2010-09-06 NStar - Statement.pdf",
+    "kwh": 738,
+    "supply": 58.89,
+    "delivery": 63.47,
+    "period_start": "2010-07-19",
+    "period_end": "2010-08-17",
+    "statement_date": "2010-09-06"
+  },
+  {
+    "filename": "2010-10-08 NStar - Statement.pdf",
+    "kwh": 648,
+    "supply": 51.71,
+    "delivery": 56.51,
+    "period_start": "2010-08-17",
+    "period_end": "2010-09-17",
+    "statement_date": "2010-10-08"
+  },
+  {
+    "filename": "2010-11-07 NStar - Statement.pdf",
+    "kwh": 465,
+    "supply": 37.11,
+    "delivery": 42.36,
+    "period_start": "2010-09-17",
+    "period_end": "2010-10-18",
+    "statement_date": "2010-11-07"
+  },
+  {
+    "filename": "2010-12-07 NStar - Statement.pdf",
+    "kwh": 657,
+    "supply": 52.43,
+    "delivery": 57.2,
+    "period_start": "2010-10-18",
+    "period_end": "2010-11-18",
+    "statement_date": "2010-12-07"
+  },
+  {
+    "filename": "2011-01-08 NStar - Statement.pdf",
+    "kwh": 495,
+    "supply": 39.5,
+    "delivery": 44.69,
+    "period_start": "2010-11-18",
+    "period_end": "2010-12-17",
+    "statement_date": "2011-01-08"
+  },
+  {
+    "filename": "2011-02-06 NStar - Statement.pdf",
+    "kwh": 592,
+    "supply": 46.39,
+    "delivery": 53.59,
+    "period_start": "2010-12-17",
+    "period_end": "2011-01-17",
+    "statement_date": "2011-02-06"
+  },
+  {
+    "filename": "2011-03-07 NStar - Statement.pdf",
+    "kwh": 518,
+    "supply": 39.98,
+    "delivery": 48.73,
+    "period_start": "2011-01-17",
+    "period_end": "2011-02-16",
+    "statement_date": "2011-03-07"
+  },
+  {
+    "filename": "2011-04-08 NStar - Statement.pdf",
+    "kwh": 514,
+    "supply": 39.67,
+    "delivery": 48.4,
+    "period_start": "2011-02-16",
+    "period_end": "2011-03-18",
+    "statement_date": "2011-04-08"
+  },
+  {
+    "filename": "2011-05-08 NStar - Statement.pdf",
+    "kwh": 407,
+    "supply": 31.41,
+    "delivery": 39.66,
+    "period_start": "2011-03-18",
+    "period_end": "2011-04-15",
+    "statement_date": "2011-05-08"
+  },
+  {
+    "filename": "2011-06-06 NStar - Statement.pdf",
+    "kwh": 341,
+    "supply": 26.32,
+    "delivery": 34.27,
+    "period_start": "2011-04-15",
+    "period_end": "2011-05-17",
+    "statement_date": "2011-06-06"
+  },
+  {
+    "filename": "2011-07-08 NStar - Statement.pdf",
+    "kwh": 525,
+    "supply": 40.52,
+    "delivery": 49.29,
+    "period_start": "2011-05-17",
+    "period_end": "2011-06-16",
+    "statement_date": "2011-07-08"
+  },
+  {
+    "filename": "2011-08-07 NStar - Statement.pdf",
+    "kwh": 949,
+    "supply": 71.04,
+    "delivery": 83.57,
+    "period_start": "2011-06-16",
+    "period_end": "2011-07-18",
+    "statement_date": "2011-08-07"
+  },
+  {
+    "filename": "2011-09-06 NStar - Statement.pdf",
+    "kwh": 886,
+    "supply": 64.73,
+    "delivery": 78.22,
+    "period_start": "2011-07-18",
+    "period_end": "2011-08-17",
+    "statement_date": "2011-09-06"
+  },
+  {
+    "filename": "2011-10-08 NStar - Statement.pdf",
+    "kwh": 752,
+    "supply": 54.94,
+    "delivery": 67.36,
+    "period_start": "2011-08-17",
+    "period_end": "2011-09-17",
+    "statement_date": "2011-10-08"
+  },
+  {
+    "filename": "2011-11-07 NStar - Statement.pdf",
+    "kwh": 503,
+    "supply": 36.75,
+    "delivery": 47.19,
+    "period_start": "2011-09-17",
+    "period_end": "2011-10-18",
+    "statement_date": "2011-11-07"
+  },
+  {
+    "filename": "2011-12-09 NStar - Statement.pdf",
+    "kwh": 512,
+    "supply": 37.41,
+    "delivery": 47.92,
+    "period_start": "2011-10-18",
+    "period_end": "2011-11-18",
+    "statement_date": "2011-12-09"
+  },
+  {
+    "filename": "2012-01-07 NStar - Statement.pdf",
+    "kwh": 350,
+    "supply": 25.57,
+    "delivery": 34.8,
+    "period_start": "2011-11-18",
+    "period_end": "2011-12-16",
+    "statement_date": "2012-01-07"
+  },
+  {
+    "filename": "2012-02-07 NStar - Statement.pdf",
+    "kwh": 371,
+    "supply": 28.4,
+    "delivery": 36.31,
+    "period_start": "2011-12-16",
+    "period_end": "2012-01-19",
+    "statement_date": "2012-02-07"
+  },
+  {
+    "filename": "2012-03-10 NStar - Statement.pdf",
+    "kwh": 347,
+    "supply": 27.51,
+    "delivery": 34.24,
+    "period_start": "2012-01-19",
+    "period_end": "2012-02-16",
+    "statement_date": "2012-03-10"
+  },
+  {
+    "filename": "2012-04-08 NStar - Statement.pdf",
+    "kwh": 332,
+    "supply": 26.32,
+    "delivery": 33.04,
+    "period_start": "2012-02-16",
+    "period_end": "2012-03-20",
+    "statement_date": "2012-04-08"
+  },
+  {
+    "filename": "2012-05-08 NStar - Statement.pdf",
+    "kwh": 286,
+    "supply": 22.67,
+    "delivery": 29.35,
+    "period_start": "2012-03-20",
+    "period_end": "2012-04-19",
+    "statement_date": "2012-05-08"
+  },
+  {
+    "filename": "2012-06-08 NStar - Statement.pdf",
+    "kwh": 243,
+    "supply": 19.27,
+    "delivery": 25.88,
+    "period_start": "2012-04-19",
+    "period_end": "2012-05-17",
+    "statement_date": "2012-06-08"
+  },
+  {
+    "filename": "2012-07-08 NStar - Statement.pdf",
+    "kwh": 330,
+    "supply": 26.16,
+    "delivery": 32.83,
+    "period_start": "2012-05-17",
+    "period_end": "2012-06-18",
+    "statement_date": "2012-07-08"
+  },
+  {
+    "filename": "2012-08-07 NStar - Statement.pdf",
+    "kwh": 1221,
+    "supply": 87.63,
+    "delivery": 106.27,
+    "period_start": "2012-06-18",
+    "period_end": "2012-07-19",
+    "statement_date": "2012-08-07"
+  },
+  {
+    "filename": "2012-09-07 NStar - Statement.pdf",
+    "kwh": 1064,
+    "supply": 71.29,
+    "delivery": 94.68,
+    "period_start": "2012-07-19",
+    "period_end": "2012-08-17",
+    "statement_date": "2012-09-07"
+  },
+  {
+    "filename": "2012-10-07 NStar - Statement.pdf",
+    "kwh": 963,
+    "supply": 64.51,
+    "delivery": 86.32,
+    "period_start": "2012-08-17",
+    "period_end": "2012-09-18",
+    "statement_date": "2012-10-07"
+  },
+  {
+    "filename": "2012-11-06 NStar - Statement.pdf",
+    "kwh": 403,
+    "supply": 27.0,
+    "delivery": 39.86,
+    "period_start": "2012-09-18",
+    "period_end": "2012-10-18",
+    "statement_date": "2012-11-06"
+  },
+  {
+    "filename": "2012-12-08 NStar - Statement.pdf",
+    "kwh": 515,
+    "supply": 34.5,
+    "delivery": 49.16,
+    "period_start": "2012-10-18",
+    "period_end": "2012-11-17",
+    "statement_date": "2012-12-08"
+  },
+  {
+    "filename": "2013-01-06 NStar - Statement.pdf",
+    "kwh": 362,
+    "supply": 24.25,
+    "delivery": 36.46,
+    "period_start": "2012-11-17",
+    "period_end": "2012-12-18",
+    "statement_date": "2013-01-06"
+  },
+  {
+    "filename": "2013-02-08 NStar - Statement.pdf",
+    "kwh": 373,
+    "supply": 25.71,
+    "delivery": 37.92,
+    "period_start": "2012-12-18",
+    "period_end": "2013-01-18",
+    "statement_date": "2013-02-08"
+  },
+  {
+    "filename": "2013-03-10 NStar - Statement.pdf",
+    "kwh": 366,
+    "supply": 25.73,
+    "delivery": 37.33,
+    "period_start": "2013-01-18",
+    "period_end": "2013-02-19",
+    "statement_date": "2013-03-10"
+  },
+  {
+    "filename": "2013-04-08 NStar - Statement.pdf",
+    "kwh": 431,
+    "supply": 30.3,
+    "delivery": 43.06,
+    "period_start": "2013-02-19",
+    "period_end": "2013-03-20",
+    "statement_date": "2013-04-08"
+  },
+  {
+    "filename": "2013-05-11 NStar - Statement.pdf",
+    "kwh": 504,
+    "supply": 35.44,
+    "delivery": 49.55,
+    "period_start": "2013-03-20",
+    "period_end": "2013-04-22",
+    "statement_date": "2013-05-11"
+  },
+  {
+    "filename": "2013-06-08 NStar - Statement.pdf",
+    "kwh": 414,
+    "supply": 29.11,
+    "delivery": 41.88,
+    "period_start": "2013-04-22",
+    "period_end": "2013-05-20",
+    "statement_date": "2013-06-08"
+  },
+  {
+    "filename": "2013-07-08 NStar - Statement.pdf",
+    "kwh": 726,
+    "supply": 51.05,
+    "delivery": 68.61,
+    "period_start": "2013-05-20",
+    "period_end": "2013-06-19",
+    "statement_date": "2013-07-08"
+  },
+  {
+    "filename": "2013-08-09 NStar - Statement.pdf",
+    "kwh": 1279,
+    "supply": 93.78,
+    "delivery": 117.77,
+    "period_start": "2013-06-19",
+    "period_end": "2013-07-19",
+    "statement_date": "2013-08-09"
+  },
+  {
+    "filename": "2013-09-07 NStar - Statement.pdf",
+    "kwh": 1084,
+    "supply": 81.37,
+    "delivery": 101.04,
+    "period_start": "2013-07-19",
+    "period_end": "2013-08-19",
+    "statement_date": "2013-09-07"
+  },
+  {
+    "filename": "2013-10-07 NStar - Statement.pdf",
+    "kwh": 944,
+    "supply": 70.86,
+    "delivery": 88.48,
+    "period_start": "2013-08-19",
+    "period_end": "2013-09-17",
+    "statement_date": "2013-10-07"
+  },
+  {
+    "filename": "2013-11-08 NStar - Statement.pdf",
+    "kwh": 536,
+    "supply": 40.23,
+    "delivery": 53.02,
+    "period_start": "2013-09-17",
+    "period_end": "2013-10-18",
+    "statement_date": "2013-11-08"
+  },
+  {
+    "filename": "2013-12-08 NStar - Statement.pdf",
+    "kwh": 532,
+    "supply": 39.93,
+    "delivery": 52.68,
+    "period_start": "2013-10-18",
+    "period_end": "2013-11-18",
+    "statement_date": "2013-12-08"
+  },
+  {
+    "filename": "2014-01-06 NStar - Statement.pdf",
+    "kwh": 433,
+    "supply": 32.5,
+    "delivery": 44.07,
+    "period_start": "2013-11-18",
+    "period_end": "2013-12-17",
+    "statement_date": "2014-01-06"
+  },
+  {
+    "filename": "2014-02-08 NStar - Statement.pdf",
+    "kwh": 372,
+    "supply": 31.65,
+    "delivery": 38.45,
+    "period_start": "2013-12-17",
+    "period_end": "2014-01-17",
+    "statement_date": "2014-02-08"
+  },
+  {
+    "filename": "2014-03-10 NStar - Statement.pdf",
+    "kwh": 440,
+    "supply": 41.07,
+    "delivery": 44.01,
+    "period_start": "2014-01-17",
+    "period_end": "2014-02-19",
+    "statement_date": "2014-03-10"
+  },
+  {
+    "filename": "2014-04-08 NStar - Statement.pdf",
+    "kwh": 386,
+    "supply": 36.03,
+    "delivery": 39.4,
+    "period_start": "2014-02-19",
+    "period_end": "2014-03-19",
+    "statement_date": "2014-04-08"
+  },
+  {
+    "filename": "2014-05-10 NStar - Statement.pdf",
+    "kwh": 408,
+    "supply": 38.08,
+    "delivery": 41.27,
+    "period_start": "2014-03-19",
+    "period_end": "2014-04-17",
+    "statement_date": "2014-05-10"
+  },
+  {
+    "filename": "2014-06-08 NStar - Statement.pdf",
+    "kwh": 378,
+    "supply": 35.28,
+    "delivery": 38.72,
+    "period_start": "2014-04-17",
+    "period_end": "2014-05-19",
+    "statement_date": "2014-06-08"
+  },
+  {
+    "filename": "2014-07-08 NStar - Statement.pdf",
+    "kwh": 410,
+    "supply": 38.27,
+    "delivery": 41.45,
+    "period_start": "2014-05-19",
+    "period_end": "2014-06-18",
+    "statement_date": "2014-07-08"
+  },
+  {
+    "filename": "2014-08-09 NStar - Statement.pdf",
+    "kwh": 1002,
+    "supply": 93.8,
+    "delivery": 91.29,
+    "period_start": "2014-06-18",
+    "period_end": "2014-07-18",
+    "statement_date": "2014-08-09"
+  },
+  {
+    "filename": "2014-09-07 NStar - Statement.pdf",
+    "kwh": 979,
+    "supply": 91.82,
+    "delivery": 88.9,
+    "period_start": "2014-07-18",
+    "period_end": "2014-08-19",
+    "statement_date": "2014-09-07"
+  },
+  {
+    "filename": "2014-10-07 NStar - Statement.pdf",
+    "kwh": 899,
+    "supply": 84.32,
+    "delivery": 82.16,
+    "period_start": "2014-08-19",
+    "period_end": "2014-09-17",
+    "statement_date": "2014-10-07"
+  },
+  {
+    "filename": "2014-11-08 NStar - Statement.pdf",
+    "kwh": 561,
+    "supply": 52.62,
+    "delivery": 53.69,
+    "period_start": "2014-09-17",
+    "period_end": "2014-10-17",
+    "statement_date": "2014-11-08"
+  },
+  {
+    "filename": "2014-12-07 NStar - Statement.pdf",
+    "kwh": 610,
+    "supply": 57.21,
+    "delivery": 57.82,
+    "period_start": "2014-10-17",
+    "period_end": "2014-11-17",
+    "statement_date": "2014-12-07"
+  },
+  {
+    "filename": "2015-01-06 NStar - Statement.pdf",
+    "kwh": 634,
+    "supply": 59.46,
+    "delivery": 59.83,
+    "period_start": "2014-11-17",
+    "period_end": "2014-12-17",
+    "statement_date": "2015-01-06"
+  },
+  {
+    "filename": "2015-02-08 NStar - Statement.pdf",
+    "kwh": 712,
+    "supply": 90.52,
+    "delivery": 65.84,
+    "period_start": "2014-12-17",
+    "period_end": "2015-01-20",
+    "statement_date": "2015-02-08"
+  },
+  {
+    "filename": "2015-03-09 Eversource - Statement.pdf",
+    "kwh": 475,
+    "supply": 71.47,
+    "delivery": 45.8,
+    "period_start": "2015-01-20",
+    "period_end": "2015-02-17",
+    "statement_date": "2015-03-09"
+  },
+  {
+    "filename": "2015-04-07 Eversource - Statement.pdf",
+    "kwh": 454,
+    "supply": 68.31,
+    "delivery": 44.06,
+    "period_start": "2015-02-17",
+    "period_end": "2015-03-18",
+    "statement_date": "2015-04-07"
+  },
+  {
+    "filename": "2015-05-09 Eversource - Statement.pdf",
+    "kwh": 452,
+    "supply": 68.01,
+    "delivery": 43.48,
+    "period_start": "2015-03-18",
+    "period_end": "2015-04-16",
+    "statement_date": "2015-05-09"
+  },
+  {
+    "filename": "2015-06-07 Eversource - Statement.pdf",
+    "kwh": 514,
+    "supply": 77.34,
+    "delivery": 48.19,
+    "period_start": "2015-04-16",
+    "period_end": "2015-05-18",
+    "statement_date": "2015-06-07"
+  },
+  {
+    "filename": "2015-07-07 Eversource - Statement.pdf",
+    "kwh": 561,
+    "supply": 84.41,
+    "delivery": 52.0,
+    "period_start": "2015-05-18",
+    "period_end": "2015-06-17",
+    "statement_date": "2015-07-07"
+  },
+  {
+    "filename": "2015-08-08 Eversource - Statement.pdf",
+    "kwh": 832,
+    "supply": 99.99,
+    "delivery": 75.0,
+    "period_start": "2015-06-17",
+    "period_end": "2015-07-20",
+    "statement_date": "2015-08-08"
+  },
+  {
+    "filename": "2015-09-06 Eversource - Statement.pdf",
+    "kwh": 1000,
+    "supply": 100.5,
+    "delivery": 89.6,
+    "period_start": "2015-07-20",
+    "period_end": "2015-08-18",
+    "statement_date": "2015-09-06"
+  },
+  {
+    "filename": "2015-10-06 Eversource - Statement.pdf",
+    "kwh": 1094,
+    "supply": 109.95,
+    "delivery": 97.43,
+    "period_start": "2015-08-18",
+    "period_end": "2015-09-17",
+    "statement_date": "2015-10-06"
+  },
+  {
+    "filename": "2015-11-07 Eversource - Statement.pdf",
+    "kwh": 689,
+    "supply": 69.24,
+    "delivery": 63.73,
+    "period_start": "2015-09-17",
+    "period_end": "2015-10-19",
+    "statement_date": "2015-11-07"
+  },
+  {
+    "filename": "2015-12-07 Eversource - Statement.pdf",
+    "kwh": 501,
+    "supply": 50.35,
+    "delivery": 48.09,
+    "period_start": "2015-10-19",
+    "period_end": "2015-11-17",
+    "statement_date": "2015-12-07"
+  },
+  {
+    "filename": "2016-01-08 Eversource - Statement.pdf",
+    "kwh": 536,
+    "supply": 53.87,
+    "delivery": 51.01,
+    "period_start": "2015-11-17",
+    "period_end": "2015-12-17",
+    "statement_date": "2016-01-08"
+  },
+  {
+    "filename": "2016-02-08 Eversource - Statement.pdf",
+    "kwh": 504,
+    "supply": 52.96,
+    "delivery": 52.46,
+    "period_start": "2015-12-17",
+    "period_end": "2016-01-19",
+    "statement_date": "2016-02-08"
+  },
+  {
+    "filename": "2016-03-08 Eversource - Statement.pdf",
+    "kwh": 473,
+    "supply": 51.29,
+    "delivery": 52.47,
+    "period_start": "2016-01-19",
+    "period_end": "2016-02-17",
+    "statement_date": "2016-03-08"
+  },
+  {
+    "filename": "2016-04-08 Eversource - Statement.pdf",
+    "kwh": 444,
+    "supply": 48.15,
+    "delivery": 49.65,
+    "period_start": "2016-02-17",
+    "period_end": "2016-03-17",
+    "statement_date": "2016-04-08"
+  },
+  {
+    "filename": "2016-05-08 Eversource - Statement.pdf",
+    "kwh": 646,
+    "supply": 70.05,
+    "delivery": 69.32,
+    "period_start": "2016-03-17",
+    "period_end": "2016-04-18",
+    "statement_date": "2016-05-08"
+  },
+  {
+    "filename": "2016-06-06 Eversource - Statement.pdf",
+    "kwh": 484,
+    "supply": 52.48,
+    "delivery": 53.55,
+    "period_start": "2016-04-18",
+    "period_end": "2016-05-17",
+    "statement_date": "2016-06-06"
+  },
+  {
+    "filename": "2016-07-08 Eversource - Statement.pdf",
+    "kwh": 710,
+    "supply": 76.99,
+    "delivery": 75.55,
+    "period_start": "2016-05-17",
+    "period_end": "2016-06-16",
+    "statement_date": "2016-07-08"
+  },
+  {
+    "filename": "2016-08-07 Eversource - Statement.pdf",
+    "kwh": 1252,
+    "supply": 117.2,
+    "delivery": 135.64,
+    "period_start": "2016-06-16",
+    "period_end": "2016-07-18",
+    "statement_date": "2016-08-07"
+  },
+  {
+    "filename": "2016-09-05 Eversource - Statement.pdf",
+    "kwh": 1356,
+    "supply": 111.3,
+    "delivery": 152.53,
+    "period_start": "2016-07-18",
+    "period_end": "2016-08-16",
+    "statement_date": "2016-09-05"
+  },
+  {
+    "filename": "2016-10-08 Eversource - Statement.pdf",
+    "kwh": 935,
+    "supply": 76.74,
+    "delivery": 107.17,
+    "period_start": "2016-08-16",
+    "period_end": "2016-09-19",
+    "statement_date": "2016-10-08"
+  },
+  {
+    "filename": "2016-11-14 Eversource - Statement.pdf",
+    "kwh": 509,
+    "supply": 41.78,
+    "delivery": 61.27,
+    "period_start": "2016-09-19",
+    "period_end": "2016-10-18",
+    "statement_date": "2016-11-14"
+  },
+  {
+    "filename": "2016-12-13 Eversource - Statement.pdf",
+    "kwh": 410,
+    "supply": 33.65,
+    "delivery": 50.62,
+    "period_start": "2016-10-18",
+    "period_end": "2016-11-16",
+    "statement_date": "2016-12-13"
+  },
+  {
+    "filename": "2017-01-14 Eversource - Statement.pdf",
+    "kwh": 455,
+    "supply": 37.35,
+    "delivery": 55.45,
+    "period_start": "2016-11-16",
+    "period_end": "2016-12-19",
+    "statement_date": "2017-01-14"
+  },
+  {
+    "filename": "2017-02-14 Eversource - Statement.pdf",
+    "kwh": 485,
+    "supply": 45.95,
+    "delivery": 57.26,
+    "period_start": "2016-12-19",
+    "period_end": "2017-01-18",
+    "statement_date": "2017-02-14"
+  },
+  {
+    "filename": "2017-03-14 Eversource - Statement.pdf",
+    "kwh": 341,
+    "supply": 35.18,
+    "delivery": 41.51,
+    "period_start": "2017-01-18",
+    "period_end": "2017-02-15",
+    "statement_date": "2017-03-14"
+  },
+  {
+    "filename": "2017-04-15 Eversource - Statement.pdf",
+    "kwh": 357,
+    "supply": 36.84,
+    "delivery": 43.16,
+    "period_start": "2017-02-15",
+    "period_end": "2017-03-17",
+    "statement_date": "2017-04-15"
+  },
+  {
+    "filename": "2017-05-15 Eversource - Statement.pdf",
+    "kwh": 425,
+    "supply": 43.85,
+    "delivery": 50.15,
+    "period_start": "2017-03-17",
+    "period_end": "2017-04-18",
+    "statement_date": "2017-05-15"
+  },
+  {
+    "filename": "2017-06-13 Eversource - Statement.pdf",
+    "kwh": 415,
+    "supply": 42.82,
+    "delivery": 49.12,
+    "period_start": "2017-04-18",
+    "period_end": "2017-05-17",
+    "statement_date": "2017-06-13"
+  },
+  {
+    "filename": "2017-07-15 Eversource - Statement.pdf",
+    "kwh": 555,
+    "supply": 57.26,
+    "delivery": 63.53,
+    "period_start": "2017-05-17",
+    "period_end": "2017-06-15",
+    "statement_date": "2017-07-15"
+  },
+  {
+    "filename": "2017-08-14 Eversource - Statement.pdf",
+    "kwh": 834,
+    "supply": 88.06,
+    "delivery": 87.91,
+    "period_start": "2017-06-15",
+    "period_end": "2017-07-18",
+    "statement_date": "2017-08-14"
+  },
+  {
+    "filename": "2017-09-12 Eversource - Statement.pdf",
+    "kwh": 861,
+    "supply": 92.63,
+    "delivery": 86.83,
+    "period_start": "2017-07-18",
+    "period_end": "2017-08-16",
+    "statement_date": "2017-09-12"
+  },
+  {
+    "filename": "2017-10-15 Eversource - Statement.pdf",
+    "kwh": 776,
+    "supply": 83.49,
+    "delivery": 78.89,
+    "period_start": "2017-08-16",
+    "period_end": "2017-09-18",
+    "statement_date": "2017-10-15"
+  },
+  {
+    "filename": "2017-11-14 Eversource - Statement.pdf",
+    "kwh": 515,
+    "supply": 55.41,
+    "delivery": 54.52,
+    "period_start": "2017-09-18",
+    "period_end": "2017-10-18",
+    "statement_date": "2017-11-14"
+  },
+  {
+    "filename": "2017-12-15 Eversource - Statement.pdf",
+    "kwh": 426,
+    "supply": 45.83,
+    "delivery": 46.2,
+    "period_start": "2017-10-18",
+    "period_end": "2017-11-16",
+    "statement_date": "2017-12-15"
+  },
+  {
+    "filename": "2018-01-13 Eversource - Statement.pdf",
+    "kwh": 366,
+    "supply": 39.38,
+    "delivery": 40.6,
+    "period_start": "2017-11-16",
+    "period_end": "2017-12-15",
+    "statement_date": "2018-01-13"
+  },
+  {
+    "filename": "2018-02-16 Eversource - Statement.pdf",
+    "kwh": 505,
+    "supply": 60.0,
+    "delivery": 55.78,
+    "period_start": "2017-12-15",
+    "period_end": "2018-01-18",
+    "statement_date": "2018-02-16"
+  },
+  {
+    "filename": "2018-03-17 Eversource - Statement.pdf",
+    "kwh": 300,
+    "supply": 38.66,
+    "delivery": 38.3,
+    "period_start": "2018-01-18",
+    "period_end": "2018-02-15",
+    "statement_date": "2018-03-17"
+  },
+  {
+    "filename": "2018-04-15 Eversource - Statement.pdf",
+    "kwh": 353,
+    "supply": 45.49,
+    "delivery": 45.23,
+    "period_start": "2018-02-15",
+    "period_end": "2018-03-20",
+    "statement_date": "2018-04-15"
+  },
+  {
+    "filename": "2018-05-15 Eversource - Statement.pdf",
+    "kwh": 299,
+    "supply": 38.54,
+    "delivery": 39.38,
+    "period_start": "2018-03-20",
+    "period_end": "2018-04-17",
+    "statement_date": "2018-05-15"
+  },
+  {
+    "filename": "2018-06-15 Eversource - Statement.pdf",
+    "kwh": 322,
+    "supply": 41.5,
+    "delivery": 41.88,
+    "period_start": "2018-04-17",
+    "period_end": "2018-05-17",
+    "statement_date": "2018-06-15"
+  },
+  {
+    "filename": "2018-07-15 Eversource - Statement.pdf",
+    "kwh": 487,
+    "supply": 62.76,
+    "delivery": 59.74,
+    "period_start": "2018-05-17",
+    "period_end": "2018-06-18",
+    "statement_date": "2018-07-15"
+  },
+  {
+    "filename": "2018-08-14 Eversource - Statement.pdf",
+    "kwh": 720,
+    "supply": 86.35,
+    "delivery": 85.35,
+    "period_start": "2018-06-18",
+    "period_end": "2018-07-18",
+    "statement_date": "2018-08-14"
+  },
+  {
+    "filename": "2018-09-14 Eversource - Statement.pdf",
+    "kwh": 843,
+    "supply": 96.08,
+    "delivery": 99.03,
+    "period_start": "2018-07-18",
+    "period_end": "2018-08-16",
+    "statement_date": "2018-09-14"
+  },
+  {
+    "filename": "2018-10-14 Eversource - Statement.pdf",
+    "kwh": 893,
+    "supply": 101.78,
+    "delivery": 104.49,
+    "period_start": "2018-08-16",
+    "period_end": "2018-09-17",
+    "statement_date": "2018-10-14"
+  },
+  {
+    "filename": "2018-11-13 Eversource - Statement.pdf",
+    "kwh": 589,
+    "supply": 67.13,
+    "delivery": 71.29,
+    "period_start": "2018-09-17",
+    "period_end": "2018-10-17",
+    "statement_date": "2018-11-13"
+  },
+  {
+    "filename": "2018-12-15 Eversource - Statement.pdf",
+    "kwh": 430,
+    "supply": 49.01,
+    "delivery": 53.95,
+    "period_start": "2018-10-17",
+    "period_end": "2018-11-15",
+    "statement_date": "2018-12-15"
+  },
+  {
+    "filename": "2019-01-13 Eversource - Statement.pdf",
+    "kwh": 526,
+    "supply": 59.95,
+    "delivery": 64.42,
+    "period_start": "2018-11-15",
+    "period_end": "2018-12-17",
+    "statement_date": "2019-01-13"
+  },
+  {
+    "filename": "2019-02-16 Eversource - Statement.pdf",
+    "kwh": 510,
+    "supply": 64.25,
+    "delivery": 62.18,
+    "period_start": "2018-12-17",
+    "period_end": "2019-01-17",
+    "statement_date": "2019-02-16"
+  },
+  {
+    "filename": "2019-03-17 Eversource - Statement.pdf",
+    "kwh": 486,
+    "supply": 66.04,
+    "delivery": 59.16,
+    "period_start": "2019-01-17",
+    "period_end": "2019-02-15",
+    "statement_date": "2019-03-17"
+  },
+  {
+    "filename": "2019-04-15 Eversource - Statement.pdf",
+    "kwh": 492,
+    "supply": 66.85,
+    "delivery": 59.82,
+    "period_start": "2019-02-15",
+    "period_end": "2019-03-18",
+    "statement_date": "2019-04-15"
+  },
+  {
+    "filename": "2019-05-17 Eversource - Statement.pdf",
+    "kwh": 439,
+    "supply": 59.65,
+    "delivery": 54.13,
+    "period_start": "2019-03-18",
+    "period_end": "2019-04-18",
+    "statement_date": "2019-05-17"
+  },
+  {
+    "filename": "2019-06-15 Eversource - Statement.pdf",
+    "kwh": 389,
+    "supply": 52.86,
+    "delivery": 48.76,
+    "period_start": "2019-04-18",
+    "period_end": "2019-05-17",
+    "statement_date": "2019-06-15"
+  },
+  {
+    "filename": "2019-07-15 Eversource - Statement.pdf",
+    "kwh": 584,
+    "supply": 79.35,
+    "delivery": 69.69,
+    "period_start": "2019-05-17",
+    "period_end": "2019-06-18",
+    "statement_date": "2019-07-15"
+  },
+  {
+    "filename": "2019-08-15 Eversource - Statement.pdf",
+    "kwh": 836,
+    "supply": 99.79,
+    "delivery": 97.27,
+    "period_start": "2019-06-18",
+    "period_end": "2019-07-18",
+    "statement_date": "2019-08-15"
+  },
+  {
+    "filename": "2019-09-14 Eversource - Statement.pdf",
+    "kwh": 832,
+    "supply": 90.16,
+    "delivery": 97.19,
+    "period_start": "2019-07-18",
+    "period_end": "2019-08-16",
+    "statement_date": "2019-09-14"
+  },
+  {
+    "filename": "2019-10-14 Eversource - Statement.pdf",
+    "kwh": 639,
+    "supply": 69.24,
+    "delivery": 76.29,
+    "period_start": "2019-08-16",
+    "period_end": "2019-09-17",
+    "statement_date": "2019-10-14"
+  },
+  {
+    "filename": "2019-11-16 Eversource - Statement.pdf",
+    "kwh": 550,
+    "supply": 59.6,
+    "delivery": 66.66,
+    "period_start": "2019-09-17",
+    "period_end": "2019-10-21",
+    "statement_date": "2019-11-16"
+  },
+  {
+    "filename": "2019-12-15 Eversource - Statement.pdf",
+    "kwh": 408,
+    "supply": 44.21,
+    "delivery": 51.26,
+    "period_start": "2019-10-21",
+    "period_end": "2019-11-18",
+    "statement_date": "2019-12-15"
+  },
+  {
+    "filename": "2020-01-13 Eversource - Statement.pdf",
+    "kwh": 407,
+    "supply": 44.1,
+    "delivery": 51.14,
+    "period_start": "2019-11-18",
+    "period_end": "2019-12-17",
+    "statement_date": "2020-01-13"
+  },
+  {
+    "filename": "2020-02-16 Eversource - Statement.pdf",
+    "kwh": 497,
+    "supply": 58.44,
+    "delivery": 61.04,
+    "period_start": "2019-12-17",
+    "period_end": "2020-01-17",
+    "statement_date": "2020-02-16"
+  },
+  {
+    "filename": "2020-03-16 Eversource - Statement.pdf",
+    "kwh": 465,
+    "supply": 58.2,
+    "delivery": 57.65,
+    "period_start": "2020-01-17",
+    "period_end": "2020-02-18",
+    "statement_date": "2020-03-16"
+  },
+  {
+    "filename": "2020-04-14 Eversource - Statement.pdf",
+    "kwh": 355,
+    "supply": 44.44,
+    "delivery": 45.68,
+    "period_start": "2020-02-18",
+    "period_end": "2020-03-18",
+    "statement_date": "2020-04-14"
+  },
+  {
+    "filename": "2020-05-12 Eversource - Statement.pdf",
+    "kwh": 556,
+    "supply": 69.59,
+    "delivery": 67.58,
+    "period_start": "2020-03-18",
+    "period_end": "2020-04-17",
+    "statement_date": "2020-05-12"
+  },
+  {
+    "filename": "2020-06-10 Eversource - Statement.pdf",
+    "kwh": 492,
+    "supply": 61.58,
+    "delivery": 60.61,
+    "period_start": "2020-04-17",
+    "period_end": "2020-05-18",
+    "statement_date": "2020-06-10"
+  },
+  {
+    "filename": "2020-07-10 Eversource - Statement.pdf",
+    "kwh": 515,
+    "supply": 64.46,
+    "delivery": 63.12,
+    "period_start": "2020-05-18",
+    "period_end": "2020-06-17",
+    "statement_date": "2020-07-10"
+  },
+  {
+    "filename": "2020-08-11 Eversource - Statement.pdf",
+    "kwh": 821,
+    "supply": 90.48,
+    "delivery": 99.23,
+    "period_start": "2020-06-17",
+    "period_end": "2020-07-17",
+    "statement_date": "2020-08-11"
+  },
+  {
+    "filename": "2020-09-09 Eversource - Statement.pdf",
+    "kwh": 1045,
+    "supply": 103.21,
+    "delivery": 125.89,
+    "period_start": "2020-07-17",
+    "period_end": "2020-08-17",
+    "statement_date": "2020-09-09"
+  },
+  {
+    "filename": "2020-10-09 Eversource - Statement.pdf",
+    "kwh": 742,
+    "supply": 73.29,
+    "delivery": 90.7,
+    "period_start": "2020-08-17",
+    "period_end": "2020-09-16",
+    "statement_date": "2020-10-09"
+  },
+  {
+    "filename": "2020-11-10 Eversource - Statement.pdf",
+    "kwh": 444,
+    "supply": 43.85,
+    "delivery": 57.08,
+    "period_start": "2020-09-16",
+    "period_end": "2020-10-16",
+    "statement_date": "2020-11-10"
+  },
+  {
+    "filename": "2020-12-10 Eversource - Statement.pdf",
+    "kwh": 401,
+    "supply": 39.61,
+    "delivery": 52.25,
+    "period_start": "2020-10-16",
+    "period_end": "2020-11-17",
+    "statement_date": "2020-12-10"
+  },
+  {
+    "filename": "2021-01-11 Eversource - Statement.pdf",
+    "kwh": 404,
+    "supply": 39.9,
+    "delivery": 52.57,
+    "period_start": "2020-11-17",
+    "period_end": "2020-12-16",
+    "statement_date": "2021-01-11"
+  },
+  {
+    "filename": "2021-02-11 Eversource - Statement.pdf",
+    "kwh": 443,
+    "supply": 48.5,
+    "delivery": 58.3,
+    "period_start": "2020-12-16",
+    "period_end": "2021-01-19",
+    "statement_date": "2021-02-11"
+  },
+  {
+    "filename": "2021-03-12 Eversource - Statement.pdf",
+    "kwh": 419,
+    "supply": 49.42,
+    "delivery": 56.54,
+    "period_start": "2021-01-19",
+    "period_end": "2021-02-17",
+    "statement_date": "2021-03-12"
+  },
+  {
+    "filename": "2021-04-09 Eversource - Statement.pdf",
+    "kwh": 392,
+    "supply": 44.72,
+    "delivery": 53.34,
+    "period_start": "2021-02-17",
+    "period_end": "2021-03-17",
+    "statement_date": "2021-04-09"
+  },
+  {
+    "filename": "2021-05-12 Eversource - Statement.pdf",
+    "kwh": 424,
+    "supply": 48.37,
+    "delivery": 59.4,
+    "period_start": "2021-03-17",
+    "period_end": "2021-04-16",
+    "statement_date": "2021-05-12"
+  },
+  {
+    "filename": "2021-06-10 Eversource - Statement.pdf",
+    "kwh": 425,
+    "supply": 48.49,
+    "delivery": 61.51,
+    "period_start": "2021-04-16",
+    "period_end": "2021-05-18",
+    "statement_date": "2021-06-10"
+  },
+  {
+    "filename": "2021-07-12 Eversource - Statement.pdf",
+    "kwh": 778,
+    "supply": 88.76,
+    "delivery": 106.81,
+    "period_start": "2021-05-18",
+    "period_end": "2021-06-17",
+    "statement_date": "2021-07-12"
+  },
+  {
+    "filename": "2021-08-11 Eversource - Statement.pdf",
+    "kwh": 847,
+    "supply": 96.63,
+    "delivery": 114.64,
+    "period_start": "2021-06-17",
+    "period_end": "2021-07-19",
+    "statement_date": "2021-08-11"
+  },
+  {
+    "filename": "2021-09-09 Eversource - Statement.pdf",
+    "kwh": 736,
+    "supply": 83.97,
+    "delivery": 99.96,
+    "period_start": "2021-07-19",
+    "period_end": "2021-08-17",
+    "statement_date": "2021-09-09"
+  },
+  {
+    "filename": "2021-10-11 Eversource - Statement.pdf",
+    "kwh": 787,
+    "supply": 89.79,
+    "delivery": 106.38,
+    "period_start": "2021-08-17",
+    "period_end": "2021-09-16",
+    "statement_date": "2021-10-11"
+  },
+  {
+    "filename": "2021-11-10 Eversource - Statement.pdf",
+    "kwh": 532,
+    "supply": 60.7,
+    "delivery": 74.19,
+    "period_start": "2021-09-16",
+    "period_end": "2021-10-18",
+    "statement_date": "2021-11-10"
+  },
+  {
+    "filename": "2021-12-14 Eversource - Statement.pdf",
+    "kwh": 326,
+    "supply": 37.19,
+    "delivery": 48.16,
+    "period_start": "2021-10-18",
+    "period_end": "2021-11-17",
+    "statement_date": "2021-12-14"
+  },
+  {
+    "filename": "2022-01-11 Eversource - Statement.pdf",
+    "kwh": 246,
+    "supply": 27.46,
+    "delivery": 38.07,
+    "period_start": "2021-11-17",
+    "period_end": "2021-12-16",
+    "statement_date": "2022-01-11"
+  },
+  {
+    "filename": "2022-02-10 Eversource - Statement.pdf",
+    "kwh": 62,
+    "supply": 6.92,
+    "delivery": 15.18,
+    "period_start": "2021-12-16",
+    "period_end": "2022-01-18",
+    "statement_date": "2022-02-10"
+  },
+  {
+    "filename": "2022-03-11 Eversource - Statement.pdf",
+    "kwh": 264,
+    "supply": 29.47,
+    "delivery": 43.12,
+    "period_start": "2022-01-18",
+    "period_end": "2022-02-16",
+    "statement_date": "2022-03-11"
+  },
+  {
+    "filename": "2022-04-11 Eversource - Statement.pdf",
+    "kwh": 998,
+    "supply": 111.39,
+    "delivery": 143.6,
+    "period_start": "2022-02-16",
+    "period_end": "2022-03-17",
+    "statement_date": "2022-04-11"
+  },
+  {
+    "filename": "2022-05-11 Eversource - Statement.pdf",
+    "kwh": 629,
+    "supply": 70.2,
+    "delivery": 93.09,
+    "period_start": "2022-03-17",
+    "period_end": "2022-04-15",
+    "statement_date": "2022-05-11"
+  },
+  {
+    "filename": "2022-06-13 Eversource - Statement.pdf",
+    "kwh": 471,
+    "supply": 52.57,
+    "delivery": 71.48,
+    "period_start": "2022-04-15",
+    "period_end": "2022-05-17",
+    "statement_date": "2022-06-13"
+  },
+  {
+    "filename": "2022-07-15 Eversource - Statement.pdf",
+    "kwh": 325,
+    "supply": 36.27,
+    "delivery": 51.48,
+    "period_start": "2022-05-17",
+    "period_end": "2022-06-16",
+    "statement_date": "2022-07-15"
+  },
+  {
+    "filename": "2022-08-14 Eversource - Statement.pdf",
+    "kwh": 488,
+    "supply": 54.47,
+    "delivery": 75.53,
+    "period_start": "2022-06-16",
+    "period_end": "2022-07-18",
+    "statement_date": "2022-08-14"
+  },
+  {
+    "filename": "2022-09-13 Eversource - Statement.pdf",
+    "kwh": 653,
+    "supply": 72.88,
+    "delivery": 100.5,
+    "period_start": "2022-07-18",
+    "period_end": "2022-08-18",
+    "statement_date": "2022-09-13"
+  },
+  {
+    "filename": "2022-10-15 Eversource - Statement.pdf",
+    "kwh": 473,
+    "supply": 52.79,
+    "delivery": 74.73,
+    "period_start": "2022-08-18",
+    "period_end": "2022-09-16",
+    "statement_date": "2022-10-15"
+  },
+  {
+    "filename": "2022-11-14 Eversource - Statement.pdf",
+    "kwh": 349,
+    "supply": 38.95,
+    "delivery": 56.97,
+    "period_start": "2022-09-16",
+    "period_end": "2022-10-18",
+    "statement_date": "2022-11-14"
+  },
+  {
+    "filename": "2022-12-13 Eversource - Statement.pdf",
+    "kwh": 274,
+    "supply": 30.58,
+    "delivery": 46.24,
+    "period_start": "2022-10-18",
+    "period_end": "2022-11-16",
+    "statement_date": "2022-12-13"
+  },
+  {
+    "filename": "2023-01-14 Eversource - Statement.pdf",
+    "kwh": 238,
+    "supply": 26.56,
+    "delivery": 41.08,
+    "period_start": "2022-11-16",
+    "period_end": "2022-12-16",
+    "statement_date": "2023-01-14"
+  },
+  {
+    "filename": "2023-02-14 Eversource - Statement.pdf",
+    "kwh": 58,
+    "supply": 6.47,
+    "delivery": 17.04,
+    "period_start": "2022-12-16",
+    "period_end": "2023-01-18",
+    "statement_date": "2023-02-14"
+  },
+  {
+    "filename": "2023-03-14 Eversource - Statement.pdf",
+    "kwh": 25,
+    "supply": 2.79,
+    "delivery": 13.66,
+    "period_start": "2023-01-18",
+    "period_end": "2023-02-15",
+    "statement_date": "2023-03-14"
+  },
+  {
+    "filename": "2023-04-15 Eversource - Statement.pdf",
+    "kwh": 26,
+    "supply": 2.9,
+    "delivery": 13.8,
+    "period_start": "2023-02-15",
+    "period_end": "2023-03-16",
+    "statement_date": "2023-04-15"
+  },
+  {
+    "filename": "2023-05-15 Eversource - Statement.pdf",
+    "kwh": 57,
+    "supply": 6.44,
+    "delivery": 18.33,
+    "period_start": "2023-03-16",
+    "period_end": "2023-04-17",
+    "statement_date": "2023-05-15"
+  },
+  {
+    "filename": "2023-06-13 Eversource - Statement.pdf",
+    "kwh": 58,
+    "supply": 6.55,
+    "delivery": 18.48,
+    "period_start": "2023-04-17",
+    "period_end": "2023-05-16",
+    "statement_date": "2023-06-13"
+  },
+  {
+    "filename": "2023-07-15 Eversource - Statement.pdf",
+    "kwh": 118,
+    "supply": 13.32,
+    "delivery": 27.26,
+    "period_start": "2023-05-16",
+    "period_end": "2023-06-16",
+    "statement_date": "2023-07-15"
+  },
+  {
+    "filename": "2023-08-14 Eversource - Statement.pdf",
+    "kwh": 197,
+    "supply": 22.24,
+    "delivery": 38.89,
+    "period_start": "2023-06-16",
+    "period_end": "2023-07-17",
+    "statement_date": "2023-08-14"
+  },
+  {
+    "filename": "2023-09-15 Eversource - Statement.pdf",
+    "kwh": 341,
+    "supply": 38.5,
+    "delivery": 60.15,
+    "period_start": "2023-07-17",
+    "period_end": "2023-08-16",
+    "statement_date": "2023-09-15"
+  },
+  {
+    "filename": "2023-10-15 Eversource - Statement.pdf",
+    "kwh": 325,
+    "supply": 36.69,
+    "delivery": 57.79,
+    "period_start": "2023-08-16",
+    "period_end": "2023-09-15",
+    "statement_date": "2023-10-15"
+  },
+  {
+    "filename": "2023-11-14 Eversource - Statement.pdf",
+    "kwh": 182,
+    "supply": 20.55,
+    "delivery": 36.76,
+    "period_start": "2023-09-15",
+    "period_end": "2023-10-17",
+    "statement_date": "2023-11-14"
+  },
+  {
+    "filename": "2023-12-15 Eversource - Statement.pdf",
+    "kwh": 175,
+    "supply": 19.76,
+    "delivery": 35.73,
+    "period_start": "2023-10-17",
+    "period_end": "2023-11-15",
+    "statement_date": "2023-12-15"
+  },
+  {
+    "filename": "2024-01-13 Eversource - Statement.pdf",
+    "kwh": 60,
+    "supply": 6.77,
+    "delivery": 18.82,
+    "period_start": "2023-11-15",
+    "period_end": "2023-12-15",
+    "statement_date": "2024-01-13"
+  },
+  {
+    "filename": "2024-02-16 Eversource - Statement.pdf",
+    "kwh": 33,
+    "supply": 4.89,
+    "delivery": 15.16,
+    "period_start": "2023-12-15",
+    "period_end": "2024-01-17",
+    "statement_date": "2024-02-16"
+  },
+  {
+    "filename": "2024-03-16 Eversource - Statement.pdf",
+    "kwh": 16,
+    "supply": 2.37,
+    "delivery": 12.66,
+    "period_start": "2024-01-17",
+    "period_end": "2024-02-15",
+    "statement_date": "2024-03-16"
+  },
+  {
+    "filename": "2024-04-14 Eversource - Statement.pdf",
+    "kwh": 75,
+    "supply": 11.1,
+    "delivery": 22.48,
+    "period_start": "2024-02-15",
+    "period_end": "2024-03-15",
+    "statement_date": "2024-04-14"
+  },
+  {
+    "filename": "2024-05-14 Eversource - Statement.pdf",
+    "kwh": 60,
+    "supply": 8.88,
+    "delivery": 19.98,
+    "period_start": "2024-03-15",
+    "period_end": "2024-04-16",
+    "statement_date": "2024-05-14"
+  },
+  {
+    "filename": "2024-06-12 Eversource - Statement.pdf",
+    "kwh": 115,
+    "supply": 17.03,
+    "delivery": 29.14,
+    "period_start": "2024-04-16",
+    "period_end": "2024-05-16",
+    "statement_date": "2024-06-12"
+  },
+  {
+    "filename": "2024-07-14 Eversource - Statement.pdf",
+    "kwh": 154,
+    "supply": 22.8,
+    "delivery": 35.62,
+    "period_start": "2024-05-17",
+    "period_end": "2024-06-17",
+    "statement_date": "2024-07-14"
+  },
+  {
+    "filename": "2024-08-18 Eversource - Statement.pdf",
+    "kwh": 747,
+    "supply": 110.59,
+    "delivery": 138.3,
+    "period_start": "2024-06-18",
+    "period_end": "2024-07-18",
+    "statement_date": "2024-08-18"
+  },
+  {
+    "filename": "2024-09-14 Eversource - Statement.pdf",
+    "kwh": 638,
+    "supply": 94.46,
+    "delivery": 122.04,
+    "period_start": "2024-07-19",
+    "period_end": "2024-08-16",
+    "statement_date": "2024-09-14"
+  },
+  {
+    "filename": "2024-10-13 Eversource - Statement.pdf",
+    "kwh": 129,
+    "supply": 19.1,
+    "delivery": 32.65,
+    "period_start": "2024-08-17",
+    "period_end": "2024-09-17",
+    "statement_date": "2024-10-13"
+  },
+  {
+    "filename": "2024-11-12 Eversource - Statement.pdf",
+    "kwh": 100,
+    "supply": 14.81,
+    "delivery": 27.56,
+    "period_start": "2024-09-18",
+    "period_end": "2024-10-17",
+    "statement_date": "2024-11-12"
+  },
+  {
+    "filename": "2024-12-14 Eversource - Statement.pdf",
+    "kwh": 91,
+    "supply": 13.47,
+    "delivery": 26.01,
+    "period_start": "2024-10-18",
+    "period_end": "2024-11-18",
+    "statement_date": "2024-12-14"
+  },
+  {
+    "filename": "2025-01-13 Eversource - Statement.pdf",
+    "kwh": 54,
+    "supply": 7.99,
+    "delivery": 19.48,
+    "period_start": "2024-11-19",
+    "period_end": "2024-12-17",
+    "statement_date": "2025-01-13"
+  },
+  {
+    "filename": "2025-02-15 Eversource - Statement.pdf",
+    "kwh": 15,
+    "supply": 2.22,
+    "delivery": 12.78,
+    "period_start": "2024-12-18",
+    "period_end": "2025-01-17",
+    "statement_date": "2025-02-15"
+  },
+  {
+    "filename": "2025-03-16 Eversource - Statement.pdf",
+    "kwh": 23,
+    "supply": 3.41,
+    "delivery": 14.4,
+    "period_start": "2025-01-18",
+    "period_end": "2025-02-18",
+    "statement_date": "2025-03-16"
+  },
+  {
+    "filename": "2025-04-14 Eversource - Statement.pdf",
+    "kwh": 26,
+    "supply": 3.85,
+    "delivery": 14.98,
+    "period_start": "2025-02-19",
+    "period_end": "2025-03-19",
+    "statement_date": "2025-04-14"
+  },
+  {
+    "filename": "2025-05-12 Eversource - Statement.pdf",
+    "kwh": 1609,
+    "supply": 238.21,
+    "delivery": 317.67,
+    "period_start": "2025-03-20",
+    "period_end": "2025-04-16",
+    "statement_date": "2025-05-12"
+  },
+  {
+    "filename": "2025-06-14 Eversource - Statement.pdf",
+    "kwh": 227,
+    "supply": 33.61,
+    "delivery": 53.4,
+    "period_start": "2025-04-17",
+    "period_end": "2025-05-16",
+    "statement_date": "2025-06-14"
+  },
+  {
+    "filename": "2025-07-14 Eversource - Statement.pdf",
+    "kwh": 130,
+    "supply": 19.25,
+    "delivery": 34.87,
+    "period_start": "2025-05-17",
+    "period_end": "2025-06-17",
+    "statement_date": "2025-07-14"
+  },
+  {
+    "filename": "2025-08-16 Eversource - Statement.pdf",
+    "kwh": 637,
+    "supply": 94.31,
+    "delivery": 129.57,
+    "period_start": "2025-06-18",
+    "period_end": "2025-07-18",
+    "statement_date": "2025-08-16"
+  },
+  {
+    "filename": "2025-09-14 Eversource - Statement.pdf",
+    "kwh": 459,
+    "supply": 67.95,
+    "delivery": 94.98,
+    "period_start": "2025-07-19",
+    "period_end": "2025-08-18",
+    "statement_date": "2025-09-14"
+  },
+  {
+    "filename": "2025-10-14 Eversource - Statement.pdf",
+    "kwh": 77,
+    "supply": 11.4,
+    "delivery": 24.41,
+    "period_start": "2025-08-19",
+    "period_end": "2025-09-17",
+    "statement_date": "2025-10-14"
+  },
+  {
+    "filename": "2025-11-15 Eversource - Statement.pdf",
+    "kwh": 150,
+    "supply": 22.21,
+    "delivery": 38.31,
+    "period_start": "2025-09-18",
+    "period_end": "2025-10-17",
+    "statement_date": "2025-11-15"
+  },
+  {
+    "filename": "2025-12-14 Eversource - Statement.pdf",
+    "kwh": 192,
+    "supply": 28.43,
+    "delivery": 46.24,
+    "period_start": "2025-10-18",
+    "period_end": "2025-11-18",
+    "statement_date": "2025-12-14"
+  },
+  {
+    "filename": "2026-01-13 Eversource - Statement.pdf",
+    "kwh": 69,
+    "supply": 10.22,
+    "delivery": 23.01,
+    "period_start": "2025-11-19",
+    "period_end": "2025-12-18",
+    "statement_date": "2026-01-13"
+  },
+  {
+    "filename": "2026-02-23 Eversource - Statement.pdf",
+    "kwh": 906,
+    "supply": 128.78,
+    "delivery": 176.15,
+    "period_start": "2025-12-19",
+    "period_end": "2026-01-20",
+    "statement_date": "2026-02-23"
+  }
+]

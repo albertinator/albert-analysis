@@ -1,0 +1,1793 @@
+[
+  {
+    "filename": "2009-07-04 BWSC - Statement.pdf",
+    "cf": 878,
+    "water": 33.49,
+    "sewer": 43.19,
+    "period_start": "2009-04-21",
+    "period_end": "2009-06-04",
+    "statement_date": "2009-07-04"
+  },
+  {
+    "filename": "2009-08-04 BWSC - Statement.pdf",
+    "cf": 165,
+    "water": 6.22,
+    "sewer": 8.05,
+    "period_start": "2009-06-21",
+    "period_end": "2009-07-07",
+    "statement_date": "2009-08-04"
+  },
+  {
+    "filename": "2009-09-05 BWSC - Statement.pdf",
+    "cf": 262,
+    "water": 9.87,
+    "sewer": 12.78,
+    "period_start": "2009-07-21",
+    "period_end": "2009-08-06",
+    "statement_date": "2009-09-05"
+  },
+  {
+    "filename": "2009-10-04 BWSC - Statement.pdf",
+    "cf": 320,
+    "water": 12.06,
+    "sewer": 15.61,
+    "period_start": "2009-08-20",
+    "period_end": "2009-09-04",
+    "statement_date": "2009-10-04"
+  },
+  {
+    "filename": "2009-11-05 BWSC - Statement.pdf",
+    "cf": 466,
+    "water": 17.56,
+    "sewer": 22.74,
+    "period_start": "2009-09-21",
+    "period_end": "2009-10-06",
+    "statement_date": "2009-11-05"
+  },
+  {
+    "filename": "2009-12-05 BWSC - Statement.pdf",
+    "cf": 272,
+    "water": 10.25,
+    "sewer": 13.27,
+    "period_start": "2009-09-21",
+    "period_end": "2009-10-06",
+    "statement_date": "2009-12-05"
+  },
+  {
+    "filename": "2010-01-03 BWSC - Statement.pdf",
+    "cf": 439,
+    "water": 16.54,
+    "sewer": 21.42,
+    "period_start": "2009-11-19",
+    "period_end": "2009-12-04",
+    "statement_date": "2010-01-03"
+  },
+  {
+    "filename": "2010-02-06 BWSC - Statement.pdf",
+    "cf": 386,
+    "water": 14.54,
+    "sewer": 18.83,
+    "period_start": "2009-12-20",
+    "period_end": "2010-01-07",
+    "statement_date": "2010-02-06"
+  },
+  {
+    "filename": "2010-03-06 BWSC - Statement.pdf",
+    "cf": 303,
+    "water": 11.42,
+    "sewer": 14.78,
+    "period_start": "2010-01-20",
+    "period_end": "2010-02-04",
+    "statement_date": "2010-03-06"
+  },
+  {
+    "filename": "2010-04-03 BWSC - Statement.pdf",
+    "cf": 295,
+    "water": 11.12,
+    "sewer": 14.39,
+    "period_start": "2010-02-21",
+    "period_end": "2010-03-04",
+    "statement_date": "2010-04-03"
+  },
+  {
+    "filename": "2010-05-06 BWSC - Statement.pdf",
+    "cf": 365,
+    "water": 13.75,
+    "sewer": 17.81,
+    "period_start": "2010-03-21",
+    "period_end": "2010-04-06",
+    "statement_date": "2010-05-06"
+  },
+  {
+    "filename": "2010-06-05 BWSC - Statement.pdf",
+    "cf": 350,
+    "water": 13.54,
+    "sewer": 17.53,
+    "period_start": "2010-04-20",
+    "period_end": "2010-05-06",
+    "statement_date": "2010-06-05"
+  },
+  {
+    "filename": "2010-07-04 BWSC - Statement.pdf",
+    "cf": 290,
+    "water": 11.36,
+    "sewer": 14.71,
+    "period_start": "2010-05-19",
+    "period_end": "2010-06-04",
+    "statement_date": "2010-07-04"
+  },
+  {
+    "filename": "2010-08-06 BWSC - Statement.pdf",
+    "cf": 289,
+    "water": 11.32,
+    "sewer": 14.66,
+    "period_start": "2010-06-17",
+    "period_end": "2010-07-07",
+    "statement_date": "2010-08-06"
+  },
+  {
+    "filename": "2010-09-04 BWSC - Statement.pdf",
+    "cf": 301,
+    "water": 11.79,
+    "sewer": 15.27,
+    "period_start": "2010-07-19",
+    "period_end": "2010-08-05",
+    "statement_date": "2010-09-04"
+  },
+  {
+    "filename": "2010-10-07 BWSC - Statement.pdf",
+    "cf": 249,
+    "water": 9.75,
+    "sewer": 12.63,
+    "period_start": "2010-08-19",
+    "period_end": "2010-09-07",
+    "statement_date": "2010-10-07"
+  },
+  {
+    "filename": "2010-11-05 BWSC - Statement.pdf",
+    "cf": 292,
+    "water": 11.44,
+    "sewer": 14.81,
+    "period_start": "2010-09-19",
+    "period_end": "2010-10-06",
+    "statement_date": "2010-11-05"
+  },
+  {
+    "filename": "2010-12-04 BWSC - Statement.pdf",
+    "cf": 333,
+    "water": 13.04,
+    "sewer": 16.89,
+    "period_start": "2010-10-20",
+    "period_end": "2010-11-04",
+    "statement_date": "2010-12-04"
+  },
+  {
+    "filename": "2011-01-05 BWSC - Statement.pdf",
+    "cf": 309,
+    "water": 12.1,
+    "sewer": 15.67,
+    "period_start": "2010-11-21",
+    "period_end": "2010-12-06",
+    "statement_date": "2011-01-05"
+  },
+  {
+    "filename": "2011-02-05 BWSC - Statement.pdf",
+    "cf": 297,
+    "water": 11.63,
+    "sewer": 15.06,
+    "period_start": "2010-12-21",
+    "period_end": "2011-01-06",
+    "statement_date": "2011-02-05"
+  },
+  {
+    "filename": "2011-03-06 BWSC - Statement.pdf",
+    "cf": 249,
+    "water": 9.94,
+    "sewer": 12.87,
+    "period_start": "2011-01-19",
+    "period_end": "2011-02-04",
+    "statement_date": "2011-03-06"
+  },
+  {
+    "filename": "2011-04-06 BWSC - Statement.pdf",
+    "cf": 312,
+    "water": 12.58,
+    "sewer": 16.28,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2011-04-06"
+  },
+  {
+    "filename": "2011-05-06 BWSC - Statement.pdf",
+    "cf": 346,
+    "water": 13.95,
+    "sewer": 18.06,
+    "period_start": "2011-03-17",
+    "period_end": "2011-04-06",
+    "statement_date": "2011-05-06"
+  },
+  {
+    "filename": "2011-06-04 BWSC - Statement.pdf",
+    "cf": 367,
+    "water": 14.79,
+    "sewer": 19.15,
+    "period_start": "2011-04-18",
+    "period_end": "2011-05-05",
+    "statement_date": "2011-06-04"
+  },
+  {
+    "filename": "2011-07-06 BWSC - Statement.pdf",
+    "cf": 376,
+    "water": 15.16,
+    "sewer": 19.62,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2011-07-06"
+  },
+  {
+    "filename": "2011-09-06 BWSC - Statement.pdf",
+    "cf": 299,
+    "water": 12.05,
+    "sewer": 15.6,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2011-09-06"
+  },
+  {
+    "filename": "2011-10-07 BWSC - Statement.pdf",
+    "cf": 297,
+    "water": 11.97,
+    "sewer": 15.5,
+    "period_start": "2011-08-17",
+    "period_end": "2011-09-07",
+    "statement_date": "2011-10-07"
+  },
+  {
+    "filename": "2011-11-05 BWSC - Statement.pdf",
+    "cf": 275,
+    "water": 11.09,
+    "sewer": 14.35,
+    "period_start": "2011-09-18",
+    "period_end": "2011-10-06",
+    "statement_date": "2011-11-05"
+  },
+  {
+    "filename": "2011-12-04 BWSC - Statement.pdf",
+    "cf": 247,
+    "water": null,
+    "sewer": null,
+    "period_start": "2011-10-18",
+    "period_end": "2011-11-04",
+    "statement_date": "2011-12-04"
+  },
+  {
+    "filename": "2012-01-05 BWSC - Statement.pdf",
+    "cf": 284,
+    "water": 11.45,
+    "sewer": 14.82,
+    "period_start": "2011-11-17",
+    "period_end": "2011-12-06",
+    "statement_date": "2012-01-05"
+  },
+  {
+    "filename": "2012-02-05 BWSC - Statement.pdf",
+    "cf": 275,
+    "water": 11.09,
+    "sewer": 14.35,
+    "period_start": "2011-12-18",
+    "period_end": "2012-01-06",
+    "statement_date": "2012-02-05"
+  },
+  {
+    "filename": "2012-03-07 BWSC - Statement.pdf",
+    "cf": 177,
+    "water": 7.39,
+    "sewer": 9.57,
+    "period_start": "2012-01-18",
+    "period_end": "2012-02-06",
+    "statement_date": "2012-03-07"
+  },
+  {
+    "filename": "2012-04-05 BWSC - Statement.pdf",
+    "cf": 291,
+    "water": 12.46,
+    "sewer": 16.14,
+    "period_start": "2012-02-16",
+    "period_end": "2012-03-06",
+    "statement_date": "2012-04-05"
+  },
+  {
+    "filename": "2012-05-05 BWSC - Statement.pdf",
+    "cf": 203,
+    "water": 8.69,
+    "sewer": 11.26,
+    "period_start": "2012-03-18",
+    "period_end": "2012-04-05",
+    "statement_date": "2012-05-05"
+  },
+  {
+    "filename": "2012-06-03 BWSC - Statement.pdf",
+    "cf": 246,
+    "water": 10.54,
+    "sewer": 13.64,
+    "period_start": "2012-04-18",
+    "period_end": "2012-05-04",
+    "statement_date": "2012-06-03"
+  },
+  {
+    "filename": "2012-07-06 BWSC - Statement.pdf",
+    "cf": 262,
+    "water": 11.22,
+    "sewer": 14.53,
+    "period_start": "2012-05-17",
+    "period_end": "2012-06-06",
+    "statement_date": "2012-07-06"
+  },
+  {
+    "filename": "2012-08-05 BWSC - Statement.pdf",
+    "cf": 191,
+    "water": 8.18,
+    "sewer": 10.59,
+    "period_start": "2012-06-17",
+    "period_end": "2012-07-06",
+    "statement_date": "2012-08-05"
+  },
+  {
+    "filename": "2012-09-05 BWSC - Statement.pdf",
+    "cf": 512,
+    "water": 21.93,
+    "sewer": 28.39,
+    "period_start": "2012-07-17",
+    "period_end": "2012-08-06",
+    "statement_date": "2012-09-05"
+  },
+  {
+    "filename": "2012-10-07 BWSC - Statement.pdf",
+    "cf": 548,
+    "water": 23.47,
+    "sewer": 30.39,
+    "period_start": "2012-08-15",
+    "period_end": "2012-09-07",
+    "statement_date": "2012-10-07"
+  },
+  {
+    "filename": "2012-11-04 BWSC - Statement.pdf",
+    "cf": 477,
+    "water": 20.43,
+    "sewer": 26.45,
+    "period_start": "2012-09-16",
+    "period_end": "2012-10-05",
+    "statement_date": "2012-11-04"
+  },
+  {
+    "filename": "2012-12-06 BWSC - Statement.pdf",
+    "cf": 367,
+    "water": 15.72,
+    "sewer": 20.35,
+    "period_start": "2012-10-17",
+    "period_end": "2012-11-06",
+    "statement_date": "2012-12-06"
+  },
+  {
+    "filename": "2013-01-05 BWSC - Statement.pdf",
+    "cf": 303,
+    "water": 12.98,
+    "sewer": 16.8,
+    "period_start": "2012-11-15",
+    "period_end": "2012-12-06",
+    "statement_date": "2013-01-05"
+  },
+  {
+    "filename": "2013-02-06 BWSC - Statement.pdf",
+    "cf": 248,
+    "water": 10.62,
+    "sewer": 13.75,
+    "period_start": "2012-12-16",
+    "period_end": "2013-01-07",
+    "statement_date": "2013-02-06"
+  },
+  {
+    "filename": "2013-03-08 BWSC - Statement.pdf",
+    "cf": 179,
+    "water": 7.82,
+    "sewer": 10.13,
+    "period_start": "2013-01-16",
+    "period_end": "2013-02-06",
+    "statement_date": "2013-03-08"
+  },
+  {
+    "filename": "2013-04-05 BWSC - Statement.pdf",
+    "cf": 195,
+    "water": 8.68,
+    "sewer": 11.23,
+    "period_start": "2013-02-14",
+    "period_end": "2013-03-06",
+    "statement_date": "2013-04-05"
+  },
+  {
+    "filename": "2013-05-04 BWSC - Statement.pdf",
+    "cf": 361,
+    "water": 16.06,
+    "sewer": 20.8,
+    "period_start": "2013-03-17",
+    "period_end": "2013-04-04",
+    "statement_date": "2013-05-04"
+  },
+  {
+    "filename": "2013-06-05 BWSC - Statement.pdf",
+    "cf": 302,
+    "water": 13.44,
+    "sewer": 17.4,
+    "period_start": "2013-04-17",
+    "period_end": "2013-05-06",
+    "statement_date": "2013-06-05"
+  },
+  {
+    "filename": "2013-07-06 BWSC - Statement.pdf",
+    "cf": 313,
+    "water": 13.93,
+    "sewer": 18.03,
+    "period_start": "2013-05-16",
+    "period_end": "2013-06-06",
+    "statement_date": "2013-07-06"
+  },
+  {
+    "filename": "2013-08-04 BWSC - Statement.pdf",
+    "cf": 292,
+    "water": 12.99,
+    "sewer": 16.82,
+    "period_start": "2013-06-16",
+    "period_end": "2013-07-05",
+    "statement_date": "2013-08-04"
+  },
+  {
+    "filename": "2013-10-06 BWSC - Statement.pdf",
+    "cf": 378,
+    "water": 16.82,
+    "sewer": 21.78,
+    "period_start": "2013-08-15",
+    "period_end": "2013-09-06",
+    "statement_date": "2013-10-06"
+  },
+  {
+    "filename": "2013-11-03 BWSC - Statement.pdf",
+    "cf": 370,
+    "water": 16.47,
+    "sewer": 21.32,
+    "period_start": "2013-09-15",
+    "period_end": "2013-10-04",
+    "statement_date": "2013-11-03"
+  },
+  {
+    "filename": "2013-12-06 BWSC - Statement.pdf",
+    "cf": 391,
+    "water": 17.4,
+    "sewer": 22.53,
+    "period_start": "2013-10-15",
+    "period_end": "2013-11-06",
+    "statement_date": "2013-12-06"
+  },
+  {
+    "filename": "2014-01-04 BWSC - Statement.pdf",
+    "cf": 394,
+    "water": 17.53,
+    "sewer": 22.7,
+    "period_start": "2013-11-14",
+    "period_end": "2013-12-05",
+    "statement_date": "2014-01-04"
+  },
+  {
+    "filename": "2014-02-06 BWSC - Statement.pdf",
+    "cf": 397,
+    "water": 17.67,
+    "sewer": 22.87,
+    "period_start": "2013-12-15",
+    "period_end": "2014-01-07",
+    "statement_date": "2014-02-06"
+  },
+  {
+    "filename": "2014-03-08 BWSC - Statement.pdf",
+    "cf": 335,
+    "water": 15.25,
+    "sewer": 19.75,
+    "period_start": "2014-01-15",
+    "period_end": "2014-02-06",
+    "statement_date": "2014-03-08"
+  },
+  {
+    "filename": "2014-04-05 BWSC - Statement.pdf",
+    "cf": 412,
+    "water": 19.22,
+    "sewer": 24.88,
+    "period_start": "2014-02-13",
+    "period_end": "2014-03-06",
+    "statement_date": "2014-04-05"
+  },
+  {
+    "filename": "2014-05-04 BWSC - Statement.pdf",
+    "cf": 480,
+    "water": 22.39,
+    "sewer": 28.98,
+    "period_start": "2014-03-13",
+    "period_end": "2014-04-04",
+    "statement_date": "2014-05-04"
+  },
+  {
+    "filename": "2014-06-05 BWSC - Statement.pdf",
+    "cf": 533,
+    "water": 24.86,
+    "sewer": 32.18,
+    "period_start": "2014-04-13",
+    "period_end": "2014-05-06",
+    "statement_date": "2014-06-05"
+  },
+  {
+    "filename": "2014-07-05 BWSC - Statement.pdf",
+    "cf": 574,
+    "water": 26.78,
+    "sewer": 34.67,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2014-07-05"
+  },
+  {
+    "filename": "2014-08-06 BWSC - Statement.pdf",
+    "cf": 616,
+    "water": 28.83,
+    "sewer": 37.28,
+    "period_start": "2014-06-12",
+    "period_end": "2014-07-07",
+    "statement_date": "2014-08-06"
+  },
+  {
+    "filename": "2014-09-05 BWSC - Statement.pdf",
+    "cf": 604,
+    "water": 28.2,
+    "sewer": 36.5,
+    "period_start": "2014-07-13",
+    "period_end": "2014-08-06",
+    "statement_date": "2014-09-05"
+  },
+  {
+    "filename": "2014-10-05 BWSC - Statement.pdf",
+    "cf": 728,
+    "water": 34.26,
+    "sewer": 44.22,
+    "period_start": "2014-08-13",
+    "period_end": "2014-09-05",
+    "statement_date": "2014-10-05"
+  },
+  {
+    "filename": "2014-11-05 BWSC - Statement.pdf",
+    "cf": 527,
+    "water": 24.58,
+    "sewer": 31.82,
+    "period_start": "2014-09-14",
+    "period_end": "2014-10-06",
+    "statement_date": "2014-11-05"
+  },
+  {
+    "filename": "2014-12-06 BWSC - Statement.pdf",
+    "cf": 653,
+    "water": 30.64,
+    "sewer": 39.58,
+    "period_start": "2014-10-14",
+    "period_end": "2014-11-06",
+    "statement_date": "2014-12-06"
+  },
+  {
+    "filename": "2015-01-03 BWSC - Statement.pdf",
+    "cf": 775,
+    "water": 36.59,
+    "sewer": 47.18,
+    "period_start": "2014-11-13",
+    "period_end": "2014-12-04",
+    "statement_date": "2015-01-03"
+  },
+  {
+    "filename": "2015-02-06 BWSC - Statement.pdf",
+    "cf": 717,
+    "water": 33.72,
+    "sewer": 43.53,
+    "period_start": "2014-12-14",
+    "period_end": "2015-01-07",
+    "statement_date": "2015-02-06"
+  },
+  {
+    "filename": "2015-03-07 BWSC - Statement.pdf",
+    "cf": 370,
+    "water": 17.65,
+    "sewer": 22.85,
+    "period_start": "2015-01-14",
+    "period_end": "2015-02-05",
+    "statement_date": "2015-03-07"
+  },
+  {
+    "filename": "2015-04-04 BWSC - Statement.pdf",
+    "cf": 316,
+    "water": 15.48,
+    "sewer": 20.04,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2015-04-04"
+  },
+  {
+    "filename": "2015-05-06 BWSC - Statement.pdf",
+    "cf": 366,
+    "water": 17.93,
+    "sewer": 23.22,
+    "period_start": "2015-03-15",
+    "period_end": "2015-04-06",
+    "statement_date": "2015-05-06"
+  },
+  {
+    "filename": "2015-06-05 BWSC - Statement.pdf",
+    "cf": 361,
+    "water": 17.69,
+    "sewer": 22.9,
+    "period_start": "2015-04-15",
+    "period_end": "2015-05-06",
+    "statement_date": "2015-06-05"
+  },
+  {
+    "filename": "2015-07-04 BWSC - Statement.pdf",
+    "cf": 538,
+    "water": 26.36,
+    "sewer": 34.13,
+    "period_start": "2015-04-15",
+    "period_end": "2015-05-06",
+    "statement_date": "2015-07-04"
+  },
+  {
+    "filename": "2015-08-06 BWSC - Statement.pdf",
+    "cf": 503,
+    "water": 24.65,
+    "sewer": 31.91,
+    "period_start": "2015-06-17",
+    "period_end": "2015-07-07",
+    "statement_date": "2015-08-06"
+  },
+  {
+    "filename": "2015-09-05 BWSC - Statement.pdf",
+    "cf": 477,
+    "water": 23.37,
+    "sewer": 30.26,
+    "period_start": "2015-07-16",
+    "period_end": "2015-08-06",
+    "statement_date": "2015-09-05"
+  },
+  {
+    "filename": "2015-10-04 BWSC - Statement.pdf",
+    "cf": 594,
+    "water": 29.12,
+    "sewer": 37.69,
+    "period_start": "2015-07-16",
+    "period_end": "2015-08-06",
+    "statement_date": "2015-10-04"
+  },
+  {
+    "filename": "2015-11-05 BWSC - Statement.pdf",
+    "cf": 563,
+    "water": 27.59,
+    "sewer": 35.71,
+    "period_start": "2015-08-16",
+    "period_end": "2015-09-04",
+    "statement_date": "2015-11-05"
+  },
+  {
+    "filename": "2015-12-05 BWSC - Statement.pdf",
+    "cf": 730,
+    "water": 36.05,
+    "sewer": 46.54,
+    "period_start": "2015-10-18",
+    "period_end": "2015-11-05",
+    "statement_date": "2015-12-05"
+  },
+  {
+    "filename": "2016-01-03 BWSC - Statement.pdf",
+    "cf": 668,
+    "water": 32.91,
+    "sewer": 42.53,
+    "period_start": "2015-11-18",
+    "period_end": "2015-12-04",
+    "statement_date": "2016-01-03"
+  },
+  {
+    "filename": "2016-02-06 BWSC - Statement.pdf",
+    "cf": 630,
+    "water": 31.05,
+    "sewer": 40.11,
+    "period_start": "2015-12-17",
+    "period_end": "2016-01-07",
+    "statement_date": "2016-02-06"
+  },
+  {
+    "filename": "2016-03-05 BWSC - Statement.pdf",
+    "cf": 605,
+    "water": 29.65,
+    "sewer": 39.58,
+    "period_start": "2016-01-29",
+    "period_end": "2016-02-04",
+    "statement_date": "2016-03-05"
+  },
+  {
+    "filename": "2016-04-03 BWSC - Statement.pdf",
+    "cf": 485,
+    "water": 23.77,
+    "sewer": 32.49,
+    "period_start": "2016-02-18",
+    "period_end": "2016-03-04",
+    "statement_date": "2016-04-03"
+  },
+  {
+    "filename": "2016-05-06 BWSC - Statement.pdf",
+    "cf": 529,
+    "water": 25.92,
+    "sewer": 35.43,
+    "period_start": "2016-03-20",
+    "period_end": "2016-04-06",
+    "statement_date": "2016-05-06"
+  },
+  {
+    "filename": "2016-06-04 BWSC - Statement.pdf",
+    "cf": 606,
+    "water": 29.73,
+    "sewer": 40.62,
+    "period_start": "2016-04-20",
+    "period_end": "2016-05-05",
+    "statement_date": "2016-06-04"
+  },
+  {
+    "filename": "2016-07-06 BWSC - Statement.pdf",
+    "cf": 528,
+    "water": 25.87,
+    "sewer": 35.37,
+    "period_start": "2016-05-19",
+    "period_end": "2016-06-06",
+    "statement_date": "2016-07-06"
+  },
+  {
+    "filename": "2016-08-06 BWSC - Statement.pdf",
+    "cf": 505,
+    "water": 24.75,
+    "sewer": 33.82,
+    "period_start": "2016-05-19",
+    "period_end": "2016-06-19",
+    "statement_date": "2016-08-06"
+  },
+  {
+    "filename": "2016-09-03 BWSC - Statement.pdf",
+    "cf": 353,
+    "water": 17.3,
+    "sewer": 23.64,
+    "period_start": "2016-06-19",
+    "period_end": "2016-08-04",
+    "statement_date": "2016-09-03"
+  },
+  {
+    "filename": "2016-10-08 BWSC - Statement.pdf",
+    "cf": 234,
+    "water": 11.47,
+    "sewer": 15.67,
+    "period_start": "2016-08-19",
+    "period_end": "2016-09-08",
+    "statement_date": "2016-10-08"
+  },
+  {
+    "filename": "2016-11-05 BWSC - Statement.pdf",
+    "cf": 454,
+    "water": 22.25,
+    "sewer": 30.41,
+    "period_start": "2016-09-19",
+    "period_end": "2016-10-06",
+    "statement_date": "2016-11-05"
+  },
+  {
+    "filename": "2016-12-04 BWSC - Statement.pdf",
+    "cf": 362,
+    "water": 17.74,
+    "sewer": 24.25,
+    "period_start": "2016-10-19",
+    "period_end": "2016-11-04",
+    "statement_date": "2016-12-04"
+  },
+  {
+    "filename": "2017-01-05 BWSC - Statement.pdf",
+    "cf": 520,
+    "water": 25.48,
+    "sewer": 34.83,
+    "period_start": "2016-10-19",
+    "period_end": "2016-12-06",
+    "statement_date": "2017-01-05"
+  },
+  {
+    "filename": "2017-02-05 BWSC - Statement.pdf",
+    "cf": 600,
+    "water": 29.47,
+    "sewer": 40.25,
+    "period_start": "2016-12-21",
+    "period_end": "2017-01-06",
+    "statement_date": "2017-02-05"
+  },
+  {
+    "filename": "2017-03-08 BWSC - Statement.pdf",
+    "cf": 608,
+    "water": 30.03,
+    "sewer": 41.8,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2017-03-08"
+  },
+  {
+    "filename": "2017-04-05 BWSC - Statement.pdf",
+    "cf": 561,
+    "water": 27.69,
+    "sewer": 27.69,
+    "period_start": "2017-02-20",
+    "period_end": "2017-03-06",
+    "statement_date": "2017-04-05"
+  },
+  {
+    "filename": "2017-05-06 BWSC - Statement.pdf",
+    "cf": 321,
+    "water": 15.84,
+    "sewer": 25.24,
+    "period_start": "2017-03-22",
+    "period_end": "2017-04-06",
+    "statement_date": "2017-05-06"
+  },
+  {
+    "filename": "2017-06-03 BWSC - Statement.pdf",
+    "cf": 654,
+    "water": 32.39,
+    "sewer": 45.51,
+    "period_start": "2017-04-23",
+    "period_end": "2017-05-04",
+    "statement_date": "2017-06-03"
+  },
+  {
+    "filename": "2017-07-06 BWSC - Statement.pdf",
+    "cf": 426,
+    "water": 21.03,
+    "sewer": 29.58,
+    "period_start": "2017-05-23",
+    "period_end": "2017-06-06",
+    "statement_date": "2017-07-06"
+  },
+  {
+    "filename": "2017-08-06 BWSC - Statement.pdf",
+    "cf": 325,
+    "water": 16.04,
+    "sewer": 22.56,
+    "period_start": "2017-06-23",
+    "period_end": "2017-07-07",
+    "statement_date": "2017-08-06"
+  },
+  {
+    "filename": "2017-09-03 BWSC - Statement.pdf",
+    "cf": 384,
+    "water": 18.95,
+    "sewer": 26.66,
+    "period_start": "2017-07-23",
+    "period_end": "2017-08-04",
+    "statement_date": "2017-09-03"
+  },
+  {
+    "filename": "2017-10-07 BWSC - Statement.pdf",
+    "cf": 564,
+    "water": 27.84,
+    "sewer": 39.16,
+    "period_start": "2017-08-22",
+    "period_end": "2017-09-07",
+    "statement_date": "2017-10-07"
+  },
+  {
+    "filename": "2017-11-04 BWSC - Statement.pdf",
+    "cf": 436,
+    "water": 21.52,
+    "sewer": 30.27,
+    "period_start": "2017-09-21",
+    "period_end": "2017-10-05",
+    "statement_date": "2017-11-04"
+  },
+  {
+    "filename": "2017-12-06 BWSC - Statement.pdf",
+    "cf": 387,
+    "water": 19.1,
+    "sewer": 26.87,
+    "period_start": "2017-10-24",
+    "period_end": "2017-11-06",
+    "statement_date": "2017-12-06"
+  },
+  {
+    "filename": "2018-01-05 BWSC - Statement.pdf",
+    "cf": 662,
+    "water": 32.89,
+    "sewer": 46.16,
+    "period_start": "2017-11-23",
+    "period_end": "2017-12-06",
+    "statement_date": "2018-01-05"
+  },
+  {
+    "filename": "2018-02-04 BWSC - Statement.pdf",
+    "cf": 660,
+    "water": 32.7,
+    "sewer": 45.94,
+    "period_start": "2017-12-25",
+    "period_end": "2018-01-05",
+    "statement_date": "2018-02-04"
+  },
+  {
+    "filename": "2018-03-08 BWSC - Statement.pdf",
+    "cf": 375,
+    "water": 19.17,
+    "sewer": 27.05,
+    "period_start": "2018-01-23",
+    "period_end": "2018-02-06",
+    "statement_date": "2018-03-08"
+  },
+  {
+    "filename": "2018-04-05 BWSC - Statement.pdf",
+    "cf": 527,
+    "water": 27.19,
+    "sewer": 38.39,
+    "period_start": "2018-02-22",
+    "period_end": "2018-03-06",
+    "statement_date": "2018-04-05"
+  },
+  {
+    "filename": "2018-05-05 BWSC - Statement.pdf",
+    "cf": 548,
+    "water": 28.27,
+    "sewer": 39.92,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2018-05-05"
+  },
+  {
+    "filename": "2018-06-05 BWSC - Statement.pdf",
+    "cf": 607,
+    "water": 31.4,
+    "sewer": 44.3,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2018-06-05"
+  },
+  {
+    "filename": "2018-07-06 BWSC - Statement.pdf",
+    "cf": 576,
+    "water": 29.73,
+    "sewer": 41.98,
+    "period_start": "2018-05-24",
+    "period_end": "2018-06-06",
+    "statement_date": "2018-07-06"
+  },
+  {
+    "filename": "2018-08-05 BWSC - Statement.pdf",
+    "cf": 598,
+    "water": 30.85,
+    "sewer": 43.56,
+    "period_start": "2018-06-26",
+    "period_end": "2018-07-06",
+    "statement_date": "2018-08-05"
+  },
+  {
+    "filename": "2018-09-05 BWSC - Statement.pdf",
+    "cf": 410,
+    "water": 21.15,
+    "sewer": 29.87,
+    "period_start": "2018-07-25",
+    "period_end": "2018-08-06",
+    "statement_date": "2018-09-05"
+  },
+  {
+    "filename": "2018-10-07 BWSC - Statement.pdf",
+    "cf": 537,
+    "water": 27.7,
+    "sewer": 39.12,
+    "period_start": "2018-08-26",
+    "period_end": "2018-09-07",
+    "statement_date": "2018-10-07"
+  },
+  {
+    "filename": "2018-11-03 BWSC - Statement.pdf",
+    "cf": 670,
+    "water": 34.76,
+    "sewer": 48.99,
+    "period_start": "2018-09-26",
+    "period_end": "2018-10-04",
+    "statement_date": "2018-11-03"
+  },
+  {
+    "filename": "2018-12-06 BWSC - Statement.pdf",
+    "cf": 627,
+    "water": 32.48,
+    "sewer": 45.8,
+    "period_start": "2018-10-26",
+    "period_end": "2018-11-06",
+    "statement_date": "2018-12-06"
+  },
+  {
+    "filename": "2019-01-05 BWSC - Statement.pdf",
+    "cf": 578,
+    "water": 29.82,
+    "sewer": 42.11,
+    "period_start": "2018-11-26",
+    "period_end": "2018-12-06",
+    "statement_date": "2019-01-05"
+  },
+  {
+    "filename": "2019-02-06 BWSC - Statement.pdf",
+    "cf": 552,
+    "water": 28.48,
+    "sewer": 40.21,
+    "period_start": "2018-11-26",
+    "period_end": "2018-12-06",
+    "statement_date": "2019-02-06"
+  },
+  {
+    "filename": "2019-03-08 BWSC - Statement.pdf",
+    "cf": 564,
+    "water": 29.96,
+    "sewer": 41.97,
+    "period_start": "2019-01-28",
+    "period_end": "2019-02-06",
+    "statement_date": "2019-03-08"
+  },
+  {
+    "filename": "2019-04-05 BWSC - Statement.pdf",
+    "cf": 581,
+    "water": 31.06,
+    "sewer": 43.43,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2019-04-05"
+  },
+  {
+    "filename": "2019-05-04 BWSC - Statement.pdf",
+    "cf": 473,
+    "water": 25.23,
+    "sewer": 35.3,
+    "period_start": "2019-03-27",
+    "period_end": "2019-04-04",
+    "statement_date": "2019-05-04"
+  },
+  {
+    "filename": "2019-06-05 BWSC - Statement.pdf",
+    "cf": 510,
+    "water": 27.2,
+    "sewer": 38.07,
+    "period_start": "2019-04-25",
+    "period_end": "2019-05-06",
+    "statement_date": "2019-06-05"
+  },
+  {
+    "filename": "2019-07-06 BWSC - Statement.pdf",
+    "cf": 577,
+    "water": 30.77,
+    "sewer": 43.07,
+    "period_start": "2019-05-28",
+    "period_end": "2019-06-06",
+    "statement_date": "2019-07-06"
+  },
+  {
+    "filename": "2019-08-04 BWSC - Statement.pdf",
+    "cf": 532,
+    "water": 28.37,
+    "sewer": 39.71,
+    "period_start": "2019-06-27",
+    "period_end": "2019-07-05",
+    "statement_date": "2019-08-04"
+  },
+  {
+    "filename": "2019-09-05 BWSC - Statement.pdf",
+    "cf": 473,
+    "water": 25.23,
+    "sewer": 35.3,
+    "period_start": "2019-07-28",
+    "period_end": "2019-08-06",
+    "statement_date": "2019-09-05"
+  },
+  {
+    "filename": "2019-10-15 BWSC - Statement.pdf",
+    "cf": 531,
+    "water": 28.32,
+    "sewer": 39.63,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2019-10-15"
+  },
+  {
+    "filename": "2019-11-08 BWSC - Statement.pdf",
+    "cf": 363,
+    "water": 19.36,
+    "sewer": 27.09,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2019-11-08"
+  },
+  {
+    "filename": "2019-12-12 BWSC - Statement.pdf",
+    "cf": 568,
+    "water": 30.29,
+    "sewer": 0.0,
+    "period_start": "2019-10-07",
+    "period_end": "2019-11-06",
+    "statement_date": "2019-12-12"
+  },
+  {
+    "filename": "2020-01-08 BWSC - Statement.pdf",
+    "cf": 517,
+    "water": 27.58,
+    "sewer": 38.6,
+    "period_start": "2019-11-06",
+    "period_end": "2019-12-04",
+    "statement_date": "2020-01-08"
+  },
+  {
+    "filename": "2020-02-08 BWSC - Statement.pdf",
+    "cf": 664,
+    "water": 35.6,
+    "sewer": 49.73,
+    "period_start": "2019-12-04",
+    "period_end": "2020-01-06",
+    "statement_date": "2020-02-08"
+  },
+  {
+    "filename": "2020-03-11 BWSC - Statement.pdf",
+    "cf": 609,
+    "water": 32.91,
+    "sewer": 46.13,
+    "period_start": "2020-01-06",
+    "period_end": "2020-02-06",
+    "statement_date": "2020-03-11"
+  },
+  {
+    "filename": "2020-04-08 BWSC - Statement.pdf",
+    "cf": 653,
+    "water": 35.34,
+    "sewer": 49.53,
+    "period_start": "2020-02-06",
+    "period_end": "2020-03-05",
+    "statement_date": "2020-04-08"
+  },
+  {
+    "filename": "2020-05-08 BWSC - Statement.pdf",
+    "cf": 476,
+    "water": 25.64,
+    "sewer": 35.89,
+    "period_start": "2020-03-05",
+    "period_end": "2020-04-06",
+    "statement_date": "2020-05-08"
+  },
+  {
+    "filename": "2020-06-10 BWSC - Statement.pdf",
+    "cf": 610,
+    "water": 33.07,
+    "sewer": 46.38,
+    "period_start": "2020-04-06",
+    "period_end": "2020-05-06",
+    "statement_date": "2020-06-10"
+  },
+  {
+    "filename": "2020-07-09 BWSC - Statement.pdf",
+    "cf": 650,
+    "water": 35.17,
+    "sewer": 49.28,
+    "period_start": "2020-05-06",
+    "period_end": "2020-06-05",
+    "statement_date": "2020-07-09"
+  },
+  {
+    "filename": "2020-08-12 BWSC - Statement.pdf",
+    "cf": 636,
+    "water": 34.5,
+    "sewer": 48.38,
+    "period_start": "2020-06-05",
+    "period_end": "2020-07-08",
+    "statement_date": "2020-08-12"
+  },
+  {
+    "filename": "2020-09-09 BWSC - Statement.pdf",
+    "cf": 588,
+    "water": 31.81,
+    "sewer": 44.57,
+    "period_start": "2020-07-08",
+    "period_end": "2020-08-05",
+    "statement_date": "2020-09-09"
+  },
+  {
+    "filename": "2020-10-10 BWSC - Statement.pdf",
+    "cf": 519,
+    "water": 27.95,
+    "sewer": 39.13,
+    "period_start": "2020-08-05",
+    "period_end": "2020-09-08",
+    "statement_date": "2020-10-10"
+  },
+  {
+    "filename": "2020-11-11 BWSC - Statement.pdf",
+    "cf": 439,
+    "water": 23.64,
+    "sewer": 33.1,
+    "period_start": "2020-09-08",
+    "period_end": "2020-10-07",
+    "statement_date": "2020-11-11"
+  },
+  {
+    "filename": "2020-12-18 BWSC - Statement.pdf",
+    "cf": 440,
+    "water": 23.7,
+    "sewer": 33.17,
+    "period_start": "2020-10-07",
+    "period_end": "2020-11-15",
+    "statement_date": "2020-12-18"
+  },
+  {
+    "filename": "2021-01-08 BWSC - Statement.pdf",
+    "cf": 537,
+    "water": 28.92,
+    "sewer": 40.48,
+    "period_start": "2020-11-15",
+    "period_end": "2020-12-07",
+    "statement_date": "2021-01-08"
+  },
+  {
+    "filename": "2021-02-11 BWSC - Statement.pdf",
+    "cf": 434,
+    "water": 23.38,
+    "sewer": 32.72,
+    "period_start": "2020-12-07",
+    "period_end": "2021-01-06",
+    "statement_date": "2021-02-11"
+  },
+  {
+    "filename": "2021-03-11 BWSC - Statement.pdf",
+    "cf": 436,
+    "water": 25.3,
+    "sewer": 34.7,
+    "period_start": "2021-01-06",
+    "period_end": "2021-02-04",
+    "statement_date": "2021-03-11"
+  },
+  {
+    "filename": "2021-04-08 BWSC - Statement.pdf",
+    "cf": 402,
+    "water": 23.96,
+    "sewer": 32.63,
+    "period_start": "2021-02-04",
+    "period_end": "2021-03-04",
+    "statement_date": "2021-04-08"
+  },
+  {
+    "filename": "2021-05-11 BWSC - Statement.pdf",
+    "cf": 456,
+    "water": 27.17,
+    "sewer": 37.01,
+    "period_start": "2021-03-04",
+    "period_end": "2021-04-07",
+    "statement_date": "2021-05-11"
+  },
+  {
+    "filename": "2021-06-08 BWSC - Statement.pdf",
+    "cf": 518,
+    "water": 30.87,
+    "sewer": 42.04,
+    "period_start": "2021-04-07",
+    "period_end": "2021-05-05",
+    "statement_date": "2021-06-08"
+  },
+  {
+    "filename": "2021-07-09 BWSC - Statement.pdf",
+    "cf": 481,
+    "water": 28.66,
+    "sewer": 39.04,
+    "period_start": "2021-05-05",
+    "period_end": "2021-06-07",
+    "statement_date": "2021-07-09"
+  },
+  {
+    "filename": "2021-08-11 BWSC - Statement.pdf",
+    "cf": 518,
+    "water": 30.87,
+    "sewer": 42.04,
+    "period_start": "2021-06-07",
+    "period_end": "2021-07-08",
+    "statement_date": "2021-08-11"
+  },
+  {
+    "filename": "2021-09-09 BWSC - Statement.pdf",
+    "cf": 373,
+    "water": 22.23,
+    "sewer": 30.27,
+    "period_start": "2021-07-08",
+    "period_end": "2021-08-04",
+    "statement_date": "2021-09-09"
+  },
+  {
+    "filename": "2021-10-12 BWSC - Statement.pdf",
+    "cf": 242,
+    "water": 14.42,
+    "sewer": 19.64,
+    "period_start": "2021-08-04",
+    "period_end": "2021-09-08",
+    "statement_date": "2021-10-12"
+  },
+  {
+    "filename": "2021-11-11 BWSC - Statement.pdf",
+    "cf": 471,
+    "water": 28.07,
+    "sewer": 38.23,
+    "period_start": "2021-09-08",
+    "period_end": "2021-10-06",
+    "statement_date": "2021-11-11"
+  },
+  {
+    "filename": "2021-12-09 BWSC - Statement.pdf",
+    "cf": 572,
+    "water": 34.09,
+    "sewer": 46.42,
+    "period_start": "2021-10-06",
+    "period_end": "2021-11-04",
+    "statement_date": "2021-12-09"
+  },
+  {
+    "filename": "2022-01-08 BWSC - Statement.pdf",
+    "cf": 247,
+    "water": 14.72,
+    "sewer": 20.05,
+    "period_start": "2021-11-04",
+    "period_end": "2021-12-07",
+    "statement_date": "2022-01-08"
+  },
+  {
+    "filename": "2022-02-08 BWSC - Statement.pdf",
+    "cf": 106,
+    "water": 6.32,
+    "sewer": 8.6,
+    "period_start": "2021-12-07",
+    "period_end": "2022-01-05",
+    "statement_date": "2022-02-08"
+  },
+  {
+    "filename": "2022-03-10 BWSC - Statement.pdf",
+    "cf": 75,
+    "water": 4.47,
+    "sewer": 6.13,
+    "period_start": "2022-01-05",
+    "period_end": "2022-02-06",
+    "statement_date": "2022-03-10"
+  },
+  {
+    "filename": "2022-04-07 BWSC - Statement.pdf",
+    "cf": 267,
+    "water": 15.91,
+    "sewer": 21.89,
+    "period_start": "2022-02-06",
+    "period_end": "2022-03-06",
+    "statement_date": "2022-04-07"
+  },
+  {
+    "filename": "2022-05-10 BWSC - Statement.pdf",
+    "cf": 263,
+    "water": 15.67,
+    "sewer": 21.56,
+    "period_start": "2022-03-06",
+    "period_end": "2022-04-07",
+    "statement_date": "2022-05-10"
+  },
+  {
+    "filename": "2022-06-08 BWSC - Statement.pdf",
+    "cf": 188,
+    "water": 11.2,
+    "sewer": 15.41,
+    "period_start": "2022-04-07",
+    "period_end": "2022-05-05",
+    "statement_date": "2022-06-08"
+  },
+  {
+    "filename": "2022-07-08 BWSC - Statement.pdf",
+    "cf": 307,
+    "water": 18.29,
+    "sewer": 25.16,
+    "period_start": "2022-05-05",
+    "period_end": "2022-06-06",
+    "statement_date": "2022-07-08"
+  },
+  {
+    "filename": "2022-08-10 BWSC - Statement.pdf",
+    "cf": 227,
+    "water": 13.53,
+    "sewer": 18.61,
+    "period_start": "2022-06-06",
+    "period_end": "2022-07-07",
+    "statement_date": "2022-08-10"
+  },
+  {
+    "filename": "2022-09-07 BWSC - Statement.pdf",
+    "cf": 293,
+    "water": 17.46,
+    "sewer": 24.02,
+    "period_start": "2022-07-07",
+    "period_end": "2022-08-04",
+    "statement_date": "2022-09-07"
+  },
+  {
+    "filename": "2022-10-11 BWSC - Statement.pdf",
+    "cf": 256,
+    "water": 15.26,
+    "sewer": 20.98,
+    "period_start": "2022-08-04",
+    "period_end": "2022-09-07",
+    "statement_date": "2022-10-11"
+  },
+  {
+    "filename": "2022-11-09 BWSC - Statement.pdf",
+    "cf": 279,
+    "water": 16.63,
+    "sewer": 22.87,
+    "period_start": "2022-09-07",
+    "period_end": "2022-10-05",
+    "statement_date": "2022-11-09"
+  },
+  {
+    "filename": "2022-12-08 BWSC - Statement.pdf",
+    "cf": 276,
+    "water": 16.45,
+    "sewer": 22.62,
+    "period_start": "2022-10-05",
+    "period_end": "2022-11-06",
+    "statement_date": "2022-12-08"
+  },
+  {
+    "filename": "2023-01-07 BWSC - Statement.pdf",
+    "cf": 294,
+    "water": 17.52,
+    "sewer": 24.1,
+    "period_start": "2022-11-06",
+    "period_end": "2022-12-06",
+    "statement_date": "2023-01-07"
+  },
+  {
+    "filename": "2023-02-08 BWSC - Statement.pdf",
+    "cf": 85,
+    "water": 5.07,
+    "sewer": 6.97,
+    "period_start": "2022-12-06",
+    "period_end": "2023-01-05",
+    "statement_date": "2023-02-08"
+  },
+  {
+    "filename": "2023-03-10 BWSC - Statement.pdf",
+    "cf": 75,
+    "water": 4.56,
+    "sewer": 6.16,
+    "period_start": "2023-01-05",
+    "period_end": "2023-02-06",
+    "statement_date": "2023-03-10"
+  },
+  {
+    "filename": "2023-04-07 BWSC - Statement.pdf",
+    "cf": 85,
+    "water": 5.23,
+    "sewer": 6.99,
+    "period_start": "2023-02-06",
+    "period_end": "2023-03-06",
+    "statement_date": "2023-04-07"
+  },
+  {
+    "filename": "2023-05-09 BWSC - Statement.pdf",
+    "cf": 34,
+    "water": 2.09,
+    "sewer": 2.8,
+    "period_start": "2023-03-06",
+    "period_end": "2023-04-05",
+    "statement_date": "2023-05-09"
+  },
+  {
+    "filename": "2023-06-07 BWSC - Statement.pdf",
+    "cf": 182,
+    "water": 11.19,
+    "sewer": 14.97,
+    "period_start": "2023-04-05",
+    "period_end": "2023-05-04",
+    "statement_date": "2023-06-07"
+  },
+  {
+    "filename": "2023-07-08 BWSC - Statement.pdf",
+    "cf": 155,
+    "water": 9.53,
+    "sewer": 12.75,
+    "period_start": "2023-05-04",
+    "period_end": "2023-06-06",
+    "statement_date": "2023-07-08"
+  },
+  {
+    "filename": "2023-08-10 BWSC - Statement.pdf",
+    "cf": 194,
+    "water": 11.93,
+    "sewer": 15.96,
+    "period_start": "2023-06-06",
+    "period_end": "2023-07-07",
+    "statement_date": "2023-08-10"
+  },
+  {
+    "filename": "2023-09-07 BWSC - Statement.pdf",
+    "cf": 126,
+    "water": 7.75,
+    "sewer": 10.36,
+    "period_start": "2023-07-07",
+    "period_end": "2023-08-06",
+    "statement_date": "2023-09-07"
+  },
+  {
+    "filename": "2023-10-11 BWSC - Statement.pdf",
+    "cf": 317,
+    "water": 19.5,
+    "sewer": 26.07,
+    "period_start": "2023-08-06",
+    "period_end": "2023-09-07",
+    "statement_date": "2023-10-11"
+  },
+  {
+    "filename": "2023-11-08 BWSC - Statement.pdf",
+    "cf": 348,
+    "water": 21.4,
+    "sewer": 28.62,
+    "period_start": "2023-09-07",
+    "period_end": "2023-10-04",
+    "statement_date": "2023-11-08"
+  },
+  {
+    "filename": "2023-12-08 BWSC - Statement.pdf",
+    "cf": 641,
+    "water": 39.56,
+    "sewer": 53.07,
+    "period_start": "2023-10-04",
+    "period_end": "2023-11-06",
+    "statement_date": "2023-12-08"
+  },
+  {
+    "filename": "2024-01-09 BWSC - Statement.pdf",
+    "cf": 489,
+    "water": 30.07,
+    "sewer": 40.22,
+    "period_start": "2023-11-06",
+    "period_end": "2023-12-06",
+    "statement_date": "2024-01-09"
+  },
+  {
+    "filename": "2024-02-07 BWSC - Statement.pdf",
+    "cf": 114,
+    "water": 7.01,
+    "sewer": 9.38,
+    "period_start": "2023-12-06",
+    "period_end": "2024-01-04",
+    "statement_date": "2024-02-07"
+  },
+  {
+    "filename": "2024-03-09 BWSC - Statement.pdf",
+    "cf": 9,
+    "water": 0.56,
+    "sewer": 0.75,
+    "period_start": "2024-01-04",
+    "period_end": "2024-02-06",
+    "statement_date": "2024-03-09"
+  },
+  {
+    "filename": "2024-04-09 BWSC - Statement.pdf",
+    "cf": 13,
+    "water": 0.82,
+    "sewer": 1.07,
+    "period_start": "2024-02-06",
+    "period_end": "2024-03-06",
+    "statement_date": "2024-04-09"
+  },
+  {
+    "filename": "2024-05-08 BWSC - Statement.pdf",
+    "cf": 91,
+    "water": 5.75,
+    "sewer": 7.51,
+    "period_start": "2024-03-06",
+    "period_end": "2024-04-04",
+    "statement_date": "2024-05-08"
+  },
+  {
+    "filename": "2024-06-07 BWSC - Statement.pdf",
+    "cf": 136,
+    "water": 8.6,
+    "sewer": 9.8,
+    "period_start": "2024-04-04",
+    "period_end": "2024-05-06",
+    "statement_date": "2024-06-07"
+  },
+  {
+    "filename": "2024-07-09 BWSC - Statement.pdf",
+    "cf": 135,
+    "water": 8.54,
+    "sewer": 8.92,
+    "period_start": "2024-05-06",
+    "period_end": "2024-06-05",
+    "statement_date": "2024-07-09"
+  },
+  {
+    "filename": "2024-08-08 BWSC - Statement.pdf",
+    "cf": 183,
+    "water": 11.57,
+    "sewer": 12.09,
+    "period_start": "2024-06-05",
+    "period_end": "2024-07-07",
+    "statement_date": "2024-08-08"
+  },
+  {
+    "filename": "2024-09-06 BWSC - Statement.pdf",
+    "cf": 495,
+    "water": 31.3,
+    "sewer": 32.7,
+    "period_start": "2024-07-07",
+    "period_end": "2024-08-06",
+    "statement_date": "2024-09-06"
+  },
+  {
+    "filename": "2024-10-09 BWSC - Statement.pdf",
+    "cf": 434,
+    "water": 27.45,
+    "sewer": 28.67,
+    "period_start": "2024-08-06",
+    "period_end": "2024-09-05",
+    "statement_date": "2024-10-09"
+  },
+  {
+    "filename": "2024-11-07 BWSC - Statement.pdf",
+    "cf": 214,
+    "water": 13.53,
+    "sewer": 14.14,
+    "period_start": "2024-09-05",
+    "period_end": "2024-10-06",
+    "statement_date": "2024-11-07"
+  },
+  {
+    "filename": "2024-12-11 BWSC - Statement.pdf",
+    "cf": 250,
+    "water": 15.81,
+    "sewer": 16.52,
+    "period_start": "2024-10-06",
+    "period_end": "2024-11-06",
+    "statement_date": "2024-12-11"
+  },
+  {
+    "filename": "2025-01-07 BWSC - Statement.pdf",
+    "cf": 188,
+    "water": 11.89,
+    "sewer": 12.42,
+    "period_start": "2024-11-06",
+    "period_end": "2024-12-04",
+    "statement_date": "2025-01-07"
+  },
+  {
+    "filename": "2025-02-07 BWSC - Statement.pdf",
+    "cf": 71,
+    "water": 4.49,
+    "sewer": 4.69,
+    "period_start": "2024-12-04",
+    "period_end": "2025-01-06",
+    "statement_date": "2025-02-07"
+  },
+  {
+    "filename": "2025-03-11 BWSC - Statement.pdf",
+    "cf": 4,
+    "water": 0.26,
+    "sewer": 0.27,
+    "period_start": "2025-01-06",
+    "period_end": "2025-02-05",
+    "statement_date": "2025-03-11"
+  },
+  {
+    "filename": "2025-04-08 BWSC - Statement.pdf",
+    "cf": 10,
+    "water": 0.68,
+    "sewer": 0.66,
+    "period_start": "2025-02-05",
+    "period_end": "2025-03-05",
+    "statement_date": "2025-04-08"
+  },
+  {
+    "filename": "2025-05-08 BWSC - Statement.pdf",
+    "cf": 52,
+    "water": 3.55,
+    "sewer": 3.44,
+    "period_start": "2025-03-05",
+    "period_end": "2025-04-06",
+    "statement_date": "2025-05-08"
+  },
+  {
+    "filename": "2025-06-06 BWSC - Statement.pdf",
+    "cf": 94,
+    "water": 6.41,
+    "sewer": 6.23,
+    "period_start": "2025-04-06",
+    "period_end": "2025-05-06",
+    "statement_date": "2025-06-06"
+  },
+  {
+    "filename": "2025-07-08 BWSC - Statement.pdf",
+    "cf": 86,
+    "water": 5.87,
+    "sewer": 5.7,
+    "period_start": "2025-05-06",
+    "period_end": "2025-06-04",
+    "statement_date": "2025-07-08"
+  },
+  {
+    "filename": "2025-08-08 BWSC - Statement.pdf",
+    "cf": 194,
+    "water": 13.23,
+    "sewer": 12.85,
+    "period_start": "2025-06-04",
+    "period_end": "2025-07-07",
+    "statement_date": "2025-08-08"
+  },
+  {
+    "filename": "2025-09-09 BWSC - Statement.pdf",
+    "cf": 286,
+    "water": 19.51,
+    "sewer": 18.94,
+    "period_start": "2025-07-07",
+    "period_end": "2025-08-06",
+    "statement_date": "2025-09-09"
+  },
+  {
+    "filename": "2025-10-08 BWSC - Statement.pdf",
+    "cf": 150,
+    "water": 10.23,
+    "sewer": 9.93,
+    "period_start": "2025-08-06",
+    "period_end": "2025-09-04",
+    "statement_date": "2025-10-08"
+  },
+  {
+    "filename": "2025-11-07 BWSC - Statement.pdf",
+    "cf": 94,
+    "water": 6.41,
+    "sewer": 6.23,
+    "period_start": "2025-09-04",
+    "period_end": "2025-10-06",
+    "statement_date": "2025-11-07"
+  },
+  {
+    "filename": "2025-12-09 BWSC - Statement.pdf",
+    "cf": 184,
+    "water": 12.55,
+    "sewer": 12.19,
+    "period_start": "2025-10-06",
+    "period_end": "2025-11-05",
+    "statement_date": "2025-12-09"
+  },
+  {
+    "filename": "2026-01-07 BWSC - Statement.pdf",
+    "cf": 2,
+    "water": 0.14,
+    "sewer": 0.13,
+    "period_start": "2025-11-05",
+    "period_end": "2025-12-04",
+    "statement_date": "2026-01-07"
+  },
+  {
+    "filename": "2026-02-10 BWSC - Statement.pdf",
+    "cf": 8,
+    "water": 0.55,
+    "sewer": 0.53,
+    "period_start": "2025-12-04",
+    "period_end": "2026-01-08",
+    "statement_date": "2026-02-10"
+  },
+  {
+    "filename": "2026-03-10 BWSC - Statement.pdf",
+    "cf": 10,
+    "water": 0.69,
+    "sewer": 0.67,
+    "period_start": "2026-01-08",
+    "period_end": "2026-02-04",
+    "statement_date": "2026-03-10"
+  }
+]

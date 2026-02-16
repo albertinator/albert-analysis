@@ -1,0 +1,1784 @@
+[
+  {
+    "filename": "2009-07-21 National Grid - Statement.pdf",
+    "therms": 16,
+    "supply": 8.21,
+    "delivery": 23.09,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2009-07-21"
+  },
+  {
+    "filename": "2009-08-21 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 6.15,
+    "delivery": 19.5,
+    "period_start": "2009-07-06",
+    "period_end": "2009-08-06",
+    "statement_date": "2009-08-21"
+  },
+  {
+    "filename": "2009-09-22 National Grid - Statement.pdf",
+    "therms": 10,
+    "supply": 5.13,
+    "delivery": 18.15,
+    "period_start": "2009-08-06",
+    "period_end": "2009-09-05",
+    "statement_date": "2009-09-22"
+  },
+  {
+    "filename": "2009-10-20 National Grid - Statement.pdf",
+    "therms": 14,
+    "supply": 7.18,
+    "delivery": 20.38,
+    "period_start": "2009-09-05",
+    "period_end": "2009-10-06",
+    "statement_date": "2009-10-20"
+  },
+  {
+    "filename": "2009-11-17 National Grid - Statement.pdf",
+    "therms": 21,
+    "supply": 11.21,
+    "delivery": 21.73,
+    "period_start": "2009-11-01",
+    "period_end": "2010-04-30",
+    "statement_date": "2009-11-17"
+  },
+  {
+    "filename": "2009-12-16 National Grid - Statement.pdf",
+    "therms": 80,
+    "supply": 73.7,
+    "delivery": 52.7,
+    "period_start": "2009-11-02",
+    "period_end": "2009-12-02",
+    "statement_date": "2009-12-16"
+  },
+  {
+    "filename": "2010-01-19 National Grid - Statement.pdf",
+    "therms": 191,
+    "supply": 175.95,
+    "delivery": 103.25,
+    "period_start": "2009-12-02",
+    "period_end": "2010-01-04",
+    "statement_date": "2010-01-19"
+  },
+  {
+    "filename": "2010-02-18 National Grid - Statement.pdf",
+    "therms": 158,
+    "supply": 147.75,
+    "delivery": 89.23,
+    "period_start": "2009-11-01",
+    "period_end": "2010-04-30",
+    "statement_date": "2010-02-18"
+  },
+  {
+    "filename": "2010-03-19 National Grid - Statement.pdf",
+    "therms": 145,
+    "supply": 151.13,
+    "delivery": 84.06,
+    "period_start": "2010-02-03",
+    "period_end": "2010-03-04",
+    "statement_date": "2010-03-19"
+  },
+  {
+    "filename": "2010-04-19 National Grid - Statement.pdf",
+    "therms": 67,
+    "supply": 69.83,
+    "delivery": 47.57,
+    "period_start": "2010-03-04",
+    "period_end": "2010-04-02",
+    "statement_date": "2010-04-19"
+  },
+  {
+    "filename": "2010-05-17 National Grid - Statement.pdf",
+    "therms": 44,
+    "supply": 45.86,
+    "delivery": 35.46,
+    "period_start": "2010-04-02",
+    "period_end": "2010-04-30",
+    "statement_date": "2010-05-17"
+  },
+  {
+    "filename": "2010-06-16 National Grid - Statement.pdf",
+    "therms": 24,
+    "supply": 14.43,
+    "delivery": 27.72,
+    "period_start": "2010-04-30",
+    "period_end": "2010-06-02",
+    "statement_date": "2010-06-16"
+  },
+  {
+    "filename": "2010-07-15 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 7.21,
+    "delivery": 19.75,
+    "period_start": "2010-06-02",
+    "period_end": "2010-07-01",
+    "statement_date": "2010-07-15"
+  },
+  {
+    "filename": "2010-08-13 National Grid - Statement.pdf",
+    "therms": 11,
+    "supply": 6.61,
+    "delivery": 19.24,
+    "period_start": "2010-07-01",
+    "period_end": "2010-07-30",
+    "statement_date": "2010-08-13"
+  },
+  {
+    "filename": "2010-09-15 National Grid - Statement.pdf",
+    "therms": 11,
+    "supply": 6.61,
+    "delivery": 21.13,
+    "period_start": "2010-07-30",
+    "period_end": "2010-09-01",
+    "statement_date": "2010-09-15"
+  },
+  {
+    "filename": "2010-10-14 National Grid - Statement.pdf",
+    "therms": 11,
+    "supply": 6.61,
+    "delivery": 19.24,
+    "period_start": "2010-09-01",
+    "period_end": "2010-09-30",
+    "statement_date": "2010-10-14"
+  },
+  {
+    "filename": "2010-11-11 National Grid - Statement.pdf",
+    "therms": 15,
+    "supply": 9.02,
+    "delivery": 20.8,
+    "period_start": "2010-09-30",
+    "period_end": "2010-10-28",
+    "statement_date": "2010-11-11"
+  },
+  {
+    "filename": "2010-12-15 National Grid - Statement.pdf",
+    "therms": 58,
+    "supply": 48.56,
+    "delivery": 44.46,
+    "period_start": "2010-11-01",
+    "period_end": "2011-04-30",
+    "statement_date": "2010-12-15"
+  },
+  {
+    "filename": "2011-01-12 National Grid - Statement.pdf",
+    "therms": 137,
+    "supply": 116.01,
+    "delivery": 92.59,
+    "period_start": "2010-12-01",
+    "period_end": "2010-12-29",
+    "statement_date": "2011-01-12"
+  },
+  {
+    "filename": "2011-02-14 National Grid - Statement.pdf",
+    "therms": 169,
+    "supply": 143.11,
+    "delivery": 113.24,
+    "period_start": "2010-12-29",
+    "period_end": "2011-01-28",
+    "statement_date": "2011-02-14"
+  },
+  {
+    "filename": "2011-03-14 National Grid - Statement.pdf",
+    "therms": 170,
+    "supply": 143.96,
+    "delivery": 114.11,
+    "period_start": "2011-01-28",
+    "period_end": "2011-02-28",
+    "statement_date": "2011-03-14"
+  },
+  {
+    "filename": "2011-04-13 National Grid - Statement.pdf",
+    "therms": 117,
+    "supply": 99.08,
+    "delivery": 80.54,
+    "period_start": "2011-02-28",
+    "period_end": "2011-03-30",
+    "statement_date": "2011-04-13"
+  },
+  {
+    "filename": "2011-05-13 National Grid - Statement.pdf",
+    "therms": 58,
+    "supply": 49.11,
+    "delivery": 43.44,
+    "period_start": "2011-03-30",
+    "period_end": "2011-04-29",
+    "statement_date": "2011-05-13"
+  },
+  {
+    "filename": "2011-06-10 National Grid - Statement.pdf",
+    "therms": 26,
+    "supply": 16.77,
+    "delivery": 18.91,
+    "period_start": "2011-05-01",
+    "period_end": "2011-10-31",
+    "statement_date": "2011-06-10"
+  },
+  {
+    "filename": "2011-07-13 National Grid - Statement.pdf",
+    "therms": 15,
+    "supply": 9.65,
+    "delivery": 16.48,
+    "period_start": "2011-05-27",
+    "period_end": "2011-06-29",
+    "statement_date": "2011-07-13"
+  },
+  {
+    "filename": "2011-08-15 National Grid - Statement.pdf",
+    "therms": 11,
+    "supply": 7.07,
+    "delivery": 14.01,
+    "period_start": "2011-06-29",
+    "period_end": "2011-07-29",
+    "statement_date": "2011-08-15"
+  },
+  {
+    "filename": "2011-09-13 National Grid - Statement.pdf",
+    "therms": 11,
+    "supply": 7.07,
+    "delivery": 14.67,
+    "period_start": "2011-07-29",
+    "period_end": "2011-08-30",
+    "statement_date": "2011-09-13"
+  },
+  {
+    "filename": "2011-10-13 National Grid - Statement.pdf",
+    "therms": 9,
+    "supply": 5.79,
+    "delivery": 12.96,
+    "period_start": "2011-08-30",
+    "period_end": "2011-09-28",
+    "statement_date": "2011-10-13"
+  },
+  {
+    "filename": "2011-11-23 National Grid - Statement.pdf",
+    "therms": 50,
+    "supply": 32.57,
+    "delivery": 30.35,
+    "period_start": "2011-11-01",
+    "period_end": "2012-04-30",
+    "statement_date": "2011-11-23"
+  },
+  {
+    "filename": "2011-12-14 National Grid - Statement.pdf",
+    "therms": 62,
+    "supply": 47.28,
+    "delivery": 45.42,
+    "period_start": "2011-11-01",
+    "period_end": "2012-04-30",
+    "statement_date": "2011-12-14"
+  },
+  {
+    "filename": "2012-01-13 National Grid - Statement.pdf",
+    "therms": 96,
+    "supply": 73.21,
+    "delivery": 66.89,
+    "period_start": "2011-11-30",
+    "period_end": "2011-12-30",
+    "statement_date": "2012-01-13"
+  },
+  {
+    "filename": "2012-02-15 National Grid - Statement.pdf",
+    "therms": 156,
+    "supply": 118.97,
+    "delivery": 104.78,
+    "period_start": "2011-12-30",
+    "period_end": "2012-01-31",
+    "statement_date": "2012-02-15"
+  },
+  {
+    "filename": "2012-03-15 National Grid - Statement.pdf",
+    "therms": 104,
+    "supply": 70.94,
+    "delivery": 71.62,
+    "period_start": "2011-11-01",
+    "period_end": "2012-04-30",
+    "statement_date": "2012-03-15"
+  },
+  {
+    "filename": "2012-04-13 National Grid - Statement.pdf",
+    "therms": 64,
+    "supply": 43.65,
+    "delivery": 46.87,
+    "period_start": "2012-02-29",
+    "period_end": "2012-03-30",
+    "statement_date": "2012-04-13"
+  },
+  {
+    "filename": "2012-05-16 National Grid - Statement.pdf",
+    "therms": 47,
+    "supply": 31.59,
+    "delivery": 36.47,
+    "period_start": "2012-05-01",
+    "period_end": "2012-10-31",
+    "statement_date": "2012-05-16"
+  },
+  {
+    "filename": "2012-06-18 National Grid - Statement.pdf",
+    "therms": 20,
+    "supply": 7.79,
+    "delivery": 18.25,
+    "period_start": "2012-05-01",
+    "period_end": "2012-06-01",
+    "statement_date": "2012-06-18"
+  },
+  {
+    "filename": "2012-07-16 National Grid - Statement.pdf",
+    "therms": 14,
+    "supply": 5.45,
+    "delivery": 14.86,
+    "period_start": "2012-06-01",
+    "period_end": "2012-06-29",
+    "statement_date": "2012-07-16"
+  },
+  {
+    "filename": "2012-08-15 National Grid - Statement.pdf",
+    "therms": 22,
+    "supply": 8.56,
+    "delivery": 19.71,
+    "period_start": "2012-06-29",
+    "period_end": "2012-08-01",
+    "statement_date": "2012-08-15"
+  },
+  {
+    "filename": "2012-09-14 National Grid - Statement.pdf",
+    "therms": 14,
+    "supply": 5.45,
+    "delivery": 15.2,
+    "period_start": "2012-08-01",
+    "period_end": "2012-08-30",
+    "statement_date": "2012-09-14"
+  },
+  {
+    "filename": "2012-10-16 National Grid - Statement.pdf",
+    "therms": 16,
+    "supply": 9.18,
+    "delivery": 17.01,
+    "period_start": "2012-08-30",
+    "period_end": "2012-10-01",
+    "statement_date": "2012-10-16"
+  },
+  {
+    "filename": "2012-11-13 National Grid - Statement.pdf",
+    "therms": 19,
+    "supply": 10.98,
+    "delivery": 17.74,
+    "period_start": "2012-10-01",
+    "period_end": "2012-10-29",
+    "statement_date": "2012-11-13"
+  },
+  {
+    "filename": "2012-12-17 National Grid - Statement.pdf",
+    "therms": 107,
+    "supply": 67.42,
+    "delivery": 83.54,
+    "period_start": "2012-11-01",
+    "period_end": "2013-04-30",
+    "statement_date": "2012-12-17"
+  },
+  {
+    "filename": "2013-01-17 National Grid - Statement.pdf",
+    "therms": 142,
+    "supply": 89.74,
+    "delivery": 109.81,
+    "period_start": "2012-11-29",
+    "period_end": "2012-12-31",
+    "statement_date": "2013-01-17"
+  },
+  {
+    "filename": "2013-02-14 National Grid - Statement.pdf",
+    "therms": 151,
+    "supply": 95.43,
+    "delivery": 115.0,
+    "period_start": "2012-12-31",
+    "period_end": "2013-01-31",
+    "statement_date": "2013-02-14"
+  },
+  {
+    "filename": "2013-03-15 National Grid - Statement.pdf",
+    "therms": 146,
+    "supply": 92.27,
+    "delivery": 110.74,
+    "period_start": "2013-01-31",
+    "period_end": "2013-02-28",
+    "statement_date": "2013-03-15"
+  },
+  {
+    "filename": "2013-04-15 National Grid - Statement.pdf",
+    "therms": 153,
+    "supply": 96.7,
+    "delivery": 115.97,
+    "period_start": "2013-02-28",
+    "period_end": "2013-03-29",
+    "statement_date": "2013-04-15"
+  },
+  {
+    "filename": "2013-05-16 National Grid - Statement.pdf",
+    "therms": 71,
+    "supply": 44.63,
+    "delivery": 58.03,
+    "period_start": "2013-05-01",
+    "period_end": "2013-10-31",
+    "statement_date": "2013-05-16"
+  },
+  {
+    "filename": "2013-06-17 National Grid - Statement.pdf",
+    "therms": 26,
+    "supply": 12.07,
+    "delivery": 22.19,
+    "period_start": "2013-05-01",
+    "period_end": "2013-06-01",
+    "statement_date": "2013-06-17"
+  },
+  {
+    "filename": "2013-07-15 National Grid - Statement.pdf",
+    "therms": 7,
+    "supply": 3.25,
+    "delivery": 12.36,
+    "period_start": "2013-06-01",
+    "period_end": "2013-06-29",
+    "statement_date": "2013-07-15"
+  },
+  {
+    "filename": "2013-08-16 National Grid - Statement.pdf",
+    "therms": 11,
+    "supply": 5.11,
+    "delivery": 15.77,
+    "period_start": "2013-06-29",
+    "period_end": "2013-08-01",
+    "statement_date": "2013-08-16"
+  },
+  {
+    "filename": "2013-09-17 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 5.57,
+    "delivery": 15.28,
+    "period_start": "2013-08-01",
+    "period_end": "2013-08-31",
+    "statement_date": "2013-09-17"
+  },
+  {
+    "filename": "2013-10-15 National Grid - Statement.pdf",
+    "therms": 14,
+    "supply": 6.5,
+    "delivery": 16.54,
+    "period_start": "2013-08-31",
+    "period_end": "2013-10-01",
+    "statement_date": "2013-10-15"
+  },
+  {
+    "filename": "2013-11-13 National Grid - Statement.pdf",
+    "therms": 28,
+    "supply": 13.0,
+    "delivery": 22.48,
+    "period_start": "2013-10-01",
+    "period_end": "2013-10-30",
+    "statement_date": "2013-11-13"
+  },
+  {
+    "filename": "2013-12-16 National Grid - Statement.pdf",
+    "therms": 100,
+    "supply": 66.65,
+    "delivery": 78.0,
+    "period_start": "2013-10-30",
+    "period_end": "2013-12-02",
+    "statement_date": "2013-12-16"
+  },
+  {
+    "filename": "2014-01-16 National Grid - Statement.pdf",
+    "therms": 140,
+    "supply": 94.18,
+    "delivery": 106.28,
+    "period_start": "2013-12-02",
+    "period_end": "2013-12-31",
+    "statement_date": "2014-01-16"
+  },
+  {
+    "filename": "2014-02-17 National Grid - Statement.pdf",
+    "therms": 201,
+    "supply": 135.21,
+    "delivery": 150.47,
+    "period_start": "2013-12-31",
+    "period_end": "2014-02-01",
+    "statement_date": "2014-02-17"
+  },
+  {
+    "filename": "2014-03-17 National Grid - Statement.pdf",
+    "therms": 162,
+    "supply": 110.16,
+    "delivery": 121.76,
+    "period_start": "2013-11-01",
+    "period_end": "2014-04-30",
+    "statement_date": "2014-03-17"
+  },
+  {
+    "filename": "2014-04-15 National Grid - Statement.pdf",
+    "therms": 152,
+    "supply": 126.69,
+    "delivery": 115.06,
+    "period_start": "2013-11-01",
+    "period_end": "2014-04-30",
+    "statement_date": "2014-04-15"
+  },
+  {
+    "filename": "2014-05-15 National Grid - Statement.pdf",
+    "therms": 61,
+    "supply": 50.84,
+    "delivery": 50.13,
+    "period_start": "2014-03-31",
+    "period_end": "2014-04-30",
+    "statement_date": "2014-05-15"
+  },
+  {
+    "filename": "2014-06-17 National Grid - Statement.pdf",
+    "therms": 31,
+    "supply": 17.8,
+    "delivery": 24.13,
+    "period_start": "2014-04-30",
+    "period_end": "2014-06-02",
+    "statement_date": "2014-06-17"
+  },
+  {
+    "filename": "2014-07-15 National Grid - Statement.pdf",
+    "therms": 19,
+    "supply": 10.91,
+    "delivery": 17.29,
+    "period_start": "2014-06-02",
+    "period_end": "2014-06-30",
+    "statement_date": "2014-07-15"
+  },
+  {
+    "filename": "2014-08-18 National Grid - Statement.pdf",
+    "therms": 24,
+    "supply": 13.78,
+    "delivery": 20.75,
+    "period_start": "2014-06-30",
+    "period_end": "2014-07-19",
+    "statement_date": "2014-08-18"
+  },
+  {
+    "filename": "2014-09-02 National Grid - Statement.pdf",
+    "therms": 18,
+    "supply": 10.34,
+    "delivery": 16.85,
+    "period_start": "2014-08-01",
+    "period_end": "2014-08-29",
+    "statement_date": "2014-09-02"
+  },
+  {
+    "filename": "2014-10-02 National Grid - Statement.pdf",
+    "therms": 20,
+    "supply": 9.63,
+    "delivery": 19.01,
+    "period_start": "2014-05-01",
+    "period_end": "2014-10-31",
+    "statement_date": "2014-10-02"
+  },
+  {
+    "filename": "2014-11-13 National Grid - Statement.pdf",
+    "therms": 25,
+    "supply": 11.92,
+    "delivery": 20.24,
+    "period_start": "2014-09-30",
+    "period_end": "2014-10-29",
+    "statement_date": "2014-11-13"
+  },
+  {
+    "filename": "2014-12-16 National Grid - Statement.pdf",
+    "therms": 80,
+    "supply": 61.03,
+    "delivery": 57.86,
+    "period_start": "2014-10-29",
+    "period_end": "2014-12-01",
+    "statement_date": "2014-12-16"
+  },
+  {
+    "filename": "2015-01-19 National Grid - Statement.pdf",
+    "therms": 108,
+    "supply": 82.48,
+    "delivery": 75.78,
+    "period_start": "2014-11-01",
+    "period_end": "2015-04-30",
+    "statement_date": "2015-01-19"
+  },
+  {
+    "filename": "2015-02-16 National Grid - Statement.pdf",
+    "therms": 163,
+    "supply": 113.61,
+    "delivery": 109.89,
+    "period_start": "2014-11-01",
+    "period_end": "2015-04-30",
+    "statement_date": "2015-02-16"
+  },
+  {
+    "filename": "2015-03-17 National Grid - Statement.pdf",
+    "therms": 218,
+    "supply": 134.16,
+    "delivery": 145.54,
+    "period_start": "2015-01-30",
+    "period_end": "2015-03-02",
+    "statement_date": "2015-03-17"
+  },
+  {
+    "filename": "2015-04-16 National Grid - Statement.pdf",
+    "therms": 130,
+    "supply": 79.72,
+    "delivery": 89.33,
+    "period_start": "2015-03-02",
+    "period_end": "2015-04-01",
+    "statement_date": "2015-04-16"
+  },
+  {
+    "filename": "2015-05-15 National Grid - Statement.pdf",
+    "therms": 41,
+    "supply": 25.14,
+    "delivery": 32.48,
+    "period_start": "2015-04-01",
+    "period_end": "2015-04-30",
+    "statement_date": "2015-05-15"
+  },
+  {
+    "filename": "2015-06-17 National Grid - Statement.pdf",
+    "therms": 24,
+    "supply": 6.41,
+    "delivery": 21.74,
+    "period_start": "2015-04-30",
+    "period_end": "2015-06-02",
+    "statement_date": "2015-06-17"
+  },
+  {
+    "filename": "2015-07-16 National Grid - Statement.pdf",
+    "therms": 20,
+    "supply": 5.34,
+    "delivery": 18.59,
+    "period_start": "2015-06-02",
+    "period_end": "2015-07-01",
+    "statement_date": "2015-07-16"
+  },
+  {
+    "filename": "2015-08-14 National Grid - Statement.pdf",
+    "therms": 16,
+    "supply": 4.27,
+    "delivery": 16.74,
+    "period_start": "2015-07-01",
+    "period_end": "2015-07-30",
+    "statement_date": "2015-08-14"
+  },
+  {
+    "filename": "2015-09-16 National Grid - Statement.pdf",
+    "therms": 17,
+    "supply": 3.34,
+    "delivery": 18.48,
+    "period_start": "2015-07-30",
+    "period_end": "2015-09-01",
+    "statement_date": "2015-09-16"
+  },
+  {
+    "filename": "2015-10-15 National Grid - Statement.pdf",
+    "therms": 17,
+    "supply": 3.3,
+    "delivery": 16.88,
+    "period_start": "2015-09-01",
+    "period_end": "2015-09-29",
+    "statement_date": "2015-10-15"
+  },
+  {
+    "filename": "2015-11-13 National Grid - Statement.pdf",
+    "therms": 36,
+    "supply": 6.98,
+    "delivery": 26.36,
+    "period_start": "2015-09-29",
+    "period_end": "2015-10-29",
+    "statement_date": "2015-11-13"
+  },
+  {
+    "filename": "2015-12-15 National Grid - Statement.pdf",
+    "therms": 68,
+    "supply": 35.42,
+    "delivery": 57.18,
+    "period_start": "2015-11-01",
+    "period_end": "2016-04-30",
+    "statement_date": "2015-12-15"
+  },
+  {
+    "filename": "2016-01-18 National Grid - Statement.pdf",
+    "therms": 86,
+    "supply": 40.85,
+    "delivery": 70.71,
+    "period_start": "2015-12-01",
+    "period_end": "2016-01-02",
+    "statement_date": "2016-01-18"
+  },
+  {
+    "filename": "2016-02-15 National Grid - Statement.pdf",
+    "therms": 146,
+    "supply": 69.35,
+    "delivery": 114.03,
+    "period_start": "2016-01-02",
+    "period_end": "2016-01-29",
+    "statement_date": "2016-02-15"
+  },
+  {
+    "filename": "2016-03-14 National Grid - Statement.pdf",
+    "therms": 149,
+    "supply": 70.78,
+    "delivery": 117.14,
+    "period_start": "2016-01-29",
+    "period_end": "2016-02-29",
+    "statement_date": "2016-03-14"
+  },
+  {
+    "filename": "2016-04-18 National Grid - Statement.pdf",
+    "therms": 97,
+    "supply": 46.08,
+    "delivery": 78.86,
+    "period_start": "2016-02-29",
+    "period_end": "2016-04-01",
+    "statement_date": "2016-04-18"
+  },
+  {
+    "filename": "2016-05-18 National Grid - Statement.pdf",
+    "therms": 64,
+    "supply": 29.0,
+    "delivery": 53.58,
+    "period_start": "2016-05-01",
+    "period_end": "2016-10-31",
+    "statement_date": "2016-05-18"
+  },
+  {
+    "filename": "2016-06-17 National Grid - Statement.pdf",
+    "therms": 25,
+    "supply": 7.25,
+    "delivery": 22.97,
+    "period_start": "2016-05-04",
+    "period_end": "2016-06-02",
+    "statement_date": "2016-06-17"
+  },
+  {
+    "filename": "2016-07-07 National Grid - Statement.pdf",
+    "therms": 15,
+    "supply": 4.35,
+    "delivery": 17.5,
+    "period_start": "2016-06-02",
+    "period_end": "2016-07-01",
+    "statement_date": "2016-07-07"
+  },
+  {
+    "filename": "2016-08-18 National Grid - Statement.pdf",
+    "therms": 10,
+    "supply": 2.9,
+    "delivery": 15.76,
+    "period_start": "2016-07-01",
+    "period_end": "2016-08-02",
+    "statement_date": "2016-08-18"
+  },
+  {
+    "filename": "2016-09-15 National Grid - Statement.pdf",
+    "therms": 9,
+    "supply": 2.68,
+    "delivery": 14.58,
+    "period_start": "2016-05-01",
+    "period_end": "2016-10-31",
+    "statement_date": "2016-09-15"
+  },
+  {
+    "filename": "2016-10-15 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 6.42,
+    "delivery": 15.86,
+    "period_start": "2016-05-01",
+    "period_end": "2016-10-31",
+    "statement_date": "2016-10-15"
+  },
+  {
+    "filename": "2016-11-15 National Grid - Statement.pdf",
+    "therms": 25,
+    "supply": 13.37,
+    "delivery": 23.62,
+    "period_start": "2016-11-01",
+    "period_end": "2017-04-30",
+    "statement_date": "2016-11-15"
+  },
+  {
+    "filename": "2016-12-16 National Grid - Statement.pdf",
+    "therms": 71,
+    "supply": 34.55,
+    "delivery": 67.73,
+    "period_start": "2016-11-01",
+    "period_end": "2017-04-30",
+    "statement_date": "2016-12-16"
+  },
+  {
+    "filename": "2017-01-17 National Grid - Statement.pdf",
+    "therms": 133,
+    "supply": 57.91,
+    "delivery": 119.83,
+    "period_start": "2016-11-01",
+    "period_end": "2017-04-30",
+    "statement_date": "2017-01-17"
+  },
+  {
+    "filename": "2017-02-14 National Grid - Statement.pdf",
+    "therms": 138,
+    "supply": 60.09,
+    "delivery": 124.77,
+    "period_start": "2016-12-30",
+    "period_end": "2017-01-30",
+    "statement_date": "2017-02-14"
+  },
+  {
+    "filename": "2017-03-16 National Grid - Statement.pdf",
+    "therms": 132,
+    "supply": 66.42,
+    "delivery": 119.2,
+    "period_start": "2016-11-01",
+    "period_end": "2017-04-30",
+    "statement_date": "2017-03-16"
+  },
+  {
+    "filename": "2017-04-17 National Grid - Statement.pdf",
+    "therms": 144,
+    "supply": 72.81,
+    "delivery": 129.9,
+    "period_start": "2017-02-28",
+    "period_end": "2017-03-31",
+    "statement_date": "2017-04-17"
+  },
+  {
+    "filename": "2017-05-17 National Grid - Statement.pdf",
+    "therms": 59,
+    "supply": 29.51,
+    "delivery": 56.87,
+    "period_start": "2017-05-01",
+    "period_end": "2017-10-31",
+    "statement_date": "2017-05-17"
+  },
+  {
+    "filename": "2017-06-16 National Grid - Statement.pdf",
+    "therms": 26,
+    "supply": 9.91,
+    "delivery": 25.35,
+    "period_start": "2017-05-01",
+    "period_end": "2017-10-31",
+    "statement_date": "2017-06-16"
+  },
+  {
+    "filename": "2017-07-17 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 5.05,
+    "delivery": 16.69,
+    "period_start": "2017-05-01",
+    "period_end": "2017-10-31",
+    "statement_date": "2017-07-17"
+  },
+  {
+    "filename": "2017-08-21 National Grid - Statement.pdf",
+    "therms": 14,
+    "supply": 5.89,
+    "delivery": 18.55,
+    "period_start": "2017-06-30",
+    "period_end": "2017-07-31",
+    "statement_date": "2017-08-21"
+  },
+  {
+    "filename": "2017-09-15 National Grid - Statement.pdf",
+    "therms": 19,
+    "supply": 6.98,
+    "delivery": 21.96,
+    "period_start": "2017-07-31",
+    "period_end": "2017-09-01",
+    "statement_date": "2017-09-15"
+  },
+  {
+    "filename": "2017-10-15 National Grid - Statement.pdf",
+    "therms": 13,
+    "supply": 4.78,
+    "delivery": 16.66,
+    "period_start": "2017-09-01",
+    "period_end": "2017-09-28",
+    "statement_date": "2017-10-15"
+  },
+  {
+    "filename": "2017-11-15 National Grid - Statement.pdf",
+    "therms": 20,
+    "supply": 6.03,
+    "delivery": 22.89,
+    "period_start": "2017-11-01",
+    "period_end": "2018-04-30",
+    "statement_date": "2017-11-15"
+  },
+  {
+    "filename": "2017-12-18 National Grid - Statement.pdf",
+    "therms": 85,
+    "supply": 53.21,
+    "delivery": 79.97,
+    "period_start": "2017-10-31",
+    "period_end": "2017-12-02",
+    "statement_date": "2017-12-18"
+  },
+  {
+    "filename": "2018-01-17 National Grid - Statement.pdf",
+    "therms": 191,
+    "supply": 119.57,
+    "delivery": 170.89,
+    "period_start": "2017-12-02",
+    "period_end": "2018-01-03",
+    "statement_date": "2018-01-17"
+  },
+  {
+    "filename": "2018-02-14 National Grid - Statement.pdf",
+    "therms": 161,
+    "supply": 100.79,
+    "delivery": 144.06,
+    "period_start": "2018-01-03",
+    "period_end": "2018-01-30",
+    "statement_date": "2018-02-14"
+  },
+  {
+    "filename": "2018-03-21 National Grid - Statement.pdf",
+    "therms": 121,
+    "supply": 96.11,
+    "delivery": 110.19,
+    "period_start": "2017-11-01",
+    "period_end": "2018-04-30",
+    "statement_date": "2018-03-21"
+  },
+  {
+    "filename": "2018-04-17 National Grid - Statement.pdf",
+    "therms": 140,
+    "supply": 131.1,
+    "delivery": 127.59,
+    "period_start": "2018-02-28",
+    "period_end": "2018-04-03",
+    "statement_date": "2018-04-17"
+  },
+  {
+    "filename": "2018-05-16 National Grid - Statement.pdf",
+    "therms": 74,
+    "supply": 66.61,
+    "delivery": 69.02,
+    "period_start": "2018-05-01",
+    "period_end": "2018-10-31",
+    "statement_date": "2018-05-16"
+  },
+  {
+    "filename": "2018-06-18 National Grid - Statement.pdf",
+    "therms": 22,
+    "supply": 7.8,
+    "delivery": 23.93,
+    "period_start": "2018-05-02",
+    "period_end": "2018-06-02",
+    "statement_date": "2018-06-18"
+  },
+  {
+    "filename": "2018-07-16 National Grid - Statement.pdf",
+    "therms": 21,
+    "supply": 7.45,
+    "delivery": 22.97,
+    "period_start": "2018-06-02",
+    "period_end": "2018-07-02",
+    "statement_date": "2018-07-16"
+  },
+  {
+    "filename": "2018-08-14 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 4.26,
+    "delivery": 16.93,
+    "period_start": "2018-07-02",
+    "period_end": "2018-07-31",
+    "statement_date": "2018-08-14"
+  },
+  {
+    "filename": "2018-09-13 National Grid - Statement.pdf",
+    "therms": 17,
+    "supply": 6.03,
+    "delivery": 20.11,
+    "period_start": "2018-07-31",
+    "period_end": "2018-08-29",
+    "statement_date": "2018-09-13"
+  },
+  {
+    "filename": "2018-10-15 National Grid - Statement.pdf",
+    "therms": 23,
+    "supply": 8.16,
+    "delivery": 24.24,
+    "period_start": "2018-08-29",
+    "period_end": "2018-09-28",
+    "statement_date": "2018-10-15"
+  },
+  {
+    "filename": "2018-11-09 National Grid - Statement.pdf",
+    "therms": 40,
+    "supply": 14.19,
+    "delivery": 35.37,
+    "period_start": "2018-09-28",
+    "period_end": "2018-10-29",
+    "statement_date": "2018-11-09"
+  },
+  {
+    "filename": "2018-12-13 National Grid - Statement.pdf",
+    "therms": 88,
+    "supply": 51.96,
+    "delivery": 90.8,
+    "period_start": "2018-11-01",
+    "period_end": "2019-04-30",
+    "statement_date": "2018-12-13"
+  },
+  {
+    "filename": "2019-01-13 National Grid - Statement.pdf",
+    "therms": 125,
+    "supply": 75.31,
+    "delivery": 126.03,
+    "period_start": "2018-11-29",
+    "period_end": "2018-12-31",
+    "statement_date": "2019-01-13"
+  },
+  {
+    "filename": "2019-02-14 National Grid - Statement.pdf",
+    "therms": 157,
+    "supply": 94.59,
+    "delivery": 154.21,
+    "period_start": "2018-12-31",
+    "period_end": "2019-01-30",
+    "statement_date": "2019-02-14"
+  },
+  {
+    "filename": "2019-03-15 National Grid - Statement.pdf",
+    "therms": 146,
+    "supply": 87.97,
+    "delivery": 144.24,
+    "period_start": "2019-01-30",
+    "period_end": "2019-03-01",
+    "statement_date": "2019-03-15"
+  },
+  {
+    "filename": "2019-04-15 National Grid - Statement.pdf",
+    "therms": 105,
+    "supply": 63.26,
+    "delivery": 106.31,
+    "period_start": "2019-03-01",
+    "period_end": "2019-03-29",
+    "statement_date": "2019-04-15"
+  },
+  {
+    "filename": "2019-05-15 National Grid - Statement.pdf",
+    "therms": 58,
+    "supply": 34.95,
+    "delivery": 65.34,
+    "period_start": "2019-05-01",
+    "period_end": "2019-10-31",
+    "statement_date": "2019-05-15"
+  },
+  {
+    "filename": "2019-06-15 National Grid - Statement.pdf",
+    "therms": 35,
+    "supply": 15.65,
+    "delivery": 33.46,
+    "period_start": "2019-05-01",
+    "period_end": "2019-10-31",
+    "statement_date": "2019-06-15"
+  },
+  {
+    "filename": "2019-07-15 National Grid - Statement.pdf",
+    "therms": 18,
+    "supply": 7.14,
+    "delivery": 23.22,
+    "period_start": "2019-05-01",
+    "period_end": "2019-10-31",
+    "statement_date": "2019-07-15"
+  },
+  {
+    "filename": "2019-08-16 National Grid - Statement.pdf",
+    "therms": 16,
+    "supply": 5.64,
+    "delivery": 22.42,
+    "period_start": "2019-07-01",
+    "period_end": "2019-08-02",
+    "statement_date": "2019-08-16"
+  },
+  {
+    "filename": "2019-09-15 National Grid - Statement.pdf",
+    "therms": 16,
+    "supply": 5.64,
+    "delivery": 21.62,
+    "period_start": "2019-08-02",
+    "period_end": "2019-09-01",
+    "statement_date": "2019-09-15"
+  },
+  {
+    "filename": "2019-10-16 National Grid - Statement.pdf",
+    "therms": 17,
+    "supply": 5.99,
+    "delivery": 22.62,
+    "period_start": "2019-09-01",
+    "period_end": "2019-10-02",
+    "statement_date": "2019-10-16"
+  },
+  {
+    "filename": "2019-11-14 National Grid - Statement.pdf",
+    "therms": 26,
+    "supply": 9.16,
+    "delivery": 27.24,
+    "period_start": "2019-10-02",
+    "period_end": "2019-10-31",
+    "statement_date": "2019-11-14"
+  },
+  {
+    "filename": "2019-12-17 National Grid - Statement.pdf",
+    "therms": 109,
+    "supply": 65.9,
+    "delivery": 99.04,
+    "period_start": "2019-11-01",
+    "period_end": "2020-04-30",
+    "statement_date": "2019-12-17"
+  },
+  {
+    "filename": "2020-01-14 National Grid - Statement.pdf",
+    "therms": 129,
+    "supply": 77.99,
+    "delivery": 113.66,
+    "period_start": "2019-12-02",
+    "period_end": "2019-12-31",
+    "statement_date": "2020-01-14"
+  },
+  {
+    "filename": "2020-02-14 National Grid - Statement.pdf",
+    "therms": 145,
+    "supply": 87.67,
+    "delivery": 126.72,
+    "period_start": "2019-12-31",
+    "period_end": "2020-01-30",
+    "statement_date": "2020-02-14"
+  },
+  {
+    "filename": "2020-03-16 National Grid - Statement.pdf",
+    "therms": 132,
+    "supply": 79.81,
+    "delivery": 116.04,
+    "period_start": "2020-01-30",
+    "period_end": "2020-02-28",
+    "statement_date": "2020-03-16"
+  },
+  {
+    "filename": "2020-04-16 National Grid - Statement.pdf",
+    "therms": 97,
+    "supply": 58.65,
+    "delivery": 89.95,
+    "period_start": "2020-02-28",
+    "period_end": "2020-04-01",
+    "statement_date": "2020-04-16"
+  },
+  {
+    "filename": "2020-05-19 National Grid - Statement.pdf",
+    "therms": 80,
+    "supply": 46.59,
+    "delivery": 74.67,
+    "period_start": "2020-05-01",
+    "period_end": "2020-10-31",
+    "statement_date": "2020-05-19"
+  },
+  {
+    "filename": "2020-06-15 National Grid - Statement.pdf",
+    "therms": 33,
+    "supply": 11.58,
+    "delivery": 27.48,
+    "period_start": "2020-05-01",
+    "period_end": "2020-10-31",
+    "statement_date": "2020-06-15"
+  },
+  {
+    "filename": "2020-07-20 National Grid - Statement.pdf",
+    "therms": 23,
+    "supply": 8.04,
+    "delivery": 25.39,
+    "period_start": "2020-05-01",
+    "period_end": "2020-10-31",
+    "statement_date": "2020-07-20"
+  },
+  {
+    "filename": "2020-08-17 National Grid - Statement.pdf",
+    "therms": 22,
+    "supply": 6.25,
+    "delivery": 24.86,
+    "period_start": "2020-07-01",
+    "period_end": "2020-08-03",
+    "statement_date": "2020-08-17"
+  },
+  {
+    "filename": "2020-09-15 National Grid - Statement.pdf",
+    "therms": 17,
+    "supply": 4.83,
+    "delivery": 20.21,
+    "period_start": "2020-08-03",
+    "period_end": "2020-08-31",
+    "statement_date": "2020-09-15"
+  },
+  {
+    "filename": "2020-10-13 National Grid - Statement.pdf",
+    "therms": 15,
+    "supply": 4.26,
+    "delivery": 19.15,
+    "period_start": "2020-08-31",
+    "period_end": "2020-09-28",
+    "statement_date": "2020-10-13"
+  },
+  {
+    "filename": "2020-11-12 National Grid - Statement.pdf",
+    "therms": 29,
+    "supply": 8.24,
+    "delivery": 27.36,
+    "period_start": "2020-09-28",
+    "period_end": "2020-10-28",
+    "statement_date": "2020-11-12"
+  },
+  {
+    "filename": "2020-12-16 National Grid - Statement.pdf",
+    "therms": 92,
+    "supply": 51.46,
+    "delivery": 94.83,
+    "period_start": "2020-11-01",
+    "period_end": "2021-04-30",
+    "statement_date": "2020-12-16"
+  },
+  {
+    "filename": "2021-01-18 National Grid - Statement.pdf",
+    "therms": 187,
+    "supply": 109.71,
+    "delivery": 183.97,
+    "period_start": "2020-12-02",
+    "period_end": "2021-01-04",
+    "statement_date": "2021-01-18"
+  },
+  {
+    "filename": "2021-02-15 National Grid - Statement.pdf",
+    "therms": 161,
+    "supply": 94.46,
+    "delivery": 157.03,
+    "period_start": "2021-01-04",
+    "period_end": "2021-01-29",
+    "statement_date": "2021-02-15"
+  },
+  {
+    "filename": "2021-03-16 National Grid - Statement.pdf",
+    "therms": 211,
+    "supply": 123.79,
+    "delivery": 205.09,
+    "period_start": "2021-01-29",
+    "period_end": "2021-03-01",
+    "statement_date": "2021-03-16"
+  },
+  {
+    "filename": "2021-04-16 National Grid - Statement.pdf",
+    "therms": 154,
+    "supply": 90.35,
+    "delivery": 153.03,
+    "period_start": "2021-03-01",
+    "period_end": "2021-04-01",
+    "statement_date": "2021-04-16"
+  },
+  {
+    "filename": "2021-05-18 National Grid - Statement.pdf",
+    "therms": 93,
+    "supply": 53.01,
+    "delivery": 95.83,
+    "period_start": "2021-05-01",
+    "period_end": "2021-10-31",
+    "statement_date": "2021-05-18"
+  },
+  {
+    "filename": "2021-06-16 National Grid - Statement.pdf",
+    "therms": 32,
+    "supply": 12.46,
+    "delivery": 31.11,
+    "period_start": "2021-05-04",
+    "period_end": "2021-06-01",
+    "statement_date": "2021-06-16"
+  },
+  {
+    "filename": "2021-07-16 National Grid - Statement.pdf",
+    "therms": 18,
+    "supply": 7.01,
+    "delivery": 23.2,
+    "period_start": "2021-06-01",
+    "period_end": "2021-07-01",
+    "statement_date": "2021-07-16"
+  },
+  {
+    "filename": "2021-08-17 National Grid - Statement.pdf",
+    "therms": 15,
+    "supply": 5.84,
+    "delivery": 22.53,
+    "period_start": "2021-07-01",
+    "period_end": "2021-08-03",
+    "statement_date": "2021-08-17"
+  },
+  {
+    "filename": "2021-09-15 National Grid - Statement.pdf",
+    "therms": 13,
+    "supply": 5.1,
+    "delivery": 19.69,
+    "period_start": "2021-09-01",
+    "period_end": "2021-10-31",
+    "statement_date": "2021-09-15"
+  },
+  {
+    "filename": "2021-10-18 National Grid - Statement.pdf",
+    "therms": 19,
+    "supply": 9.04,
+    "delivery": 23.82,
+    "period_start": "2021-09-01",
+    "period_end": "2021-10-01",
+    "statement_date": "2021-10-18"
+  },
+  {
+    "filename": "2021-11-15 National Grid - Statement.pdf",
+    "therms": 37,
+    "supply": 17.98,
+    "delivery": 36.06,
+    "period_start": "2021-11-01",
+    "period_end": "2022-04-30",
+    "statement_date": "2021-11-15"
+  },
+  {
+    "filename": "2021-12-17 National Grid - Statement.pdf",
+    "therms": 127,
+    "supply": 93.8,
+    "delivery": 148.07,
+    "period_start": "2021-12-01",
+    "period_end": "2022-04-30",
+    "statement_date": "2021-12-17"
+  },
+  {
+    "filename": "2022-01-17 National Grid - Statement.pdf",
+    "therms": 111,
+    "supply": 90.07,
+    "delivery": 128.6,
+    "period_start": "2021-12-01",
+    "period_end": "2022-04-30",
+    "statement_date": "2022-01-17"
+  },
+  {
+    "filename": "2022-02-11 National Grid - Statement.pdf",
+    "therms": 167,
+    "supply": 123.0,
+    "delivery": 188.82,
+    "period_start": "2022-01-01",
+    "period_end": "2022-04-30",
+    "statement_date": "2022-02-11"
+  },
+  {
+    "filename": "2022-03-16 National Grid - Statement.pdf",
+    "therms": 185,
+    "supply": 138.58,
+    "delivery": 209.52,
+    "period_start": "2022-03-01",
+    "period_end": "2022-04-30",
+    "statement_date": "2022-03-16"
+  },
+  {
+    "filename": "2022-04-15 National Grid - Statement.pdf",
+    "therms": 97,
+    "supply": 91.54,
+    "delivery": 114.93,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2022-04-15"
+  },
+  {
+    "filename": "2022-05-16 National Grid - Statement.pdf",
+    "therms": 55,
+    "supply": 51.9,
+    "delivery": 69.57,
+    "period_start": "2022-05-01",
+    "period_end": "2022-10-31",
+    "statement_date": "2022-05-16"
+  },
+  {
+    "filename": "2022-06-16 National Grid - Statement.pdf",
+    "therms": 32,
+    "supply": 25.58,
+    "delivery": 37.52,
+    "period_start": "2022-06-01",
+    "period_end": "2022-10-31",
+    "statement_date": "2022-06-16"
+  },
+  {
+    "filename": "2022-07-16 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 12.58,
+    "delivery": 20.49,
+    "period_start": "2022-06-01",
+    "period_end": "2022-10-31",
+    "statement_date": "2022-07-16"
+  },
+  {
+    "filename": "2022-08-16 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 12.32,
+    "delivery": 22.09,
+    "period_start": "2022-08-01",
+    "period_end": "2022-10-31",
+    "statement_date": "2022-08-16"
+  },
+  {
+    "filename": "2022-09-16 National Grid - Statement.pdf",
+    "therms": 12,
+    "supply": 8.29,
+    "delivery": 20.89,
+    "period_start": "2022-09-01",
+    "period_end": "2022-10-31",
+    "statement_date": "2022-09-16"
+  },
+  {
+    "filename": "2022-10-16 National Grid - Statement.pdf",
+    "therms": 14,
+    "supply": 14.53,
+    "delivery": 21.57,
+    "period_start": "2022-09-01",
+    "period_end": "2022-10-31",
+    "statement_date": "2022-10-16"
+  },
+  {
+    "filename": "2022-11-16 National Grid - Statement.pdf",
+    "therms": 38,
+    "supply": 39.43,
+    "delivery": 44.58,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2022-11-16"
+  },
+  {
+    "filename": "2022-12-16 National Grid - Statement.pdf",
+    "therms": 86,
+    "supply": 90.02,
+    "delivery": 120.23,
+    "period_start": "2022-12-01",
+    "period_end": "2023-04-30",
+    "statement_date": "2022-12-16"
+  },
+  {
+    "filename": "2023-01-12 National Grid - Statement.pdf",
+    "therms": 109,
+    "supply": 107.58,
+    "delivery": 148.84,
+    "period_start": "2022-12-01",
+    "period_end": "2023-04-30",
+    "statement_date": "2023-01-12"
+  },
+  {
+    "filename": "2023-02-15 National Grid - Statement.pdf",
+    "therms": 85,
+    "supply": 83.9,
+    "delivery": 120.54,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2023-02-15"
+  },
+  {
+    "filename": "2023-03-16 National Grid - Statement.pdf",
+    "therms": 96,
+    "supply": 84.1,
+    "delivery": 133.23,
+    "period_start": "2023-03-01",
+    "period_end": "2023-04-30",
+    "statement_date": "2023-03-16"
+  },
+  {
+    "filename": "2023-04-17 National Grid - Statement (pw is zip code).pdf",
+    "therms": 75,
+    "supply": 51.73,
+    "delivery": 107.11,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2023-04-17"
+  },
+  {
+    "filename": "2023-05-17 National Grid - Statement.pdf",
+    "therms": 38,
+    "supply": 25.36,
+    "delivery": 59.42,
+    "period_start": "2023-05-01",
+    "period_end": "2023-10-31",
+    "statement_date": "2023-05-17"
+  },
+  {
+    "filename": "2023-06-19 National Grid - Statement.pdf",
+    "therms": 26,
+    "supply": 10.71,
+    "delivery": 37.31,
+    "period_start": "2023-06-01",
+    "period_end": "2023-10-31",
+    "statement_date": "2023-06-19"
+  },
+  {
+    "filename": "2023-07-17 National Grid - Statement.pdf",
+    "therms": 10,
+    "supply": 2.84,
+    "delivery": 20.38,
+    "period_start": "2023-05-01",
+    "period_end": "2023-10-31",
+    "statement_date": "2023-07-17"
+  },
+  {
+    "filename": "2023-08-17 National Grid - Statement.pdf",
+    "therms": 10,
+    "supply": 2.27,
+    "delivery": 22.78,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2023-08-17"
+  },
+  {
+    "filename": "2023-09-15 National Grid - Statement.pdf",
+    "therms": 11,
+    "supply": 2.5,
+    "delivery": 22.14,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2023-09-15"
+  },
+  {
+    "filename": "2023-10-15 National Grid - Statement.pdf",
+    "therms": 24,
+    "supply": 4.19,
+    "delivery": 34.59,
+    "period_start": "2023-09-01",
+    "period_end": "2023-10-31",
+    "statement_date": "2023-10-15"
+  },
+  {
+    "filename": "2023-11-15 National Grid - Statement.pdf",
+    "therms": 28,
+    "supply": 4.89,
+    "delivery": 40.44,
+    "period_start": "2023-11-01",
+    "period_end": "2024-04-30",
+    "statement_date": "2023-11-15"
+  },
+  {
+    "filename": "2023-12-15 National Grid - Statement.pdf",
+    "therms": 71,
+    "supply": 57.67,
+    "delivery": 113.41,
+    "period_start": "2023-11-01",
+    "period_end": "2024-04-30",
+    "statement_date": "2023-12-15"
+  },
+  {
+    "filename": "2024-01-15 National Grid - Statement.pdf",
+    "therms": 42,
+    "supply": 34.11,
+    "delivery": 73.19,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2024-01-15"
+  },
+  {
+    "filename": "2024-02-15 National Grid - Statement.pdf",
+    "therms": 64,
+    "supply": 51.98,
+    "delivery": 103.01,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2024-02-15"
+  },
+  {
+    "filename": "2024-03-15 National Grid - Statement.pdf",
+    "therms": 37,
+    "supply": 30.05,
+    "delivery": 64.45,
+    "period_start": null,
+    "period_end": null,
+    "statement_date": "2024-03-15"
+  },
+  {
+    "filename": "2024-04-16 National Grid - Statement.pdf",
+    "therms": 63,
+    "supply": 51.17,
+    "delivery": 102.73,
+    "period_start": "2024-04-01",
+    "period_end": "2024-04-30",
+    "statement_date": "2024-04-16"
+  },
+  {
+    "filename": "2024-05-15 National Grid - Statement.pdf",
+    "therms": 71,
+    "supply": 56.87,
+    "delivery": 110.35,
+    "period_start": "2024-05-01",
+    "period_end": "2024-10-31",
+    "statement_date": "2024-05-15"
+  },
+  {
+    "filename": "2024-06-23 National Grid - Statement.pdf",
+    "therms": 36,
+    "supply": 13.74,
+    "delivery": 47.07,
+    "period_start": "2024-05-01",
+    "period_end": "2024-05-30",
+    "statement_date": "2024-06-23"
+  },
+  {
+    "filename": "2024-07-26 National Grid - Statement.pdf",
+    "therms": 20,
+    "supply": 7.63,
+    "delivery": 32.5,
+    "period_start": "2024-05-30",
+    "period_end": "2024-07-01",
+    "statement_date": "2024-07-26"
+  },
+  {
+    "filename": "2024-08-28 National Grid - Statement.pdf",
+    "therms": 36,
+    "supply": 13.68,
+    "delivery": 48.27,
+    "period_start": "2024-07-01",
+    "period_end": "2024-08-02",
+    "statement_date": "2024-08-28"
+  },
+  {
+    "filename": "2024-09-22 National Grid - Statement.pdf",
+    "therms": 22,
+    "supply": 7.84,
+    "delivery": 32.47,
+    "period_start": "2024-08-02",
+    "period_end": "2024-08-29",
+    "statement_date": "2024-09-22"
+  },
+  {
+    "filename": "2024-10-25 National Grid - Statement.pdf",
+    "therms": 38,
+    "supply": 13.56,
+    "delivery": 50.68,
+    "period_start": "2024-08-29",
+    "period_end": "2024-10-01",
+    "statement_date": "2024-10-25"
+  },
+  {
+    "filename": "2024-11-27 National Grid - Statement.pdf",
+    "therms": 65,
+    "supply": 23.18,
+    "delivery": 77.33,
+    "period_start": "2024-10-01",
+    "period_end": "2024-10-31",
+    "statement_date": "2024-11-27"
+  },
+  {
+    "filename": "2024-12-25 National Grid - Statement.pdf",
+    "therms": 76,
+    "supply": 64.36,
+    "delivery": 136.06,
+    "period_start": "2024-10-31",
+    "period_end": "2024-11-27",
+    "statement_date": "2024-12-25"
+  },
+  {
+    "filename": "2025-03-06 National Grid - Statement.pdf",
+    "therms": 63,
+    "supply": 53.35,
+    "delivery": 117.4,
+    "period_start": "2024-11-27",
+    "period_end": "2024-12-31",
+    "statement_date": "2025-03-06"
+  },
+  {
+    "filename": "2025-03-07 National Grid - Statement.pdf",
+    "therms": 93,
+    "supply": 78.76,
+    "delivery": 165.67,
+    "period_start": "2024-12-31",
+    "period_end": "2025-01-31",
+    "statement_date": "2025-03-07"
+  },
+  {
+    "filename": "2025-03-26 National Grid - Statement.pdf",
+    "therms": 53,
+    "supply": 44.89,
+    "delivery": 98.53,
+    "period_start": "2025-01-31",
+    "period_end": "2025-02-28",
+    "statement_date": "2025-03-26"
+  },
+  {
+    "filename": "2025-04-25 National Grid - Statement.pdf",
+    "therms": 43,
+    "supply": 36.41,
+    "delivery": 67.67,
+    "period_start": "2025-02-28",
+    "period_end": "2025-04-01",
+    "statement_date": "2025-04-25"
+  },
+  {
+    "filename": "2025-05-28 National Grid - Statement.pdf",
+    "therms": 21,
+    "supply": 18.28,
+    "delivery": 41.3,
+    "period_start": "2025-04-01",
+    "period_end": "2025-05-02",
+    "statement_date": "2025-05-28"
+  },
+  {
+    "filename": "2025-06-27 National Grid - Statement.pdf",
+    "therms": 29,
+    "supply": 14.92,
+    "delivery": 57.86,
+    "period_start": "2025-05-02",
+    "period_end": "2025-06-03",
+    "statement_date": "2025-06-27"
+  },
+  {
+    "filename": "2025-07-30 National Grid - Statement.pdf",
+    "therms": 11,
+    "supply": 5.59,
+    "delivery": 28.69,
+    "period_start": "2025-06-03",
+    "period_end": "2025-07-02",
+    "statement_date": "2025-07-30"
+  },
+  {
+    "filename": "2025-08-28 National Grid - Statement.pdf",
+    "therms": 14,
+    "supply": 5.72,
+    "delivery": 34.93,
+    "period_start": "2025-07-02",
+    "period_end": "2025-08-04",
+    "statement_date": "2025-08-28"
+  },
+  {
+    "filename": "2025-09-26 National Grid - Statement.pdf",
+    "therms": 5,
+    "supply": 1.79,
+    "delivery": 19.38,
+    "period_start": "2025-08-04",
+    "period_end": "2025-09-02",
+    "statement_date": "2025-09-26"
+  },
+  {
+    "filename": "2025-10-26 National Grid - Statement.pdf",
+    "therms": 8,
+    "supply": 2.02,
+    "delivery": 24.03,
+    "period_start": "2025-09-02",
+    "period_end": "2025-10-01",
+    "statement_date": "2025-10-26"
+  },
+  {
+    "filename": "2025-11-23 National Grid - Statement.pdf",
+    "therms": 19,
+    "supply": 4.84,
+    "delivery": 41.21,
+    "period_start": "2025-10-01",
+    "period_end": "2025-10-30",
+    "statement_date": "2025-11-23"
+  },
+  {
+    "filename": "2025-12-11 National Grid - Final Statement.pdf",
+    "therms": 9,
+    "supply": 8.71,
+    "delivery": 20.79,
+    "period_start": "2025-10-30",
+    "period_end": "2025-11-14",
+    "statement_date": "2025-12-11"
+  }
+]
