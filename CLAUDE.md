@@ -1,132 +1,106 @@
-# Albert's Repos
+# albert-analysis
 
-This `CLAUDE.md` file is version controlled in the `albert-analysis` repo. Copy it to a top-level directory that contains all the cloned repos described below. Then run Claude Code CLI on that top-level directory.
+This is a personal analytics dashboard — a Next.js 15 app that visualizes historical utility bills, vehicle service records, and other personal financial data. Data is extracted from PDFs in `albert-business` via Python scripts, stored as JSON in `data/`, and rendered server-side into interactive charts.
 
-The following are repositories that house essentially all of my important personal files.
+## Tech stack
 
-They are Git repositories, not because I have any particular need for version control, but rather because it makes it easier to track a history of additions in a form factor I know well.
+- **Next.js 15** (App Router) with TypeScript
+- **Tailwind CSS** for styling
+- **Chart.js** + `react-chartjs-2` for charts
+- **pymupdf** (Python) for PDF extraction in scripts
 
-## File naming conventions
-As much as possible, documents are named with a date, an entity (organization or person), and a topic. An example would be `2006-12-23 Safety Insurance - Declaration.pdf`, which tells me it's an insurance policy declaration from the insurer Safety Insurance, issued on December 23, 2006.
+## Directory structure
 
-## Directory naming conventions and breakdowns
+```
+albert-analysis/
+├── data/                        # JSON data files consumed by the app (source of truth for the UI)
+├── scripts/                     # Python scripts that extract data from PDFs in albert-business
+├── src/
+│   ├── app/                     # Next.js App Router pages
+│   │   ├── page.tsx             # Dashboard homepage (summary cards linking to all analyses)
+│   │   ├── properties/
+│   │   │   ├── 110-tudor-st/
+│   │   │   │   ├── electric/    # Eversource electric history for 110 Tudor St
+│   │   │   │   ├── gas/         # National Grid gas history for 110 Tudor St
+│   │   │   │   └── water/       # BWSC water/sewer history for 110 Tudor St
+│   │   │   └── 69-hitching-post-lane/
+│   │   │       └── electric/    # Eversource electric history for 69 Hitching Post Ln
+│   │   └── vehicles/
+│   │       ├── nissan-rogue/    # 2018 Nissan Rogue service history
+│   │       └── tesla-model3/    # Tesla Model 3 service history
+│   ├── components/              # Reusable UI components
+│   │   ├── BarChart.tsx         # Client-side bar chart (usage, cost, and rate modes)
+│   │   ├── MileageLineChart.tsx # Time-scale line chart for vehicle mileage
+│   │   ├── BackButton.tsx       # Back-to-dashboard navigation
+│   │   ├── PropertyLabel.tsx    # Property address badge
+│   │   ├── ServiceTable.tsx     # Vehicle service events table
+│   │   └── StatCard.tsx         # Summary stat display card
+│   └── lib/
+│       ├── data.ts              # Data loading functions and processing logic (server-side)
+│       └── types.ts             # TypeScript types for all data shapes
+```
 
-In most cases, directories are named in snake_case. An example would be `property_110_tudor_st` under the `albert-business` repo, which tells me it contains all the files related to an asset which is the property I own at 110 Tudor St.
+## Data files (`data/`)
 
-In some cases, directories may be named in plain language. An example would be `2025-02-08 MassSave (HomeWorks Energy) - Wall Insulation Proposal`. While rare, if you encounter a directory named in plain language, it's likely because it's some kind of one-off project that needs to be more descriptive than a reasonable snake_case string can allow for.
+All data files are plain JSON arrays (or objects for vehicles). Pages load them server-side via `fs.readFileSync` in `src/lib/data.ts`.
 
-Finally, you may encounter directories that are in kebab-case. An example would be `refinance-2021`, or even the top-level directories like `albert-business`. Honestly, in practically all circumstances of this there's no real reason it had to be named in kebab-case, and could have been just as well (and more consistently) represented in snake_case. So I would ignore any significance to the fact that a directory was named in kebab-case and if you ever have to choose, just stick with snake_case to be consistent with the majority of named folders.
+| File | Source | Key fields |
+|---|---|---|
+| `electric_110_tudor.json` | Eversource (110 Tudor St) | `kwh`, `supply`, `delivery`, `period_start`, `period_end`, `statement_date` |
+| `electric_69hpl.json` | Eversource (69 Hitching Post Ln) | same as above |
+| `gas_110_tudor.json` | National Grid (110 Tudor St) | `therms`, `supply`, `delivery`, `period_start`, `period_end`, `statement_date` |
+| `water_110_tudor.json` | BWSC (110 Tudor St) | `cf`, `water`, `sewer`, `period_start`, `period_end`, `statement_date` |
+| `vehicle_nissan_rogue.json` | Manual | `make`, `model`, `year`, `vin`, `color`, `acquired_date`, `acquired_miles`, `events[]` |
+| `vehicle_tesla_model3.json` | Manual | same shape as above |
 
-## Navigation
+## Python extraction scripts (`scripts/`)
 
-All top-level directories are Git repository clones, and they are broken down as follows:
+Each script reads PDF statements from `albert-business`, extracts structured data, and writes a JSON file. They require `pymupdf` (`pip install pymupdf`).
 
-### `albert-analysis`
+| Script | Reads from | Writes to |
+|---|---|---|
+| `extract_electric_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/eversource_electric/` | `albert_git_repos/electric_data.json` |
+| `extract_electric_69hpl.py` | `albert-business/property_69_hitching_post_lane/service_providers/eversource_electric/` | `albert_git_repos/electric_data_69hpl.json` |
+| `extract_gas_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/national_grid_gas/` | `albert_git_repos/gas_data_110tudor.json` |
+| `extract_water_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/boston_water_sewer/` | `albert_git_repos/water_data_110tudor.json` |
 
-This is where all analyses should be done. That also means any analyses done via AI should create and update artifacts (Python files, HTML files, JSON files, etc.) in this folder. This is essentially the "working directory" for all analysis and analytics.
+> **Note:** Scripts write their output to the parent `albert_git_repos/` directory, not directly into `data/`. After running a script, copy the output file into `data/` under the correct name (see table above).
 
-### `albert-business`
+Scripts filter for PDFs with "Statement" in the filename. They handle two PDF text encoding variants: normal readable PDFs and garbled/encoded ones (the latter are decoded using a +29 ASCII offset technique that reverses the encoding used by older NStar/National Grid PDFs).
 
-This repo contains documents pertaining to assets (homes, cars, investments, taxes) and vendors/services I use.
+### Running a script
 
-* `auto-all` - Documents having to do with cars we own or previously owned
-* `cooking` - Where I store recipes I like making. It probably should be in another repo or in Notion as a knowledge base item, but is here probably for legacy reasons.
-* `lt_investments` - Documents related to long-term investments I've made, usually angel investments in early stage startups or SPVs, but could also be fund investments. It includes notes from calls during which I was considering an investment (that I may or may not have subsequently made).
- * `EXITED` - A sub-folder of exited investments. Investments that experience an exit or dissolution event are moved into this.
-* `property_110_tudor_st` - Documents related to my rental asset that is a single family home at 110 Tudor St, Boston, MA 02127
- * `community` - Mostly notices from City of Boston, but also includes purchase inquiries, interesting ads received, interactions with neighbors, abutters notices, and other neighborhood things.
- * `major_projects` - Any house project worth documenting deeply (usually because it was big in nature, a capital improvement, had a lot of moving pieces, etc.).
- * `marketing` - Assets related to the marketing of the property for short, medium, or long-term rental.
- * `public_documents` - Docs about or related to the property that is also accessible to the general public.
- * `purchase` - Everything related to the purchase of the property.
- * `service_providers` - Services that are specific to this property.
-  * `CLOSED` - A sub-folder of service providers whose accounts have been closed (I am no longer using them).
- * `tenants` - Leases for current and past long-term tenants, along with lease templates.
-* `property_69_hitching_post_lane` - Documents related to my primary residence asset that is a single family home at 69 Hitching Post Ln, Bedford, NH 03110
- * `community` - Mostly notices from Town of Bedford, but also includes purchase inquiries, interesting ads received, interactions with neighbors, abutters notices, and other neighborhood things.
- * `major_projects` - Any house project worth documenting deeply (usually because it was big in nature, a capital improvement, had a lot of moving pieces, etc.).
- * `public_documents` - Docs about or related to the property that is also accessible to the general public.
- * `purchase` - Everything related to the purchase of the property.
- * `service_providers` - Services that are specific to this property.
-  * `CLOSED` - A sub-folder of service providers whose accounts have been closed (I am no longer using them).
-* `property_933_tennyson_dr` - Documents related to my rental asset that is a single family home at 933 Tennyson Dr, Charlotte, NC 28208
- * `design` - Everything related to the design phase of the short-term rental amenities.
- * `public_documents` - Docs about or related to the property that is also accessible to the general public.
- * `purchase` - Everything related to the purchase of the property.
- * `service_providers` - Services that are specific to this property.
-  * `CLOSED` - A sub-folder of service providers whose accounts have been closed (I am no longer using them).
-* `service_providers` - Documents related to any service I use personally, such as financial accounts (checking, brokerage, credit cards, etc.), insurance policies, communication (ex: AT&T), daycare, public school, etc. It also includes notes from calls during which I was considering that service provider or gathering information. It may also include subfolders of documents related to alternative service providers that I was evaluating alongside the one I eventually chose. Note that there is a `service_providers` folder under each property that contains property-specific service providers.
- * `CLOSED` - A sub-folder of service providers whose accounts have been closed (I am no longer using them).
- * `health_insurance` - A particularly significant sub-folder containing everything related to health insurance, including all currently active policies and HSAs, and also elections and considerations during open enrollment periods.
-* `taxes_financial` - All receipts for all personal payments and tax filings, split by year. For each year, there is the following structure:
- * A ledger file for the year: either an `.xlsx` file (legacy) or a `.webloc` link to a Google Sheet (the new way)
- * `receipts` - Directory of all receipts (majority are PDFs, and in rare circumstances, image or text files)
-  * `business` - Transactions related to passthrough businesses we are a part of. It is split between each distinct business. The vast majority of transactions are either capital contributions and shareholder distributions. It does NOT include tax-related statements like K-1s, as those will show up under `tax_filings` instead.
-  * `[EMPLOYER_NAME]` - There will be a folder for each W-2 employer I worked for that year. The vast majority of documents here are payroll statements. It does NOT include tax-related statements like W-2s, 1099s, W-4s, or W-9s, as those will show up under `tax_filings` instead.
-  * `credit_card` - Monthly credit card payments for each credit card, when there is a balance to pay.
-  * `home` - Transactions related to my primary residence asset at 69 Hitching Post Ln, Bedford, NH 03110.
-  * `major_purchase` - A catch-all for transactions significant enough to track. The vast majority of these are groceries and meal purchases, not necessarily because they are significant but so I can track major life category spending.
-   * `auto_payments` - Car servicing, insurance premium payments, tolls, and registrations.
-   * `daycare_payments` - Daycare tuition payments and daycare FSA reimbursements.
-   * `gym_payments` - Gym membership payments.
-   * `navia_transit_benefits` - Transit and parking contributions for commuter benefits FSA.
-   * `phone_payments` - Family phone plan payments and reimbursements from family members.
-   * `reimbursements` - Reimbursements payments typically from employers or FSAs.
-  * `medical` - Transactions related to medical services. Mostly co-pays or co-insurance payments for healthcare visits, blood draws, and medication. Occasionally there may be medical supplies, device, or equipment purchases. Also includes health insurance premium payments for COBRA or marketplace plans.
-  * `real_estate_110` - Transactions related to rental of the asset 110 Tudor St, Boston, MA 02127.
-   * `expense_receipts` - All expenses (maintenance, supplies, capital improvements, etc.)
-    * `cable_internet_payments` - Payments to internet service.
-    * `electric_payments` - Payments to electric service.
-    * `gas_payments` - Payments to gas service.
-    * `mortgage_payments` - Monthly mortgage payments.
-    * `water_sewer_payments` - Payments to water & sewer service.
-   * `rent_payments` - Payments from tenants (including Airbnb payouts)
-  * `real_estate_933` - Transactions related to rental of the asset 933 Tennyson Dr, Charlotte, NC 28208. 
-   * `expense_receipts` - All expenses (maintenance, supplies, capital improvements, etc.)
-    * `cable_internet_payments` - Payments to internet service.
-    * `electric_payments` - Payments to electric service.
-    * `gas_payments` - Payments to gas service.
-    * `mortgage_payments` - Monthly mortgage payments.
-    * `water_sewer_payments` - Payments to water & sewer service.
-   * `rent_payments` - Payments from tenants (including Airbnb payouts)
-  * `student_loan` - Monthly payments for student loan.
-  * `unemployment` - Payments from an state unemployment claims.
- * `statements` - All tax statements like W-2s, 1099s, K-1s, 1095 healthcare statements, 1098 loan interest statements, etc. It is split between recipients (Albert and Laura) since we started filing as married-filing-jointly in 2017.
- * `tax_filings` - All tax returns, confirmations, W-9 or W-4 filings, IRS notices, state DOR notices, and audit defense policies.
+```bash
+cd /Users/albert/albert_git_repos/albert-analysis
+python3 scripts/extract_electric_110tudor.py
+# Output written to /Users/albert/albert_git_repos/electric_data.json
+cp /Users/albert/albert_git_repos/electric_data.json data/electric_110_tudor.json
+```
 
-### `albert-employment`
+Repeat for other scripts as needed, then restart the dev server to pick up the new data.
 
-This repo contains documents pertaining to my current and past employment or contracting. Every sub-folder is an current or previous employer except for two special folders:
-* `interviews` - Contains all documents related to job interviews, split by year.
-* `unemployment` - Contains all documents related to unemployment claims, split by time period / entity.
+## Running the app
 
-### `albert-personal`
+```bash
+npm run dev    # Development server at http://localhost:3000
+npm run build  # Production build
+npm run start  # Serve production build
+```
 
-This repo contains documents pertaining to personal non-business pursuits, hobbies, things of sentimental or nostalgic value (such as holiday and thank you cards, and event programs), and other random things in my life. A couple special sub-folders to note:
-* `focus_groups` - Documents related to focus groups I was a part of.
-* `violation_tickets` - Documents related to citations, tickets, violations (toll, transit, speeding, etc.).
+## Important Next.js 15 patterns
 
-### `albert-profile`
+- **No `ssr: false`** with `next/dynamic` in Server Components. Client components that need to avoid SSR (e.g., Chart.js canvases) use a `useState(mounted)` guard instead — render `null` until mounted.
+- All pages are **Server Components** that load and process data at request time. Chart components are Client Components that receive pre-processed data as props.
+- Data loading happens in `src/lib/data.ts` via `readFileSync` — this only runs server-side.
 
-This repo contains documents pertaining to identity, medical records, and achievements. It also contains files I manage on behalf of others in my family (usually having to do with identity or medical records). The top-level has all of my personal identity documents, while the following folder structure contains other documents:
-* `2fa_recovery_codes` - 2-factor authentication recovery codes for services I use.
-* `credit_reports` - Self-pulled credit reports from the credit bureaus.
-* `cyrus` - Everything related to my cat Cyrus, particularly medical (veterinary) records, and also his purchase records.
-* `gwyneth` - Everything related to my daughter Gwyneth Isla Kwasniewski Ho, particularly identity and medical records.
-* `laura` - Various documents for my wife Laura Kwasniewski, particularly identity and medical records.
-* `leonard` - Everything related to my son Leonard Quentin Kwasniewski Ho, particularly identity and medical records.
-* `marriage` - Marriage documents for my marriage to my wife Laura Kwasniewski.
-* `medical_history` - MY personal medical documents across my whole life.
-* `michelle` - Various documents for my sister Michelle Ho, particularly birth documents that I had to take (and sent to her) from our parents' house after we realized those documents were at risk given my mother's brain degeneration.
-* `patents_publications` - Patents for which I was either the representing patent agent or the inventor (or both), publications, and any press I've ever gotten in the past.
-* `recommendations` - Written recommendations I've received.
-* `resumes` - All current and past versions of my resume.
-* `treasure` - Everything related to my dog Treasure, particularly medical (veterinary) records, and also her purchase records.
-* `uspto_registered_agent` - Everything related to my license to practice patent prosecution before the United States Patent & Trademark Office.
-* `voter_registration` - All current and past voter registrations.
-* `will` - Will & testament for me and Laura.
-* `yealing_peigee` - Everything I'm involved with regarding my parents Yea-Ling Ho (mom) and Pei-Gee Ho (dad). Particuarly medical records from when I accompany either of them to healthcare providers to manage their chronic illnesses. 
+## Adding a new analysis
 
-### `albertho.net`
+1. Add a new JSON data file to `data/` (and a script to `scripts/` if it's extracted from PDFs).
+2. Add the TypeScript type to `src/lib/types.ts`.
+3. Add a load function and a process function to `src/lib/data.ts`.
+4. Create a new page at the appropriate URL path under `src/app/`.
+5. Add a summary card linking to the new page in `src/app/page.tsx`.
 
-This is my personal website. It is a NextJS application.
+## Vehicle data (manual)
+
+Vehicle JSON files are maintained by hand, not extracted from PDFs. To add a service event, append an entry to the `events` array in the appropriate `data/vehicle_*.json` file following the existing shape (`date`, `miles`, `label`, `detail`, `is_purchase`, `provider`, `service`, `cost`).
