@@ -59,12 +59,12 @@ Each script reads PDF statements from `albert-business`, extracts structured dat
 
 | Script | Reads from | Writes to |
 |---|---|---|
-| `extract_electric_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/eversource_electric/` | `albert_git_repos/electric_data.json` |
-| `extract_electric_69hpl.py` | `albert-business/property_69_hitching_post_lane/service_providers/eversource_electric/` | `albert_git_repos/electric_data_69hpl.json` |
-| `extract_gas_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/national_grid_gas/` | `albert_git_repos/gas_data_110tudor.json` |
-| `extract_water_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/boston_water_sewer/` | `albert_git_repos/water_data_110tudor.json` |
+| `extract_electric_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/eversource_electric/` | `data/electric_110_tudor.json` |
+| `extract_electric_69hpl.py` | `albert-business/property_69_hitching_post_lane/service_providers/eversource_electric/` | `data/electric_69hpl.json` |
+| `extract_gas_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/national_grid_gas/` | `data/gas_110_tudor.json` |
+| `extract_water_110tudor.py` | `albert-business/property_110_tudor_st/service_providers/boston_water_sewer/` | `data/water_110_tudor.json` |
 
-> **Note:** Scripts write their output to the parent `albert_git_repos/` directory, not directly into `data/`. After running a script, copy the output file into `data/` under the correct name (see table above).
+Scripts write output directly into `data/` and are **incremental**: on each run they load the existing JSON, skip any PDFs already recorded by filename, and append only new records. To force a full re-extraction, delete the output JSON file first.
 
 Scripts filter for PDFs with "Statement" in the filename. They handle two PDF text encoding variants: normal readable PDFs and garbled/encoded ones (the latter are decoded using a +29 ASCII offset technique that reverses the encoding used by older NStar/National Grid PDFs).
 
@@ -73,8 +73,7 @@ Scripts filter for PDFs with "Statement" in the filename. They handle two PDF te
 ```bash
 cd /Users/albert/albert_git_repos/albert-analysis
 python3 scripts/extract_electric_110tudor.py
-# Output written to /Users/albert/albert_git_repos/electric_data.json
-cp /Users/albert/albert_git_repos/electric_data.json data/electric_110_tudor.json
+# New records appended to data/electric_110_tudor.json
 ```
 
 Repeat for other scripts as needed, then restart the dev server to pick up the new data.

@@ -151,13 +151,28 @@ def parse_statement(text, filename):
     return result
 
 
-def main():
-    files = sorted([f for f in os.listdir(BASE) if "Statement" in f and f.endswith(".pdf")])
+OUTPUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "water_110_tudor.json")
 
-    results = []
+
+def main():
+    all_files = sorted([f for f in os.listdir(BASE) if "Statement" in f and f.endswith(".pdf")])
+
+    # Load existing data and skip already-processed filenames
+    existing = []
+    if os.path.exists(OUTPUT):
+        with open(OUTPUT) as fp:
+            existing = json.load(fp)
+    seen = {r["filename"] for r in existing}
+
+    new_files = [f for f in all_files if f not in seen]
+    if not new_files:
+        print("No new statements found.")
+        return
+
+    new_results = []
     errors = []
 
-    for f in files:
+    for f in new_files:
         filepath = os.path.join(BASE, f)
         try:
             text = extract_text(filepath)
@@ -179,7 +194,7 @@ def main():
             if data["sewer"] is None:
                 errors.append(f"  {f}: no sewer charge found")
 
-            results.append(data)
+            new_results.append(data)
         except Exception as e:
             errors.append(f"  {f}: ERROR {e}")
 
@@ -189,14 +204,16 @@ def main():
             print(e)
         print()
 
-    print(f"Total statements processed: {len(results)}")
+    results = existing + new_results
+    print(f"New statements processed: {len(new_results)}")
+    print(f"Total statements: {len(results)}")
     print(f"With CF data: {sum(1 for r in results if r['cf'] is not None)}")
     print(f"With water data: {sum(1 for r in results if r['water'] is not None)}")
     print(f"With sewer data: {sum(1 for r in results if r['sewer'] is not None)}")
 
-    with open("/Users/albert/albert_git_repos/water_data_110tudor.json", "w") as fp:
+    with open(OUTPUT, "w") as fp:
         json.dump(results, fp, indent=2)
-    print("\nData written to water_data_110tudor.json")
+    print(f"\nData written to {OUTPUT}")
 
 
 if __name__ == "__main__":

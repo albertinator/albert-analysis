@@ -174,13 +174,28 @@ def parse_statement(text, filename):
     return result
 
 
-def main():
-    files = sorted([f for f in os.listdir(BASE) if "Statement" in f and f.endswith(".pdf")])
+OUTPUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "electric_110_tudor.json")
 
-    results = []
+
+def main():
+    all_files = sorted([f for f in os.listdir(BASE) if "Statement" in f and f.endswith(".pdf")])
+
+    # Load existing data and skip already-processed filenames
+    existing = []
+    if os.path.exists(OUTPUT):
+        with open(OUTPUT) as fp:
+            existing = json.load(fp)
+    seen = {r["filename"] for r in existing}
+
+    new_files = [f for f in all_files if f not in seen]
+    if not new_files:
+        print("No new statements found.")
+        return
+
+    new_results = []
     errors = []
 
-    for f in files:
+    for f in new_files:
         filepath = os.path.join(BASE, f)
         try:
             garbled = is_garbled(filepath)
@@ -199,7 +214,7 @@ def main():
             if data["kwh"] is None:
                 errors.append(f"  {f}: no kWh found")
 
-            results.append(data)
+            new_results.append(data)
         except Exception as e:
             errors.append(f"  {f}: ERROR {e}")
 
@@ -209,15 +224,17 @@ def main():
             print(e)
         print()
 
+    results = existing + new_results
     # Output as JSON for charting
-    print(f"Total statements processed: {len(results)}")
+    print(f"New statements processed: {len(new_results)}")
+    print(f"Total statements: {len(results)}")
     print(f"With kWh data: {sum(1 for r in results if r['kwh'] is not None)}")
     print(f"With supply data: {sum(1 for r in results if r['supply'] is not None)}")
     print(f"With delivery data: {sum(1 for r in results if r['delivery'] is not None)}")
 
-    with open("/Users/albert/albert_git_repos/electric_data.json", "w") as fp:
+    with open(OUTPUT, "w") as fp:
         json.dump(results, fp, indent=2)
-    print("\nData written to electric_data.json")
+    print(f"\nData written to {OUTPUT}")
 
 if __name__ == "__main__":
     main()
