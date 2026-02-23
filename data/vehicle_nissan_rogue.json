@@ -296,6 +296,16 @@
       "provider": "HM Motor Works, Bedford NH",
       "service": "Serpentine/accessory drive belt replacement (due at 100K)",
       "cost": 212.10
+    },
+    {
+      "date": "2026-02-21",
+      "miles": 102223,
+      "label": "Coolant Flush & Front Brake Service",
+      "detail": "Team Nissan, Manchester NH \u2014 Engine coolant flush, front brake pads & rotors replacement, multi-point inspection \u2014 $732.65",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "Engine coolant flush, front brake pads & rotors replacement, multi-point inspection",
+      "cost": 732.65
     }
   ]
 }
