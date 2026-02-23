@@ -1,0 +1,301 @@
+{
+  "make": "Nissan",
+  "model": "Rogue AWD",
+  "year": 2018,
+  "vin": "KNMAT2MV5JP588127",
+  "color": "#C3002F",
+  "acquired_date": "2023-03-01",
+  "acquired_miles": 60672,
+  "events": [
+    {
+      "date": "2023-03-01",
+      "miles": 60672,
+      "label": "Purchase",
+      "detail": "Purchased from Merchants Automotive Group, Hooksett NH",
+      "is_purchase": true,
+      "provider": null,
+      "service": null,
+      "cost": null
+    },
+    {
+      "date": "2023-03-22",
+      "miles": 60997,
+      "label": "NH State Inspection",
+      "detail": "Meineke, Manchester NH \u2014 NH State Safety Inspection (Passed)",
+      "is_purchase": false,
+      "provider": "Meineke, Manchester NH",
+      "service": "NH State Safety Inspection (Passed)",
+      "cost": null
+    },
+    {
+      "date": "2023-05-30",
+      "miles": 63444,
+      "label": "Spring Check Up",
+      "detail": "Team Nissan, Manchester NH \u2014 Spring check up: oil & filter change, multi-point inspection, recalls \u2014 $9.95",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "Spring check up: oil & filter change, multi-point inspection, recalls",
+      "cost": 9.95
+    },
+    {
+      "date": "2023-05-30",
+      "miles": 63464,
+      "label": "Differential Diagnosis",
+      "detail": "Meineke, Manchester NH \u2014 Differential fluid drain & refill + diagnosis (partial payment) \u2014 $143.61",
+      "is_purchase": false,
+      "provider": "Meineke, Manchester NH",
+      "service": "Differential fluid drain & refill + diagnosis (partial payment)",
+      "cost": 143.61
+    },
+    {
+      "date": "2023-06-02",
+      "miles": 63464,
+      "label": "Differential Replacement",
+      "detail": "Meineke, Manchester NH \u2014 Transfer case/differential assembly replacement (used) \u2014 $1,664.76",
+      "is_purchase": false,
+      "provider": "Meineke, Manchester NH",
+      "service": "Transfer case / differential assembly replacement (used)",
+      "cost": 1664.76
+    },
+    {
+      "date": "2023-06-27",
+      "miles": 64314,
+      "label": "Drive Shaft Replacement",
+      "detail": "Meineke, Manchester NH \u2014 Drive shaft replacement \u2014 $555.52",
+      "is_purchase": false,
+      "provider": "Meineke, Manchester NH",
+      "service": "Drive shaft replacement",
+      "cost": 555.52
+    },
+    {
+      "date": "2023-08-16",
+      "miles": 66265,
+      "label": "Oil Change & Inspection",
+      "detail": "Team Nissan, Manchester NH \u2014 Full synthetic oil & filter change, multi-point inspection, 2 recalls \u2014 $39.95",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "Full synthetic oil & filter change, multi-point inspection, 2 recalls",
+      "cost": 39.95
+    },
+    {
+      "date": "2023-09-05",
+      "miles": 67344,
+      "label": "NH State Inspection + Bulbs",
+      "detail": "AutoFair Ford, Manchester NH \u2014 NH State Inspection & side bulbs replacement \u2014 $95.78",
+      "is_purchase": false,
+      "provider": "AutoFair Ford, Manchester NH",
+      "service": "NH State Inspection & side bulbs replacement",
+      "cost": 95.78
+    },
+    {
+      "date": "2023-11-22",
+      "miles": 69273,
+      "label": "Fall Check Up",
+      "detail": "Team Nissan, Manchester NH \u2014 Fall check up (multi-point inspection) \u2014 $9.99",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "Fall check up (multi-point inspection)",
+      "cost": 9.99
+    },
+    {
+      "date": "2023-11-28",
+      "miles": 69273,
+      "label": "Alignment & Inspection",
+      "detail": "Team Nissan, Manchester NH \u2014 4-wheel alignment & inspection \u2014 $89.95",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "4-wheel alignment & inspection",
+      "cost": 89.95
+    },
+    {
+      "date": "2024-03-16",
+      "miles": 74002,
+      "label": "Oil Change & Inspection",
+      "detail": "AutoFair Honda, Manchester NH \u2014 Oil change & multi-point inspection \u2014 $29.95",
+      "is_purchase": false,
+      "provider": "AutoFair Honda, Manchester NH",
+      "service": "Oil change & multi-point inspection",
+      "cost": 29.95
+    },
+    {
+      "date": "2024-03-29",
+      "miles": 74407,
+      "label": "Winter Check Up",
+      "detail": "Team Nissan, Manchester NH \u2014 Winter check up \u2014 $9.95",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "Winter check up",
+      "cost": 9.95
+    },
+    {
+      "date": "2024-04-13",
+      "miles": 75473,
+      "label": "New Tires",
+      "detail": "Sullivan Tire, Bedford NH \u2014 4 new tires \u2014 $587.96",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "4 new tires",
+      "cost": 587.96
+    },
+    {
+      "date": "2024-07-03",
+      "miles": 78616,
+      "label": "Brake Inspection & Battery Test",
+      "detail": "Team Nissan, Manchester NH \u2014 Brake inspection & battery test",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "Brake inspection & battery test",
+      "cost": 0.00
+    },
+    {
+      "date": "2024-07-08",
+      "miles": 78722,
+      "label": "Front Axle Seal Replacement",
+      "detail": "Meineke, Manchester NH \u2014 Front axle seal replacement \u2014 $526.16",
+      "is_purchase": false,
+      "provider": "Meineke, Manchester NH",
+      "service": "Front axle seal replacement",
+      "cost": 526.16
+    },
+    {
+      "date": "2024-08-30",
+      "miles": 81000,
+      "label": "NH State Inspection",
+      "detail": "Team Nissan, Manchester NH \u2014 NH State Inspection \u2014 $25.00",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "NH State Inspection",
+      "cost": 25.00
+    },
+    {
+      "date": "2024-09-11",
+      "miles": 82172,
+      "label": "Fluids & Filters Service",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Differential fluid exchange, engine air filter, cabin air filter, brake fluid flush \u2014 $438.03",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Differential fluid exchange, engine air filter, cabin air filter, brake fluid flush",
+      "cost": 438.03
+    },
+    {
+      "date": "2024-09-12",
+      "miles": 82201,
+      "label": "Transmission Fluid Flush",
+      "detail": "Meineke, Manchester NH \u2014 Transmission fluid flush \u2014 $199.80",
+      "is_purchase": false,
+      "provider": "Meineke, Manchester NH",
+      "service": "Transmission fluid flush",
+      "cost": 199.80
+    },
+    {
+      "date": "2024-09-27",
+      "miles": 82863,
+      "label": "Oil Change & Inspection",
+      "detail": "Precision Imports, Manchester NH \u2014 Oil change & inspection \u2014 $99.50",
+      "is_purchase": false,
+      "provider": "Precision Imports, Manchester NH",
+      "service": "Oil change & inspection",
+      "cost": 99.50
+    },
+    {
+      "date": "2024-11-27",
+      "miles": 85933,
+      "label": "Fall Check Up & Tire Rotation",
+      "detail": "Team Nissan, Manchester NH \u2014 Fall check up & tire rotation \u2014 $24.95",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "Fall check up & tire rotation",
+      "cost": 24.95
+    },
+    {
+      "date": "2025-03-26",
+      "miles": 91035,
+      "label": "Oil Change & Inspection",
+      "detail": "Precision Imports, Manchester NH \u2014 Synthetic oil change & inspection \u2014 $49.95",
+      "is_purchase": false,
+      "provider": "Precision Imports, Manchester NH",
+      "service": "Synthetic oil change & inspection",
+      "cost": 49.95
+    },
+    {
+      "date": "2025-04-02",
+      "miles": 91279,
+      "label": "Tire Rotation",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Tire rotation & visual vehicle check",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Tire rotation & visual vehicle check",
+      "cost": null
+    },
+    {
+      "date": "2025-06-27",
+      "miles": 93640,
+      "label": "Spring Check Up & Tire Rotation",
+      "detail": "Team Nissan, Manchester NH \u2014 Spring check up & tire rotation \u2014 $9.95",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "Spring check up & tire rotation",
+      "cost": 9.95
+    },
+    {
+      "date": "2025-08-30",
+      "miles": 96074,
+      "label": "NH State Inspection",
+      "detail": "Team Nissan, Manchester NH \u2014 NH State Inspection \u2014 $25.00",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "NH State Inspection",
+      "cost": 25.00
+    },
+    {
+      "date": "2025-09-15",
+      "miles": 96273,
+      "label": "Tie Rods & Alignment",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Fix front left tie rods & 4-wheel alignment \u2014 $456.33",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Fix front left tie rods & 4-wheel alignment",
+      "cost": 456.33
+    },
+    {
+      "date": "2025-09-15",
+      "miles": 96291,
+      "label": "NH State Re-inspection",
+      "detail": "Team Nissan, Manchester NH \u2014 NH State Inspection re-inspection (after tie rod fix)",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "NH State Inspection re-inspection (after tie rod fix)",
+      "cost": null
+    },
+    {
+      "date": "2025-10-29",
+      "miles": 97381,
+      "label": "Oil Change & Inspection",
+      "detail": "HM Motor Works \u2014 Oil change & inspection \u2014 $52.57",
+      "is_purchase": false,
+      "provider": "HM Motor Works",
+      "service": "Oil change & inspection",
+      "cost": 52.57
+    },
+    {
+      "date": "2026-01-03",
+      "miles": 99748,
+      "label": "Tire Rotation",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Tire rotation",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Tire rotation",
+      "cost": null
+    },
+    {
+      "date": "2026-02-16",
+      "miles": 101783,
+      "label": "Drive Belt Replacement",
+      "detail": "HM Motor Works, Bedford NH \u2014 Serpentine/accessory drive belt replacement (due at 100K) \u2014 $212.10",
+      "is_purchase": false,
+      "provider": "HM Motor Works, Bedford NH",
+      "service": "Serpentine/accessory drive belt replacement (due at 100K)",
+      "cost": 212.10
+    }
+  ]
+}

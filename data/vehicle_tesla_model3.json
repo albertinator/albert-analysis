@@ -1,0 +1,121 @@
+{
+  "make": "Tesla",
+  "model": "Model 3 Long Range AWD",
+  "year": 2023,
+  "vin": "5YJ3E1EB5PF415874",
+  "color": "#E82127",
+  "acquired_date": "2024-03-15",
+  "acquired_miles": 39659,
+  "events": [
+    {
+      "date": "2024-03-15",
+      "miles": 39659,
+      "label": "Purchase",
+      "detail": "Purchased from McGee Ford of Montpelier, VT \u2014 $31,599",
+      "is_purchase": true,
+      "provider": null,
+      "service": null,
+      "cost": null
+    },
+    {
+      "date": "2024-03-30",
+      "miles": 40272,
+      "label": "NH State Inspection",
+      "detail": "Auto World, Manchester NH \u2014 NH State Safety Inspection (Passed) \u2014 $20.55",
+      "is_purchase": false,
+      "provider": "Auto World, Manchester NH",
+      "service": "NH State Safety Inspection (Passed)",
+      "cost": 20.55
+    },
+    {
+      "date": "2024-04-08",
+      "miles": 40576,
+      "label": "New Tires + Alignment",
+      "detail": "Sullivan Tire, Bedford NH \u2014 4x Michelin Primacy MXM4 235/45R18, EV 4-wheel alignment, TMPP plan \u2014 $1,642.96",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "4x Michelin Primacy MXM4 235/45R18, EV 4-wheel alignment, TMPP plan",
+      "cost": 1642.96
+    },
+    {
+      "date": "2024-07-02",
+      "miles": 43669,
+      "label": "Brake Caliper Service",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Clean & lubricate front brake calipers (1 axle) \u2014 $85.00",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Clean & lubricate front brake calipers (1 axle)",
+      "cost": 85.00
+    },
+    {
+      "date": "2024-11-29",
+      "miles": 50330,
+      "label": "Seasonal Tire Changeover",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Seasonal tire changeover (to winter) \u2014 $66.00",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Seasonal tire changeover (to winter)",
+      "cost": 66.00
+    },
+    {
+      "date": "2025-02-17",
+      "miles": 51771,
+      "label": "NH State Inspection",
+      "detail": "AutoFair Honda, Manchester NH \u2014 NH State Inspection with OBD Emissions (Passed) \u2014 $21.95",
+      "is_purchase": false,
+      "provider": "AutoFair Honda, Manchester NH",
+      "service": "NH State Inspection with OBD Emissions (Passed)",
+      "cost": 21.95
+    },
+    {
+      "date": "2025-03-21",
+      "miles": 53230,
+      "label": "Seasonal Tire Changeover",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Seasonal tire changeover (to summer) \u2014 $46.00",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Seasonal tire changeover (to summer)",
+      "cost": 46.00
+    },
+    {
+      "date": "2025-07-08",
+      "miles": 59627,
+      "label": "Tire Rotation",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Tire rotation (covered under TMPP) \u2014 $0.00",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Tire rotation (covered under TMPP)",
+      "cost": 0.00
+    },
+    {
+      "date": "2025-10-31",
+      "miles": 66141,
+      "label": "Tire Rotation",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Tire rotation (covered under TMPP) \u2014 $0.00",
+      "is_purchase": false,
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Tire rotation (covered under TMPP)",
+      "cost": 0.00
+    },
+    {
+      "date": "2025-12-20",
+      "miles": 72514,
+      "label": "Tire Changeover + Alignment",
+      "detail": "Sullivan Tire + Team Nissan \u2014 Seasonal tire changeover (to winter) + 4-wheel alignment \u2014 $205.99",
+      "is_purchase": false,
+      "provider": "Sullivan Tire + Team Nissan",
+      "service": "Seasonal tire changeover (to winter) + 4-wheel alignment",
+      "cost": 205.99
+    },
+    {
+      "date": "2026-01-27",
+      "miles": 74774,
+      "label": "Cabin Air Filter",
+      "detail": "Tesla, Londonderry NH \u2014 Cabin air filter replacement (2x HVAC filters) \u2014 $66.90",
+      "is_purchase": false,
+      "provider": "Tesla, Londonderry NH",
+      "service": "Cabin air filter replacement (2x HVAC filters)",
+      "cost": 66.90
+    }
+  ]
+}
