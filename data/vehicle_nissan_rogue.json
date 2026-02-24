@@ -15,7 +15,8 @@
       "is_purchase": true,
       "provider": null,
       "service": null,
-      "cost": null
+      "cost": null,
+      "categories": ["purchase"]
     },
     {
       "date": "2023-03-22",
@@ -25,7 +26,8 @@
       "is_purchase": false,
       "provider": "Meineke, Manchester NH",
       "service": "NH State Safety Inspection (Passed)",
-      "cost": null
+      "cost": null,
+      "categories": ["inspection"]
     },
     {
       "date": "2023-05-30",
@@ -35,7 +37,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "Spring check up: oil & filter change, multi-point inspection, recalls",
-      "cost": 9.95
+      "cost": 9.95,
+      "categories": ["oil_change", "inspection"]
     },
     {
       "date": "2023-05-30",
@@ -45,7 +48,8 @@
       "is_purchase": false,
       "provider": "Meineke, Manchester NH",
       "service": "Differential fluid drain & refill + diagnosis (partial payment)",
-      "cost": 143.61
+      "cost": 143.61,
+      "categories": ["fluids"]
     },
     {
       "date": "2023-06-02",
@@ -55,7 +59,8 @@
       "is_purchase": false,
       "provider": "Meineke, Manchester NH",
       "service": "Transfer case / differential assembly replacement (used)",
-      "cost": 1664.76
+      "cost": 1664.76,
+      "categories": ["drivetrain"]
     },
     {
       "date": "2023-06-27",
@@ -65,7 +70,8 @@
       "is_purchase": false,
       "provider": "Meineke, Manchester NH",
       "service": "Drive shaft replacement",
-      "cost": 555.52
+      "cost": 555.52,
+      "categories": ["drivetrain"]
     },
     {
       "date": "2023-08-16",
@@ -75,7 +81,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "Full synthetic oil & filter change, multi-point inspection, 2 recalls",
-      "cost": 39.95
+      "cost": 39.95,
+      "categories": ["oil_change", "inspection"]
     },
     {
       "date": "2023-09-05",
@@ -85,7 +92,8 @@
       "is_purchase": false,
       "provider": "AutoFair Ford, Manchester NH",
       "service": "NH State Inspection & side bulbs replacement",
-      "cost": 95.78
+      "cost": 95.78,
+      "categories": ["inspection", "electrical"]
     },
     {
       "date": "2023-11-22",
@@ -95,7 +103,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "Fall check up (multi-point inspection)",
-      "cost": 9.99
+      "cost": 9.99,
+      "categories": ["inspection"]
     },
     {
       "date": "2023-11-28",
@@ -105,7 +114,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "4-wheel alignment & inspection",
-      "cost": 89.95
+      "cost": 89.95,
+      "categories": ["alignment", "inspection"]
     },
     {
       "date": "2024-03-16",
@@ -115,7 +125,8 @@
       "is_purchase": false,
       "provider": "AutoFair Honda, Manchester NH",
       "service": "Oil change & multi-point inspection",
-      "cost": 29.95
+      "cost": 29.95,
+      "categories": ["oil_change", "inspection"]
     },
     {
       "date": "2024-03-29",
@@ -125,7 +136,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "Winter check up",
-      "cost": 9.95
+      "cost": 9.95,
+      "categories": ["inspection"]
     },
     {
       "date": "2024-04-13",
@@ -135,7 +147,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "4 new tires",
-      "cost": 587.96
+      "cost": 587.96,
+      "categories": ["tires"]
     },
     {
       "date": "2024-07-03",
@@ -145,7 +158,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "Brake inspection & battery test",
-      "cost": 0.00
+      "cost": 0.00,
+      "categories": ["brakes", "battery"]
     },
     {
       "date": "2024-07-08",
@@ -155,7 +169,8 @@
       "is_purchase": false,
       "provider": "Meineke, Manchester NH",
       "service": "Front axle seal replacement",
-      "cost": 526.16
+      "cost": 526.16,
+      "categories": ["drivetrain"]
     },
     {
       "date": "2024-08-30",
@@ -165,7 +180,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "NH State Inspection",
-      "cost": 25.00
+      "cost": 25.00,
+      "categories": ["inspection"]
     },
     {
       "date": "2024-09-11",
@@ -175,7 +191,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Differential fluid exchange, engine air filter, cabin air filter, brake fluid flush",
-      "cost": 438.03
+      "cost": 438.03,
+      "categories": ["fluids", "filters"]
     },
     {
       "date": "2024-09-12",
@@ -185,7 +202,8 @@
       "is_purchase": false,
       "provider": "Meineke, Manchester NH",
       "service": "Transmission fluid flush",
-      "cost": 199.80
+      "cost": 199.80,
+      "categories": ["fluids"]
     },
     {
       "date": "2024-09-27",
@@ -195,7 +213,8 @@
       "is_purchase": false,
       "provider": "Precision Imports, Manchester NH",
       "service": "Oil change & inspection",
-      "cost": 99.50
+      "cost": 99.50,
+      "categories": ["oil_change", "inspection"]
     },
     {
       "date": "2024-11-27",
@@ -205,7 +224,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "Fall check up & tire rotation",
-      "cost": 24.95
+      "cost": 24.95,
+      "categories": ["inspection", "tires"]
     },
     {
       "date": "2025-03-26",
@@ -215,7 +235,8 @@
       "is_purchase": false,
       "provider": "Precision Imports, Manchester NH",
       "service": "Synthetic oil change & inspection",
-      "cost": 49.95
+      "cost": 49.95,
+      "categories": ["oil_change", "inspection"]
     },
     {
       "date": "2025-04-02",
@@ -225,7 +246,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Tire rotation & visual vehicle check",
-      "cost": null
+      "cost": null,
+      "categories": ["tires", "inspection"]
     },
     {
       "date": "2025-06-27",
@@ -235,7 +257,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "Spring check up & tire rotation",
-      "cost": 9.95
+      "cost": 9.95,
+      "categories": ["inspection", "tires"]
     },
     {
       "date": "2025-08-30",
@@ -245,7 +268,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "NH State Inspection",
-      "cost": 25.00
+      "cost": 25.00,
+      "categories": ["inspection"]
     },
     {
       "date": "2025-09-15",
@@ -255,7 +279,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Fix front left tie rods & 4-wheel alignment",
-      "cost": 456.33
+      "cost": 456.33,
+      "categories": ["suspension", "alignment"]
     },
     {
       "date": "2025-09-15",
@@ -265,7 +290,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "NH State Inspection re-inspection (after tie rod fix)",
-      "cost": null
+      "cost": null,
+      "categories": ["inspection"]
     },
     {
       "date": "2025-10-29",
@@ -275,7 +301,8 @@
       "is_purchase": false,
       "provider": "HM Motor Works, Bedford NH",
       "service": "Oil change & inspection",
-      "cost": 52.57
+      "cost": 52.57,
+      "categories": ["oil_change", "inspection"]
     },
     {
       "date": "2026-01-03",
@@ -285,7 +312,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Tire rotation",
-      "cost": null
+      "cost": null,
+      "categories": ["tires"]
     },
     {
       "date": "2026-02-16",
@@ -295,7 +323,8 @@
       "is_purchase": false,
       "provider": "HM Motor Works, Bedford NH",
       "service": "Serpentine/accessory drive belt replacement (due at 100K)",
-      "cost": 212.10
+      "cost": 212.10,
+      "categories": ["belts"]
     },
     {
       "date": "2026-02-21",
@@ -305,7 +334,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "Engine coolant flush, front brake pads & rotors replacement, multi-point inspection",
-      "cost": 732.65
+      "cost": 732.65,
+      "categories": ["fluids", "brakes", "inspection"]
     }
   ]
 }

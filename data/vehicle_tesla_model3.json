@@ -15,7 +15,8 @@
       "is_purchase": true,
       "provider": null,
       "service": null,
-      "cost": null
+      "cost": null,
+      "categories": ["purchase"]
     },
     {
       "date": "2024-03-30",
@@ -25,7 +26,8 @@
       "is_purchase": false,
       "provider": "Auto World, Manchester NH",
       "service": "NH State Safety Inspection (Passed)",
-      "cost": 20.55
+      "cost": 20.55,
+      "categories": ["inspection"]
     },
     {
       "date": "2024-04-08",
@@ -35,7 +37,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "4x Michelin Primacy MXM4 235/45R18, EV 4-wheel alignment, TMPP plan",
-      "cost": 1642.96
+      "cost": 1642.96,
+      "categories": ["tires", "alignment"]
     },
     {
       "date": "2024-07-02",
@@ -45,7 +48,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Clean & lubricate front brake calipers (1 axle)",
-      "cost": 85.00
+      "cost": 85.00,
+      "categories": ["brakes"]
     },
     {
       "date": "2024-11-29",
@@ -55,7 +59,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Seasonal tire changeover (to winter)",
-      "cost": 66.00
+      "cost": 66.00,
+      "categories": ["tires"]
     },
     {
       "date": "2025-02-17",
@@ -65,7 +70,8 @@
       "is_purchase": false,
       "provider": "AutoFair Honda, Manchester NH",
       "service": "NH State Inspection with OBD Emissions (Passed)",
-      "cost": 21.95
+      "cost": 21.95,
+      "categories": ["inspection"]
     },
     {
       "date": "2025-03-21",
@@ -75,7 +81,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Seasonal tire changeover (to summer)",
-      "cost": 46.00
+      "cost": 46.00,
+      "categories": ["tires"]
     },
     {
       "date": "2025-07-08",
@@ -85,7 +92,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Tire rotation (covered under TMPP)",
-      "cost": 0.00
+      "cost": 0.00,
+      "categories": ["tires"]
     },
     {
       "date": "2025-10-31",
@@ -95,7 +103,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Tire rotation (covered under TMPP)",
-      "cost": 0.00
+      "cost": 0.00,
+      "categories": ["tires"]
     },
     {
       "date": "2025-12-20",
@@ -105,7 +114,8 @@
       "is_purchase": false,
       "provider": "Sullivan Tire, Bedford NH",
       "service": "Seasonal tire changeover (to winter)",
-      "cost": 76.00
+      "cost": 76.00,
+      "categories": ["tires"]
     },
     {
       "date": "2025-12-20",
@@ -115,7 +125,8 @@
       "is_purchase": false,
       "provider": "Team Nissan, Manchester NH",
       "service": "4-wheel alignment",
-      "cost": 129.99
+      "cost": 129.99,
+      "categories": ["alignment"]
     },
     {
       "date": "2026-01-27",
@@ -125,7 +136,8 @@
       "is_purchase": false,
       "provider": "Tesla, Londonderry NH",
       "service": "Cabin air filter replacement (2x HVAC filters)",
-      "cost": 66.90
+      "cost": 66.90,
+      "categories": ["filters"]
     }
   ]
 }

@@ -27,6 +27,7 @@ export default function Page() {
       provider: e.provider ?? '',
       service: e.service ?? '',
       cost: e.cost,
+      categories: e.categories ?? [],
     }));
 
   const latestLabel = formatBillingLabel(vehicle.events[vehicle.events.length - 1].date);

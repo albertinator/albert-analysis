@@ -37,6 +37,7 @@ export type VehicleEvent = {
   provider: string | null;
   service: string | null;
   cost: number | null;
+  categories: string[];
 };
 
 export type VehicleData = {
