@@ -100,12 +100,22 @@
     {
       "date": "2025-12-20",
       "miles": 72514,
-      "label": "Tire Changeover + Alignment",
-      "detail": "Sullivan Tire + Team Nissan \u2014 Seasonal tire changeover (to winter) + 4-wheel alignment \u2014 $205.99",
+      "label": "Seasonal Tire Changeover",
+      "detail": "Sullivan Tire, Bedford NH \u2014 Seasonal tire changeover (to winter) \u2014 $76.00",
       "is_purchase": false,
-      "provider": "Sullivan Tire + Team Nissan",
-      "service": "Seasonal tire changeover (to winter) + 4-wheel alignment",
-      "cost": 205.99
+      "provider": "Sullivan Tire, Bedford NH",
+      "service": "Seasonal tire changeover (to winter)",
+      "cost": 76.00
+    },
+    {
+      "date": "2025-12-20",
+      "miles": 72514,
+      "label": "4-Wheel Alignment",
+      "detail": "Team Nissan, Manchester NH \u2014 4-wheel alignment \u2014 $129.99",
+      "is_purchase": false,
+      "provider": "Team Nissan, Manchester NH",
+      "service": "4-wheel alignment",
+      "cost": 129.99
     },
     {
       "date": "2026-01-27",
