@@ -31,7 +31,6 @@ const CATEGORY_META: Record<string, { label: string; pill: string }> = {
   belts:       { label: 'Belts',       pill: 'bg-teal-100 text-teal-800'     },
 };
 
-// Canonical display order for category filter buttons
 const CATEGORY_ORDER = [
   'oil_change', 'tires', 'alignment', 'brakes', 'filters',
   'inspection', 'fluids', 'battery', 'electrical', 'suspension', 'drivetrain', 'belts',
@@ -54,11 +53,27 @@ function fuzzyMatch(text: string, query: string): boolean {
   return true;
 }
 
+function CategoryPills({ categories }: { categories: string[] }) {
+  if (categories.length === 0) return null;
+  return (
+    <div className="flex flex-wrap gap-1 mt-1">
+      {categories.map((cat) => {
+        const meta = CATEGORY_META[cat];
+        if (!meta) return null;
+        return (
+          <span key={cat} className={`text-xs font-medium px-2 py-0.5 rounded-full ${meta.pill}`}>
+            {meta.label}
+          </span>
+        );
+      })}
+    </div>
+  );
+}
+
 export default function ServiceTable({ events, color }: ServiceTableProps) {
   const [query, setQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
-  // Only show category buttons for categories present in this vehicle's data
   const presentCategories = useMemo(() => {
     const seen = new Set(events.flatMap((e) => e.categories));
     return CATEGORY_ORDER.filter((c) => seen.has(c));
@@ -67,9 +82,7 @@ export default function ServiceTable({ events, color }: ServiceTableProps) {
   const filtered = useMemo(() => {
     return events.filter((e) => {
       const matchesText =
-        !query ||
-        fuzzyMatch(e.provider, query) ||
-        fuzzyMatch(e.service, query);
+        !query || fuzzyMatch(e.provider, query) || fuzzyMatch(e.service, query);
       const matchesCategory =
         !activeCategory || e.categories.includes(activeCategory);
       return matchesText && matchesCategory;
@@ -83,42 +96,43 @@ export default function ServiceTable({ events, color }: ServiceTableProps) {
   const isFiltered = query || activeCategory;
 
   return (
-    <div className="bg-white rounded-lg p-5 shadow-sm my-5">
-      {/* Header row */}
-      <div className="flex items-center justify-between mb-3 gap-4">
-        <h2 className="text-xl font-semibold text-gray-800 shrink-0">Service History</h2>
-        <input
-          type="text"
-          placeholder="Search provider or service…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          className="border border-gray-300 rounded px-3 py-1.5 text-sm w-64 focus:outline-none focus:ring-2 focus:ring-gray-400"
-        />
+    <div className="bg-white rounded-lg p-4 md:p-5 shadow-sm my-5">
+
+      {/* Controls */}
+      <div className="flex flex-col gap-2 mb-3">
+        {/* Title + search on same row; search goes full-width below on mobile */}
+        <div className="flex items-center gap-3">
+          <h2 className="text-xl font-semibold text-gray-800 shrink-0">Service History</h2>
+          <input
+            type="text"
+            placeholder="Search…"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className="min-w-0 flex-1 md:flex-none md:w-56 border border-gray-300 rounded px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-gray-400"
+          />
+        </div>
+        {/* Category filter pills — single scrollable row */}
+        <div className="flex gap-1.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {presentCategories.map((cat) => {
+            const meta = CATEGORY_META[cat];
+            const isActive = activeCategory === cat;
+            return (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(isActive ? null : cat)}
+                className={`shrink-0 text-xs font-medium px-2.5 py-1 rounded-full transition-all cursor-pointer ${meta.pill} ${
+                  isActive ? 'ring-2 ring-current ring-offset-1 font-semibold' : 'hover:opacity-80'
+                }`}
+              >
+                {meta.label}
+              </button>
+            );
+          })}
+        </div>
       </div>
 
-      {/* Category filter buttons */}
-      <div className="flex flex-wrap gap-1.5 mb-4">
-        {presentCategories.map((cat) => {
-          const meta = CATEGORY_META[cat];
-          const isActive = activeCategory === cat;
-          return (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(isActive ? null : cat)}
-              className={`text-xs font-medium px-2.5 py-1 rounded-full transition-all cursor-pointer ${meta.pill} ${
-                isActive
-                  ? 'ring-2 ring-current ring-offset-1 font-semibold'
-                  : 'hover:opacity-80'
-              }`}
-            >
-              {meta.label}
-            </button>
-          );
-        })}
-      </div>
-
-      {/* Table */}
-      <div className="overflow-x-auto">
+      {/* ── Desktop table (md+) ── */}
+      <div className="hidden md:block overflow-x-auto">
         <table className="w-full border-collapse text-sm">
           <thead>
             <tr style={{ backgroundColor: color }}>
@@ -138,22 +152,7 @@ export default function ServiceTable({ events, color }: ServiceTableProps) {
                   <td className="px-3 py-2 align-top">{e.provider}</td>
                   <td className="px-3 py-2 align-top">
                     <div>{e.service}</div>
-                    {e.categories.length > 0 && (
-                      <div className="flex flex-wrap gap-1 mt-1">
-                        {e.categories.map((cat) => {
-                          const meta = CATEGORY_META[cat];
-                          if (!meta) return null;
-                          return (
-                            <span
-                              key={cat}
-                              className={`text-xs font-medium px-2 py-0.5 rounded-full ${meta.pill}`}
-                            >
-                              {meta.label}
-                            </span>
-                          );
-                        })}
-                      </div>
-                    )}
+                    <CategoryPills categories={e.categories} />
                   </td>
                   <td className="px-3 py-2 text-right whitespace-nowrap align-top">{formatCost(e.cost)}</td>
                 </tr>
@@ -177,6 +176,37 @@ export default function ServiceTable({ events, color }: ServiceTableProps) {
             </tr>
           </tfoot>
         </table>
+      </div>
+
+      {/* ── Mobile cards (< md) ── */}
+      <div className="md:hidden">
+        {filtered.length > 0 ? (
+          <>
+            <div className="divide-y divide-gray-100">
+              {filtered.map((e, i) => (
+                <div key={i} className="py-3">
+                  <div className="flex items-start justify-between gap-2">
+                    <div className="text-xs text-gray-500">
+                      {e.date} &middot; {e.miles.toLocaleString()} mi
+                    </div>
+                    <div className="text-sm font-semibold whitespace-nowrap shrink-0">
+                      {formatCost(e.cost)}
+                    </div>
+                  </div>
+                  <div className="text-sm font-medium text-gray-800 mt-0.5">{e.provider}</div>
+                  <div className="text-sm text-gray-600 mt-0.5">{e.service}</div>
+                  <CategoryPills categories={e.categories} />
+                </div>
+              ))}
+            </div>
+            <div className="flex justify-between items-center pt-2.5 mt-1 border-t-2 border-gray-800 text-sm font-bold">
+              <span>{isFiltered ? 'Filtered Cost' : 'Total Service Cost'}</span>
+              <span>{formatCost(totalCost)}</span>
+            </div>
+          </>
+        ) : (
+          <p className="py-4 text-center text-gray-400 italic text-sm">No matching records</p>
+        )}
       </div>
     </div>
   );
